@@ -1,0 +1,328 @@
+% Template by Falko Galperin <falko1@tzi.de>, 2022, V1.0
+% Main styling of the template comes from the ClassicThesis package by André Miede.
+
+% IMPORTANT POINTS BELOW:
+% - Look at the options between "CONFIGURATION HERE" and "CONFIGURATION ENDS".
+% - Abstract.tex contains the abstract (can be disabled).
+% - Inhalt.tex contains the contents of your thesis.
+% - Glossar.tex contains the glossary (can be disabled) and further options.
+
+% Less important points:
+% - You can compile a PDF using `make` and clean up unnecessary files 
+%   using `make clean`. `make pdf` combines both.
+% - CMYK color space will be used so that printers don't get confused.
+% - Feel free to configure other parts outside of the section below too,
+%   e.g. uncomment the list of tables if you want that.
+
+%%% CONFIGURATION HERE %%%
+
+% Enter information about your thesis here, adjust as necessary.
+% I recommend keeping the `\xspace` at the end.
+\newcommand{\myTitle}{System porting to mobile devices at the example of the SEE project\xspace}
+\newcommand{\mySubtitle}{Master Thesis\xspace}
+\newcommand{\myName}{Roman Gressler\xspace}
+\newcommand{\myNumber}{3217822\xspace}
+\newcommand{\myProf}{Prof.\ Dr.\ Rainer Koschke\xspace}
+\newcommand{\myOtherProf}{Prof.\ Dr.\ Zwetachter\xspace}
+\newcommand{\myDepartment}{Faculty 3 --- Mathematics and Computer Science\xspace}
+\newcommand{\myDegree}{Computer Science\xspace}
+\newcommand{\myDate}{\today}
+\newcommand{\myVersion}{\classicthesis}
+
+% Whether links should be colored.
+\def\colorLinks{true}
+
+% Color for citations.
+\def\citeColor{Periwinkle}
+
+% Color for URLs.
+\def\urlColor{Cyan}
+
+% The file in which your BibLaTeX sources reside.
+% Remove this line to disable the bibliography.
+\def\sourcesFile{sources.bib}
+
+% If you won't use the glossary template, remove the following line.
+% Otherwise, set this to the filename of the glossary LaTeX file.
+\def\glossaryFile{Glossar.tex}
+
+% If you don't want to have an abstract, remove the following line.
+% Otherwise, set this to the filename of the LaTeX file containing the abstract.
+\def\abstractFile{Abstract.tex}
+
+% Despite the seemingly broad implications of this option, it'll simply include a 
+% disclaimer for readers in case you don't want to use something 
+% like the "Gendersternchen". Set it to 1 to enable this disclaimer.
+\def\disableGender{0}
+
+% Set this to 1 if you want to use \section for the highest level of headings.
+% Otherwise, \chapter will be used.
+% IMPORTANT NOTE: This template assumes this value will be 1.
+% If you choose to set it to something other than 1, you'll need to
+% adjust this template's usage of \section and change it to \chapter.
+\def\disableChapter{1}
+
+% These are ClassicThesis options. 
+% Don't forget to set drafting=false for the final version.
+% If you have pdflatex, I recommend eulermath=true, it looks a bit better in my opinion.
+\PassOptionsToPackage{
+  drafting=true,  % print version information on the bottom of the pages
+  tocaligned=false, % the left column of the toc will be aligned (no indentation)
+  dottedtoc=true,  % page numbers in ToC flushed right
+  eulerchapternumbers=true, % use AMS Euler for chapter font (otherwise Palatino)
+  linedheaders=false,  % chaper headers will have line above and beneath
+  floatperchapter=true,  % numbering per chapter for all floats (i.e., Figure 1.1)
+  eulermath=false,  % use Euler fonts for mathematical formulae (only with pdfLaTeX)
+  beramono=true,    % toggle a different monospaced font (w/ bold)
+  style=classicthesis % classicthesis, arsclassica
+}{classicthesis}
+
+%%% CONFIGURATION ENDS %%%
+% (Of course, feel free to modify the rest of the below code too.)
+
+% ClassicThesis causes these false positive warnings, hence we silence them.
+\RequirePackage{silence} % :-\
+    \WarningFilter{scrreprt}{Usage of package `titlesec'}
+    \WarningFilter{titlesec}{Non standard sectioning command}
+
+\documentclass[twoside,openright,titlepage,numbers=noenddot,%headlines,
+               headinclude,footinclude,cleardoublepage=empty,abstract=on,
+               BCOR=5mm,paper=a4,listof=totocnumbered]{scrreprt}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\PassOptionsToPackage{hyphens}{url}
+
+\usepackage[ngerman]{babel}
+\usepackage[dvipsnames,usenames,cmyk]{xcolor}
+\usepackage{hyperref} 
+\usepackage{xspace}
+% \usepackage[style=alphabetic]{biblatex}
+\usepackage[round]{natbib} % Literatur und Referenzen
+\usepackage{bm}
+\usepackage{dsfont}
+\usepackage{sidenotes}
+\usepackage{newpxtext}
+\usepackage{epigraph}
+\usepackage{etoolbox}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{microtype}
+% Note: If you enable this, you need the -shell-escape flag.
+%\usepackage{minted}
+%\usemintedstyle{friendly}
+\usepackage{xifthen}
+\usepackage{enumitem}
+\usepackage{calc}
+\usepackage{subfig}
+\usepackage{amssymb}
+\usepackage{scalerel}
+\usepackage[noend]{algpseudocode}
+\usepackage{algorithm}
+\usepackage{xstring}
+
+\usepackage[normalem]{ulem}
+\setlength{\columnsep}{0,1cm}
+
+\usepackage{classicthesis}
+\usepackage{titlesec}
+
+% Make headings a little more discernable.
+\titleformat*{\chapter}{\LARGE\bfseries}
+\titleformat*{\section}{\Large\bfseries}
+\titleformat*{\subsection}{\large\bfseries}
+
+\hypersetup{colorlinks=\colorLinks, citecolor=\citeColor, 
+    urlcolor=\urlColor, linktocpage=true, bookmarksnumbered,
+  pdftitle={\myTitle},%
+  pdfauthor={\textcopyright\ \myName, University Bremen},%
+  pdfsubject={\mySubtitle},%
+  pdfcreator={pdfLaTeX},%
+  pdfproducer={LaTeX with classicthesis and FG-V1.0}%
+}
+
+%\ifdef{\sourcesFile}{\addbibresource{\sourcesFile}}{}
+
+% Allow " instead of "` and "'
+\usepackage{csquotes}
+\MakeOuterQuote{"}
+
+% Uncomment this if you want textsc to be a little (x 1.15) bigger.
+%\usepackage{letltxmacro,scalefnt}
+%\newcommand{\bigtextsc}[1]{\textsc{\scalefont{1.15}#1}}
+
+% Some custom commands:
+% Proper spacing for "z.B."
+\newcommand{\zB}{z.\,B.\xspace}
+% Command for TODOs, use either \TODO or \TODO{Details}
+\newcommand{\TODO}[1]{\textbf{\textcolor{red}{\ifthenelse{\isempty{#1}}{TODO!}{TODO: #1}}}\xspace}
+% Properly color Axivion's name.
+\newcommand{\Axivion}{\textsc{{\color{black}{A}}{\color{red}{x}}{\color{black}{ivion}}}}
+
+\newcommand{\Regie}[1]{\textbf{Regie:} #1}
+\newcommand{\Stil}[1]{\textbf{Stil:} #1}
+
+% Improve caption fonts.
+\setkomafont{caption}{\footnotesize\itshape}
+\setkomafont{captionlabel}{\usekomafont{caption}}
+
+% Import glossary if necessary.
+\ifdef{\glossaryFile}{\input{\glossaryFile}}{}
+
+\begin{document}
+
+\title{\myTitle}
+\subtitle{\mySubtitle}
+\author{\myName}
+\date{\myDate} 
+
+\raggedbottom
+\selectlanguage{ngerman}
+\captionsetup[subfigure]{justification=centering}
+
+\pagestyle{plain}
+\pagenumbering{roman}
+
+\begin{titlepage}
+    \begin{addmargin}[-1cm]{-3cm}
+	\begin{center}
+		\Huge
+		\vspace*{1cm}
+        \begingroup
+            \myTitle \\ \bigskip
+        \endgroup
+		\LARGE
+        \mySubtitle\\
+		\vspace{3cm}
+ 		\Large
+		\myName\\
+		\vspace{6pt}
+        Matriculation number: \myNumber\\
+		\vspace{1cm}
+		\myDate\\
+		\vspace{2cm}
+ 		\includegraphics[width=6cm]{unibremen}\\
+ 		\vspace{1cm}
+ 		\large
+ 		\myDepartment\\
+		\myDegree\\
+		\vspace{4cm}
+		\large
+		1. Supervisor: \myProf\\
+		2. Supervisor: \myOtherProf\\
+		\vspace{1.5cm}
+	\end{center}
+    \end{addmargin}
+\end{titlepage}
+\cleardoublepage{}
+
+\ifdef{\abstractFile}{%
+\pdfbookmark[1]{Zusammenfassung}{abstract}
+\chapter*{Zusammenfassung}
+\input{\abstractFile}
+\cleardoublepage{}
+}{}
+
+\pdfbookmark[1]{Erklärung}{erklaerung}
+\chapter*{Erklärung}\label{erklaerung}
+Ich versichere, diese Arbeit --- sofern dies nicht explizit anders
+gekennzeichnet wurde --- ohne fremde Hilfe angefertigt zu haben.  Ich
+habe keine anderen als die angegebenen Quellen und Hilfsmittel
+benutzt.  Alle Stellen, die wörtlich oder sinngemäß aus
+Veröffentlichungen entnommen sind, sind als solche kenntlich gemacht.
+
+\bigskip
+
+\noindent\textit{Bremen, den \today}
+\smallskip
+\begin{flushright}
+    \begin{tabular}{m{5cm}}
+        \\ \hline
+        \centering\myName \\
+    \end{tabular}
+\end{flushright}
+
+\vfill
+
+\cleardoublepage{}
+
+\pdfbookmark[1]{Danksagung}{Danksagung}
+\begingroup
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+\chapter*{Danksagung}
+\TODO{Danksagung hier.}
+
+
+\ifdef{\disableGender}{%
+\if\disableGender1
+\vfill
+\chapter*{Gender-Hinweis}
+Aus Gründen der besseren Lesbarkeit wird auf die gleichzeitige
+Verwendung der Sprachformen männlich, weiblich und divers verzichtet.
+Sämtliche Personenbezeichnungen gelten gleichermaßen für alle
+Geschlechter.
+
+\vfill
+\fi
+}{}
+\endgroup
+
+\cleardoublepage
+
+\pagestyle{scrheadings}
+
+% Table of contents:
+\pdfbookmark[1]{\contentsname}{tableofcontents}
+\tableofcontents
+
+\clearpage
+
+\ifdef{\disableChapter}{
+\if\disableChapter1
+\let\subsubsection\subsection
+\let\subsection\section
+\let\section\chapter
+\fi}{}
+
+\cleardoublepage
+\pagenumbering{arabic}
+
+\input{Concept/Concept.tex}
+\input{Inhalt}
+
+\appendix
+
+\ifdef{\glossaryFile}{
+    % Print all glossaries here
+    \printglossaries
+}{}
+
+% List of Figures.
+\listoffigures
+
+\vspace{8ex}
+
+% List of Tables. Uncomment if you want to include.
+%\listoftables
+
+\vspace{8ex}
+
+\Regie{Kontrolliere am Ende, ob alle bibliographischen Angaben
+  vollständig sind.  Wird also die Zeitschrift oder Konferenz
+  aufgeführt, in der ein Artikel veröffentlicht wurde?  Sind überall
+  die Seitenangabe aufgeführt? Bei Verweisen auf Web-Seiten, ist
+  überall angegeben, wann der letzte Zugriff darauf erfolgte? Sind
+  Umlaute und andere Sonderzeichen korrekt in LaTeX beschrieben
+  worden?}
+
+% Finally, the bibliography.
+\ifdef{\sourcesFile}{
+\bibliographystyle{dinat}
+\bibliography{\sourcesFile}
+%\printbibliography[heading=bibnumbered]
+}{}
+
+\end{document}

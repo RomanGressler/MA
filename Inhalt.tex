@@ -1,0 +1,369 @@
+\section{Einführung}
+
+\Regie{Diese Vorlage ist aufgeteilt in die Kapitel Einführung,
+  Grundlagen und verwandte Arbeiten, Konzept, Umsetzung, Evaluation,
+  Zusammenfassung und Ausblick. Das ist eine generische, klassische
+  Aufteilung. In Einzelfällen kann auch eine andere Aufteilung
+  vorgenommen werden, aber letztlich muss zu all diesen Punkten etwas
+  in der Arbeit gesagt werden. Auch die Titel der Kapitel können
+  eventuell angepasst werden.} 
+
+\Regie{Ein allgemeiner Hinweis: Eine Abschlussarbeit als
+  wissenschaftliche Arbeit hat immer zwei Ebenen: Auf der konkreten
+  Ebene wird transparent dargestellt, was gemacht wurde. Auf der \glqq
+  Metaebene\grqq{} wird reflektiert, warum man das und nicht etwas
+  Anderes gemacht hat. Hierzu werden also Alternativen explizit
+  genannt und gegeneinander abgewogen. Es wird begründet, warum man
+  sich dann für das konkrete Vorgehen entschieden hat.}
+  
+\Regie{In der Einführung wird die Aufgabenstellung präzise formuliert
+  und geeignet motiviert.  Danach folgt eine kurze Übersicht über den
+  Rest des Dokuments.}
+
+\Regie{Bitte gleich zum Punkt kommen. Bei der Motivation nicht erst
+  langatmig ausholen, wie komplex und allgegenwärtig Software ist. Das
+  wissen die Gutachter(innen) und haben es schon viel zu oft nochmals
+  lesen müssen.}
+
+\Stil{Zwischen einer Überschrift und seines ersten Unterabschnitts
+  muss ein kurzer Text kommen. Zum Beispiel kann man hierin
+  beschreiben, was den Leser in diesem Kapitel erwartet.}
+
+\Stil{Ganz am Ende, wenn das Dokument fertig zu sein scheint und man
+  es eigentlich nur noch ausdrucken möchte, dann möge man bitte zuvor
+  noch einmal das Inhaltsverzeichnis ansehen. Dort ist zu prüfen, ob
+  bei einer Unterteilung eines Abschnittes auch immer mindestens zwei
+  solche Unterteilungen existieren. Immer wieder kommt es vor, dass es
+  beispielsweise einen Unterabschnitt 2.3.1, aber keinen
+  Unterabschnitt 2.3.2 gibt.  Wenn es nur einen Unterabschnitt gibt,
+  dann ergibt eine Unterteilung keinen Sinn.}
+
+\Stil{Bitte auf die Rechtschreibung achten. Viele Arbeiten enthalten
+  viel zu viele Fehler. Die Schreibweise von Worten kann man
+  nachschlagen. Es gibt Tools, die einfache Tippfehler erkennen. Es
+  gibt Regeln für Kommata. Rechtschreibung kann man lernen.  Es gibt
+  keine Ausrede für mangelhafte Rechtschreibung, wenn man nicht an
+  Legasthenie leidet.  Natürlich werden immer einige Fehler schlicht
+  übersehen werden, wenn es aber zu viele davon gibt, stört das den
+  Lesefluss und macht den schlechten Eindruck mangelnder Sorgfalt.
+  Man sollte immer eine andere Person, die sicher in der
+  Rechtschreibung ist, bitten, das Dokument durchzulesen, weil man
+  sich seiner eigenen Fehlern vielleicht nicht bewusst ist.  Es eignet
+  sich dafür eine Person besonders gut, die vom Inhalt selbst gar
+  nicht viel versteht und sich allein auf die Form konzentrieren
+  kann.}
+
+\Stil{Fußnoten sollten möglichst vermieden werden, weil sie den Leser
+  zwingen, den Kontext zu wechseln. Will man einen Artikel
+  referenzieren, dann nimmt man ohnehin eine Zitierung; siehe
+  unten. Ansonsten verwendet man Klammern oder Gedankenstriche, um den
+  Text direkt in den Lesefluss einzubetten. Und vielleicht ist das,
+  was man in die Fußnote packen möchte, ohnehin irrelevant, dann kann
+  man es auch ganz weglassen. Wenn man etwas in eine Fußnote steckt,
+  muss man sowieso damit rechnen, dass es keiner liest.}
+  
+\section{Grundlagen und verwandte Arbeiten}
+
+\Regie{Hier werden alle wesentlichen und nur die wesentlichen
+  Grundlagen, die nicht als bekannt vorausgesetzt werden können,
+  aufgeführt. Manchmal liest man Arbeiten, die den Mangel an eigenem
+  Beitrag mit einem überbordenden Grundlagenkapitel zu kompensieren
+  versuchen. Bei allem, was hier beschrieben wird, stets kritisch
+  reflektieren, ob erstens davon auszugehen ist, dass den
+  Gutachter(innen) das bereits nicht schon zur Genüge bekannt sein
+  dürfte, und zweitens, ob das in einem späteren Kapitel auch wirklich
+  wieder aufgegriffen wird.}
+
+\Regie{Bachelor- und Masterarbeiten sind wissenschaftliche
+  Abschlussarbeiten. Demzufolge gehört es auch dazu, dass man sich mit
+  der wissenschaftlichen Literatur auseinandergesetzt hat. Man sollte
+  dabei keineswegs nur die Literatur einfach nur wiedergeben, sondern
+  sich auch kritisch mit ihr auseinandersetzen. Insbesondere ist
+  darzulegen, wie Aspekte der gesichteten Literatur Einfluss auf die
+  eigene Arbeit genommen haben. Zur Frage, wie man Literatur
+  systematisch sucht und zusammenfasst, gibt es in der Literatur eine
+  Reihe von Empfehlungen \citep{Kitchenham:TR:07, Brereton:JSS:07,
+    Petersen:EASE:08, Kitchenham:IST:09, Wohlin:JSS:13,
+    Kitchenham:EASE:10, Petersen:IST:15}. Insbesondere der technische
+  Bericht von \cite{Kitchenham:TR:07} stellt eine ausführliche
+  Anleitung dar.}
+
+\Stil{Wobei wir beim Zitierstil wären. Für Zitierungen gibt es im
+  Deutschen tatsächlich eine Norm: die DIN 1505. Hier werden die
+  Autoren -- zumindest partiell -- und die Jahreszahl für die
+  Zitierung verwendet. Das ist zwar länglicher als reine Nummern oder
+  kryptische Abkürzungen, wie sie gerne in Aufsätzen mit wenig Platz
+  benutzt werden, enthält aber mehr lesbare und erinnerbare
+  Informationen. Außerdem kann man sie besser in den Satz einbauen,
+  wie es oben schon beim Verweis auf den Bericht von
+  \cite{Kitchenham:TR:07} gezeigt wurde.}
+
+% Das Folgende ist nur zur Demonstrieren.
+% Lösch ruhig erstmal alles aus dieser Datei, sobald du mit der Arbeit anfängst.
+
+\if\disableChapter1
+\subsection{Glossarbeispiel}
+\ifdef{\glossaryFile}{ Es können auch Glossarbegriffe verwendet werden
+  (falls Glossar.tex so konfiguriert wurde), im Kontext von \gls{see}
+  könnte man \zB{} über \glspl{city} reden wollen.
+  \if\defineOnFirstUse1 Du siehst, wie die neuen Begriffe als
+  \texttt{\detokenize\expandafter{\firstUseCommand}}angezeigt werden.
+  \else Du hast kein \verb+\firstUseCommand+ festgelegt, deswegen
+  werden die Begriffe ohne ihre Definition abgedruckt (die ist
+  natürlich aber trotzdem im Glossar).
+  \fi%
+  Für mathematische Glossarbegriffe würde man das so machen:
+  $\glssymbol{S}_{\emptyset} = \{\emptyset\}$. \firstUseSymbol{S}
+
+  Nachdem man jetzt den Begriff \enquote{\gls{see}} oder
+  \enquote{\gls{city}} schonmal verwendet hat, wird er auch ganz
+  normal angezeigt (ist aber immer noch anklickbar).  Wenn die
+  Glossarbegriffe irgendwie komisch sind oder kein Glossar auf den
+  folgenden Seiten erscheint, führe auf der Kommandozeile
+  \texttt{makeglossaries Arbeit} aus.}{Du hast kein Glossar
+  definiert, was aber auch nicht schlimm ist.}
+
+\subsection{Abbildungsbeispiel}
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{unibremen}
+    \caption{Logo der Universität Bremen.}\label{fig:uni}
+\end{figure}
+
+Als Beispiel ist hier in \autoref{fig:uni} das Logo der Uni Bremen.
+Wenn du ein etwas breiteres Bild hast, das sich bis in die Ränder
+erstrecken soll, verwende statt \verb+\begin{figure}+ einfach
+\verb+\begin{figure*}+. Im Moment wird die Abbildung unten
+abgedruckt, verwende ansonsten wie üblich
+\verb+\begin{figure}[htbp]+ um auch andere Platzierungen zu
+erlauben.
+
+Wenn du die Position eines Bilds forcieren willst, würde ich von dem
+oft verwendeten Ansatz \verb+\begin{figure}[H]+ abraten, da das manche
+Layouts zerschießen kann.  Verwende stattdessen lieber Umgebungen,
+die keine Floats sind\footnote{ Siehe bspw.\
+\url{https://tex.stackexchange.com/a/8631}.  }, \zB{}
+\texttt{minipage} oder einfach \texttt{center}.
+
+\ifdef{\sourcesFile}{ Zitate mit Bib\LaTeX{} funktionieren wie immer,
+  als Beispiel hier ein Zitat zum sog.\
+  Hawthorne-Effekt~\citep{Hawthorne1939}.  Die Referenzen kommen
+  einfach in die \texttt{\sourcesFile}.  }{Du hast scheinbar keine
+  Bibliographie eingerichtet, was für eine wissenschaftliche Arbeit
+  ungewöhnlich ist. Das solltest du tun. } \else Wenn du das hier
+lesen kannst sieht diese Beispielseite vermutlich ziemlich hässlich
+aus, weil ich überall \verb+\section+ statt \verb+\chapter+ verwendet
+habe.  Ich hab deswegen erstmal die meisten Beispiele entfernt, um es
+nicht schlimmer zu machen. Du kannst dir natürlich immer noch einfach
+den Quellcode ansehen.  \fi
+
+\vspace{1em}
+
+{\large \emph{Dann viel Erfolg beim Schreiben der Arbeit%
+\ifthenelse{\equal{Dein Name\xspace}{\myName}}{}{, {\saveexpandmode\expandarg\StrBefore{\myName}{ }\restoreexpandmode}}!}}
+
+\section{Konzept}
+
+\Regie{Hierin werden die Anforderungen und die Ziele der Arbeit
+  nochmals präzisiert und motiviert und Entwurfsentscheidungen
+  formuliert, wie diese Ziele durch diese Arbeit erreicht
+  werden. Abhängig vom Gegenstand der Arbeit sollten hier auch
+  explizit die möglichen Nutzergruppen, dereren Charakteristika und
+  Ziele aufgeführt werden. Das letztlich gewählte Konzept sollte nicht
+  einfach nur wiedergegeben werden, vielmehr sind auch mögliche
+  Alternativen zu nennen und abzuwägen. Es soll nachvollziehbar
+  begründet dargelegt werden, warum man sich für genau jenes Konzept
+  entschieden hat.}
+
+\section{Umsetzung}
+
+\Regie{Hier wird die Umsetzung (oder auch: Implementierung) näher
+  ausgeführt. Sie stellt einen Übergang vom Konzept zum
+  implementierten Code dar. Der Code selbst wird im elektronischen
+  Anhang oder in Form eines Branches in einem für die Gutachter(innen)
+  zugänglichen Repository abgegeben. Die Details des Codes selbst
+  gehören somit nicht in die Ausarbeitung. Vielmehr wird die
+  Implementierung abstrakter beschrieben. Wenn es nicht-triviale
+  Algorithmen zu beschreiben gibt, kann das mit Hilfe von Pseudo-Code
+  getan werden. Es können auch UML-Diagramme verwendet werden; diese
+  sollten dann bitte auch in korrekter UML-Notation angegeben
+  werden. Häufig findet man Klassendiagramme, die einen Überblick über
+  die Implementierung geben sollen. Leider sind diese oft so
+  umfangreich, dass ihre Abbildung herunterskaliert wird, so dass die
+  Texte in den Grafiken nicht mehr lesbar sind. Oft finden sich darin
+  Details, auf die im Text gar nicht eingegangen wird, wie (private)
+  Attribute und Methoden. Ein Klassendiagramm kann durchaus sinnvoll
+  sein, um den Zusammenhang zu erläutern, aber letztlich ist es nur
+  ein Bild, das im Text auch erklärt werden muss. Wird etwas davon im
+  Text nicht erklärt, ist es entweder irrelevant und kann weggelassen
+  werden oder der Text ist nicht vollständig.}
+
+\Regie{Wenn auf anderen Arbeiten aufgebaut wurde, dann muss der eigene
+Beitrag deutlich davon abgegrenzt werden. Was wurde übernommen? Was
+verändert? Was wurde neu hinzugefügt?}
+
+\Regie{Um das, was man entwickelt hat, besser darzustellen, kann man
+  auch noch ein Video drehen. Das bietet sich insbesondere für
+  interaktive, graphische Dinge an. Der oder die Zweitgutachter(in)
+  wird kaum selbst das entwickelte Programm bauen und ausführen. Für
+  diese Person ist es insbesondere hilfreich, wenn sie sich das in
+  einem Video vorführen lassen kann.}
+
+\section{Evaluation}
+
+\Regie{Die adäquate Form der Evaluation hängt vom Gegenstand ab,
+  insofern wird sich die Darstellung der Evaluation in diesem Kapitel
+  von Arbeit zu Arbeit unterscheiden. Allen gemein ist jedoch, dass es
+  sich um eine empirische Studie handelt. Egal, ob nur die Laufzeit
+  eines Algorithmus gemessen wird oder ob ein kontrolliertes
+  Experiment durchgeführt wurde. Bei
+  \url{https://seafile.zfn.uni-bremen.de/published/swt/} findet man
+  Folien und Videos zur empirischen Softwaretechnik. Dort erfährt man
+  viel Nützliches, wie man eine Studie aufbaut und evaluiert.}
+
+\Regie{Die Evaluation muss transparent und nachvollziehbar dargestellt
+  werden. Die Ausarbeitung sollte alles so detailliert wiedergeben,
+  dass eine andere Person die Studie replizieren kann. Dabei kann für
+  sehr detaillierte Aspekte auch auf den Anhang zurückgegriffen
+  werden. Dann sollte im Text in diesem Kapitel dennoch eine kurze
+  Zusammenfassung dieser Aspekte und der explizite Verweis auf den
+  Anhang mit den Details gemacht werden.}
+  
+\subsection{Forschungsfragen}
+
+\Regie{Hier werden die leitenden Forschungsfragen, die in der
+  Evaluation untersucht werden sollen, präzise
+  beschrieben. Idealerweise in Form operationalisierter Hypothesen.
+  Es wird erläutert, warum diese Forschungsfragen relevant sind.}
+
+\subsection{Versuchsaufbau}
+
+\Regie{Hier wird erklärt, wie die Studie gestaltet ist. Auch wird
+  dargelegt, warum der Versuchsaufbau den Forschungsfragen angemessen
+  ist, welche Alternativen es gegeben hätte und warum diese verworfen
+  wurden. Insbesondere werden hier möglichst vollständig die
+  unabhängigen Variablen, die einen Einfluss auf das Versuchsergebnis
+  haben können, aufgezählt. Es wird beschrieben, welche davon wie in
+  der Studie variiert werden, wenn es sich um ein kontrolliertes
+  Experiment handelt. Dann werden vollständig alle abhängigen
+  Variablen beschrieben. Sie ergeben sich aus den operationalisierten
+  Hypothesen. Die Art und Weise wird präzise beschrieben. Kommen
+  hierfür Fragebögen zum Einsatz, wird erläutert, wie der Fragebogen
+  zusammengestellt wurde und warum die Fragen relevant sind. Für viele
+  Fragestellungen -- insbesondere zur Usability -- gibt es bereits
+  Standardfragebögen in der Literatur. Dann sollte man auch auf diese
+  zurückgreifen, oder aber überzeugend darlegen, warum diese nicht
+  passen. Gibt es mehrere solche Fragebögen, dann werden sie alle
+  vorgestellt und gegeneinander abgewogen und einer begründet
+  ausgewählt (oder möglicherweise auch mehrere kombiniert).}
+
+\Regie{Der Versuchsaufbau sollte mindestens einmal in einer
+  Pilotstudie ausprobiert werden. Damit erzielt man Erkenntnisse, wie
+  lange die Probanden später pro Durchlauf brauchen werden und ob sie
+  alle gestellten Aufgaben auch tatsächlich verstehen. Die Ergebnisse
+  der Pilotstudie können nicht für die Auswertung später verwendet
+  werden, weil die Situation eine andere ist und vermutlich sich durch
+  die Erfahrungen der Pilotstudie auch noch Änderungen im
+  Versuchsaufbau ergeben. Die Erkenntnisse der Pilotstudie und die
+  daraus resultierten Änderungen am Versuchsaufbau werden explizit
+  genannt.}
+
+\subsection{Probanden und Objekte der Studie}
+
+\Regie{Nehmen an einer Studie Menschen teil, spricht man von ihnen in
+  der Regel als Probanden. Nicht sie selbst sind der Gegenstand der
+  Untersuchung; vielmehr werden sie benötigt, um etwas untersuchen zu
+  können, weil es nicht durch einen Algorithmus automatisiert werden
+  kann. Objekte einer Studie sind die Dinge, an denen etwas untersucht
+  wird. Das können zum Beispiel Programme sein, in denen die Probanden
+  Fehler suchen müssen. Probanden und Objekte sind letztlich auch
+  unabhängige Variablen. Das Ergebnis hängt sehr von ihrer Auswahl
+  ab. Insofern müssen sie sorgfältig ausgewählt werden, damit die
+  Ergebnisse der Studie aussagekräftig und verallgemeinerbar sind. In
+  den oben bereits angeführten Videos und Folien zur empirischen
+  Softwaretechnik findet man verschiedene Sampling-Methoden, anhand
+  derer Probanden und Objekte ausgewählt werden können. Der Einsatz
+  systematischer Sampling-Methoden kommt bei den Objekten eher in
+  Frage als bei den Probanden. In der Regel kommt realistischerweise
+  bei den Probanden nur das Convenience-Sampling zum Einsatz, weil es
+  schwierig ist, überhaupt Probanden zu finden, und man in der Regel
+  auch nichts über die Gesamtpopulation der Software-Entwicklerinnen
+  und -Entwickler weiß. Das ist ein \textit{Threat to Validity} und
+  muss offen im Abschnitt~\ref{sec:threats} aufgeführt werden. Um zu
+  untersuchen, ob es tatsächlich einen Zusammenhang zwischen
+  Eigenschaften der Probanden (\zB{} spezielle Vorkenntnisse mit dem
+  Untersuchungsgegenstand oder Programmiererfahrung) gibt, kann man
+  auch statistische Untersuchungen zu Korrelation dieser Eigenschaften
+  mit den abhängigen Variablen anstellen. In jedem Falle müssen
+  relevante Charakteristika sowohl der Probanden (\zB{} Alter,
+  Geschlecht, Programmiererfahrung etc.) als auch der Objekte (\zB{}
+  Größe und Herkunft der in der Untersuchung verwendeten Programme)
+  aufgeführt werden. }
+
+\Regie{Bei der Untersuchung sind auch ethische Fragen und Belange des
+  Datenschutzes der Probanden zu berücksichtigen. Dazu sollten vorher
+  alle Probanden aufgeklärt worden sein und ein Einverständnis zum
+  Datenschutz unterzeichnet haben.}
+
+\subsection{Gestellte Aufgaben}
+
+\Regie{Hier werden die Aufgaben präzise erläutert, die die Probanden
+  zu erledigen hatten. Es muss dargelegt werden, warum diese Aufgaben
+  repräsentativ für die untersuchten Fragestellungen sind. In der
+  Regel sind die Aufgabenbeschreibungen kurz genug, dass man sie hier
+  im Text verbatim wiedergeben kann. Sollte das nicht der Fall sein,
+  dann kann man sie im Anhang im Detail aufführen und sie hier kurz
+  zusammenfassen.}
+
+\subsection{Ergebnisse}
+
+\Regie{Hier werden die quantitativen Ergebnisse wiedergegeben
+  (zusammenfassend \zB{} in Form von Boxplots, aber auch in Rohform,
+  \zB{} in Form von Tabellen oder Scatterplots) und mit Hilfe passender
+  statistischer Test auf signifikante Unterschiede geprüft. Neben der
+  Prüfung der Hypothesen untersucht man auch, ob es möglicherweise
+  Korrelationen von Eigenschaften der Probanden und Objekte mit den
+  abhängigen Variablen gibt.}
+
+\subsection{Diskussion}
+
+\Regie{Hier werden die Ergebnisse in Beziehung zueinander gesetzt und
+  interpretiert. Dazu gehören auch qualitative Erkenntnisse, die nach
+  Erklärungen für das Beobachtete suchen. Hierzu schaut man sich die
+  Daten genauer an, nicht nur anhand statistischer Parameter. Bei der
+  Diskussion ist explizit zu machen, was durch Daten wirklich gestützt
+  ist und an welchen Stellen man den Boden der Spekulation betritt.}
+
+\subsection{Threats to Validity}
+\label{sec:threats}
+
+\Regie{Hier werden die internen und externen \emph{Threats to
+    Validity} erläutert, wie das zu jeder empirischen Studie
+  gehört. Welche davon wurden im Vorfeld schon bedacht und wie das
+  Design entsprechend angepasst? Welche existieren weiterhin?}
+
+\section{Zusammenfassung und Ausblick}
+
+\Regie{Hier werden die wesentlichen Ergebnisse der Arbeit
+  zusammengefasst und Schlussfolgerungen aus den Erkenntnissen gezogen
+  und mögliche Verbesserungen oder Anschlussfragen diskutiert. Eine
+  kritische Selbstreflexion über das eigene Vorgehen, den Prozess und
+  das Erreichte runden das Ganze ab.}
+
+\Regie{Das Dokument soll in duplex gedruckt werden. Es muss gebunden
+  sein. Ein inhaltsgleiches PDF wird den beiden Gutachtern geschickt
+  und auch im elektronischen Anhang mit abgegeben.}
+
+\appendix{Anhang}
+
+\Regie{Es gibt einen elektronischen Anhang für den abgegebenen Code,
+  umfangreichere Messdaten oder auch Demo-Videos. Weniger umfangreiche
+  Ergänzungen wie \zB{} die Fragebögen, kleinere Mengen von Messdaten
+  etc.\ können in diesem Anhang hier in Papierform mitabgegeben
+  werden.}
+
+\Regie{Der elektronische Anhang wird in der Regel als USB-Stick
+  abgegeben. CDs sind auch möglich, wenn auch mittlerweile eher
+  weniger gebräuchlich. In jedem Falle sollte es dort eine
+  README-Datei geben, die die Ordnerstruktur erläutert und auch den
+  Namen des Autors und den Titel der Arbeit nennt.}

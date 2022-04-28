@@ -1,0 +1,117 @@
+% Template by Falko Galperin <falko1@uni-bremen.de>, 2021
+
+%%% USAGE INFO HERE %%%
+
+% Add any acronyms or glossary terms you wish to define to the list at the 
+% bottom of this file, the format is specified there.
+% To reference glossary terms in your text, use:
+% \gls{key} normally,
+% \glspl{key} to write the plural form of the glossary term,
+% \Gls{key} (and equivalents) to capitalize the glossary term,
+% \gls*{key} (and equivalents) to not write the definition on the first use,
+% \glssymbol{key} to refer to mathematical symbols (see the bottom of this file!), and
+% \Glsdesc{key} to write the description instead of the glossary term.
+% You also need to generate the glossary using e.g. `makeglossaries Arbeit`
+% in the shell. The template can be configured in the section below.
+
+%%% CONFIGURATION HERE %%%
+
+% Whether a glossary term should be defined (e.g. in the margins) on its first use.
+% 1 is true, 0 is false.
+\def\defineOnFirstUse{1}
+
+% Which acronym style to use.
+% `long-postshort-user` will cause it to be written in its long form the first time,
+% and use its short form thereafter.
+\def\acronymStyle{long-postshort-user}
+
+% Which color to use for coloring glossary terms on first use.
+\def\firstColor{Blue}
+
+% Which color to use for coloring glossary terms on subsequent usages.
+\def\secondColor{black}
+
+% What command to use on first use. 
+% Set \footnote to use footnotes instead of margin notes.
+\def\firstUseCommand{\marginpar}
+
+%%% CONFIGURATION ENDS %%%
+
+\usepackage[toc,numberedsection=autolabel,section=section,abbreviations]{glossaries-extra}
+\usepackage{glossary-longextra}
+\if\defineOnFirstUse1
+\usepackage{marginfix}
+\fi
+
+% No links for description
+\let\oldglsdesc\glsdesc
+\renewcommand{\glsdesc}[1]{\oldglsdesc*{#1}}
+\let\Oldglsdesc\Glsdesc
+\renewcommand{\Glsdesc}[1]{\Oldglsdesc*{#1}}
+
+\makeglossaries{}
+
+\setabbreviationstyle[acronym]{\acronymStyle}
+
+% Color acronyms short form on first use, too.
+\renewcommand{\glsfirstabbrvuserfont}[1]{\textcolor{\firstColor}{#1}}
+
+% Only color on first time...
+\newcommand{\firstuseformat}[1]{\textcolor{\firstColor}{{\emph{#1}}}}
+% ...not on the second time, third time, and so on.
+\newcommand{\seconduseformat}[1]{\textcolor{\secondColor}{{#1}}}
+
+\if\defineOnFirstUse1
+\newcommand{\mainformat}[1]{%
+    \ifglsused{#1}{}{\glslinkvar{%
+        \firstUseCommand{\textcolor{\firstColor}{\emph{\glsentryname{#1}}:} \glsentrydesc{#1}}}{}{}%
+    }%
+}
+\fi
+
+
+\defglsentryfmt[main]{\glsgenentryfmt\mainformat{\glslabel}}
+%\defglsentryfmt[\acronymtype]{\glsgenentryfmt\ifglsused{\glslabel}{\glsentryshort{\glslabel}}{\glsentrylong{\glslabel}}\mainformat{\glslabel}}
+\defglsentryfmt[\acronymtype]{\glsgenentryfmt\ifglsused{\glslabel}{}{\mainformat{\glslabel}}}
+
+\renewcommand{\glslinkpresetkeys}{%
+  \ifglsused{\glslabel}%
+    {\let\glstextformat\seconduseformat}%
+    {\let\glstextformat\firstuseformat}%
+}
+
+% Special command for symbols.
+\newcommand{\glsmarginpar}[1]{
+    \firstUseCommand{%
+    \textcolor{\firstColor}{\emph{\glsentryname{#1} (\glsentrysymbol{#1})}:} \glsentrydesc{#1}}%
+}
+
+\newcommand\firstUseSymbol[1]{\glsunset{#1}\glsmarginpar{#1}}
+
+%%% ACRONYMS HERE %%%
+
+% Format: \newacronym[description={your description}]{yourKey}{yourShortName}{yourLongName}
+% `yourKey` will be used to access the glossary term later on, e.g. using \gls{yourKey}.
+
+\newacronym[description={Eine interaktive Visualisierung von Software, welche die \emph{Code-City}-Metapher verwendet und einen kollaborativen Multiplayer über verschiedene Plattformen\footnote{Neben Desktop- und Touch-Umgebungen noch Virtual Reality (\zB{} \emph{Valve Index}) und Augmented Reality (\zB{} \emph{Microsoft HoloLens})} hinweg ermöglicht.},sort=see]{see}{\textsc{see}}{Software Engineering Experience}
+
+%%% GLOSSARY HERE %%%
+
+% Format: \newglossaryentry{yourKey}{name=yourSingularName, description={your Description}, plural=yourPlural}
+% Note that specifying the plural is optional, by default it will simply be SingularForm + s.
+% Later on, you can access the plural using \glspl{key}.
+
+\newglossaryentry{city}{name=Code-City,
+description={In der Code-City-Metapher werden Softwarekomponenten durch Gebäude in einer Stadt repräsentiert, wobei die Eigenschaften dieser Gebäude verschiedene Metriken der Software ausdrücken können --- \zB{} könnte die Höhe eines Gebäudes der Anzahl der Codezeilen entsprechen.}, plural=Code-Cities}
+
+%%% MATHEMATICAL SYMBOLS %%%
+
+% Format: \newglossaryentry{yourKey}{name={your written name for the symbol}, category=symbol, description={your description}, symbol={your symbol}}
+% Later on, use \glssymbol{yourKey} to use the symbol itself.
+% IMPORTANT NOTE: Symbols will not be written to the margins automatically on first use.
+% You need to do this yourself by calling \firstUseSymbol{yourKey} OUTSIDE
+% OF A MATH (or similar) ENVIRONMENT.
+
+\newglossaryentry{S}{name={Symmetrische Gruppe}, category=symbol,
+    description={Die Gruppe aller Permutationen einer Menge $X$, wobei diese Menge in unserer Notation als Index geschrieben wird, also \zB{} $\mathfrak{S}_X$.}, symbol={\ensuremath{\mathfrak{S}}}}
+
