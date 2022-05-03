@@ -93,7 +93,7 @@
 
 \PassOptionsToPackage{hyphens}{url}
 
-\usepackage[ngerman]{babel}
+\usepackage[english]{babel}
 \usepackage[dvipsnames,usenames,cmyk]{xcolor}
 \usepackage{hyperref} 
 \usepackage{xspace}
@@ -178,7 +178,7 @@
 \date{\myDate} 
 
 \raggedbottom
-\selectlanguage{ngerman}
+\selectlanguage{english}
 \captionsetup[subfigure]{justification=centering}
 
 \pagestyle{plain}
@@ -291,7 +291,7 @@ Geschlechter.
 \pagenumbering{arabic}
 
 \input{Concept/Concept.tex}
-\input{Inhalt}
+\input{Implementation/Implementation.tex}
 
 \appendix
 
@@ -320,7 +320,7 @@ Geschlechter.
 
 % Finally, the bibliography.
 \ifdef{\sourcesFile}{
-\bibliographystyle{dinat}
+\bibliographystyle{unsrtnat}
 \bibliography{\sourcesFile}
 %\printbibliography[heading=bibnumbered]
 }{}

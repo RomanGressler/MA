@@ -1,54 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Arbeit.aux
-The style file: dinat.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+The style file: unsrtnat.bst
 Database file #1: sources.bib
-Warning--empty note in Kitchenham:TR:07
-Warning--there's a publisher but no year in Hawthorne1939
-You've used 8 entries,
-            3552 wiz_defined-function locations,
-            857 strings with 7976 characters,
-and the built_in function-call counts, 7511 in all, are:
-= -- 912
-> -- 134
-< -- 184
-+ -- 260
-- -- 107
-* -- 788
-:= -- 1312
-add.period$ -- 10
-call.type$ -- 8
-change.case$ -- 58
-chr.to.int$ -- 8
-cite$ -- 10
-duplicate$ -- 176
-empty$ -- 472
-format.name$ -- 180
-if$ -- 1395
-int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 20
-newline$ -- 58
-num.names$ -- 32
-pop$ -- 79
+You've used 3 entries,
+            2481 wiz_defined-function locations,
+            577 strings with 4998 characters,
+and the built_in function-call counts, 1168 in all, are:
+= -- 103
+> -- 45
+< -- 4
++ -- 18
+- -- 12
+* -- 67
+:= -- 179
+add.period$ -- 11
+call.type$ -- 3
+change.case$ -- 4
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 70
+empty$ -- 112
+format.name$ -- 21
+if$ -- 260
+int.to.chr$ -- 1
+int.to.str$ -- 4
+missing$ -- 5
+newline$ -- 24
+num.names$ -- 9
+pop$ -- 35
 preamble$ -- 1
-purify$ -- 58
+purify$ -- 3
 quote$ -- 0
-skip$ -- 274
+skip$ -- 46
 stack$ -- 0
-substring$ -- 620
-swap$ -- 57
-text.length$ -- 34
+substring$ -- 38
+swap$ -- 15
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 83
-warning$ -- 2
-while$ -- 86
+type$ -- 15
+warning$ -- 0
+while$ -- 9
 width$ -- 0
-write$ -- 92
-(There were 2 warnings)
+write$ -- 47
