@@ -2032,6 +2032,10 @@ INPUT ./Implementation/Implementation.tex
 INPUT Implementation/Implementation.tex
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-sc-t1.tfm
+INPUT ./Conclusion/Conclusion.tex
+INPUT Conclusion/Conclusion.tex
+INPUT ./Conclusion/Conclusion.tex
+INPUT Conclusion/Conclusion.tex
 INPUT ./arbeit.gls
 INPUT arbeit.gls
 INPUT ./arbeit.gls

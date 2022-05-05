@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,6 +11,30 @@ Stephanie Houde and Charles Hill.
 \newblock In \emph{Handbook of human-computer interaction}, pages 367--381.
   Elsevier, 1997.
 
+\bibitem[Renaud and Van~Biljon(2017)]{renaud2017demarcating}
+Karen Renaud and Judy Van~Biljon.
+\newblock Demarcating mobile phone interface design guidelines to expedite
+  selection.
+\newblock \emph{South African Computer Journal}, 29\penalty0 (3):\penalty0
+  127--144, 2017.
+
+\bibitem[Punchoojit and Hongwarittorrn(2017)]{punchoojit2017usability}
+Lumpapun Punchoojit and Nuttanont Hongwarittorrn.
+\newblock Usability studies on mobile user interface design patterns: a
+  systematic literature review.
+\newblock \emph{Advances in Human-Computer Interaction}, 2017, 2017.
+
+\bibitem[Conradi et~al.(2015)Conradi, Busch, and Alexander]{conradi2015optimal}
+Jessica Conradi, Olivia Busch, and Thomas Alexander.
+\newblock Optimal touch button size for the use of mobile devices while
+  walking.
+\newblock \emph{Procedia Manufacturing}, 3:\penalty0 387--394, 2015.
+
+\bibitem[Adipat and Zhang(2005)]{adipat2005interface}
+Boonlit Adipat and Dongsong Zhang.
+\newblock Interface design for mobile applications.
+\newblock \emph{AMCIS 2005 proceedings}, page 494, 2005.
+
 \bibitem[Robertson and Robertson(2012)]{Robertson2012}
 Suzanne Robertson and James Robertson.
 \newblock \emph{Mastering the Requirements Process: Getting Requirements Righ}.
@@ -21,5 +45,14 @@ Suzanne Robertson and James Robertson.
 P.~Stevens and R.~Pooley.
 \newblock \emph{Software Engineering with Objects and Components}.
 \newblock Springer, 2005.
+
+\bibitem[Santos et~al.(2016)Santos, Miranda, Araujo, Carneiro, Marques, Mota,
+  Morais, and Meiguins]{santos2016guidelines}
+Carlos Santos, Brunelli Miranda, Tiago Araujo, Nikolas Carneiro, Anderson
+  Marques, Marcelle Mota, Jefferson Morais, and Bianchi Meiguins.
+\newblock Guidelines for graphical user interface design in mobile augmented
+  reality applications.
+\newblock In \emph{International Conference on Virtual, Augmented and Mixed
+  Reality}, pages 71--80. Springer, 2016.
 
 \end{thebibliography}
