@@ -2006,6 +2006,8 @@ INPUT ./Concept/img/menu1.png
 INPUT Concept/img/menu1.png
 INPUT ./Concept/img/menu1.png
 INPUT ./Concept/img/menu1.png
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-sc-t1.tfm
 INPUT ./Concept/img/menu2.png
 INPUT ./Concept/img/menu2.png
 INPUT Concept/img/menu2.png
@@ -2016,6 +2018,11 @@ INPUT ./Concept/img/menu3.png
 INPUT Concept/img/menu3.png
 INPUT ./Concept/img/menu3.png
 INPUT ./Concept/img/menu3.png
+INPUT c:/texlive/2021/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zplTLF-Regular-ts1.tfm
 INPUT ./Concept/img/menu4.png
 INPUT ./Concept/img/menu4.png
 INPUT Concept/img/menu4.png
@@ -2030,8 +2037,6 @@ INPUT ./Implementation/Implementation.tex
 INPUT Implementation/Implementation.tex
 INPUT ./Implementation/Implementation.tex
 INPUT Implementation/Implementation.tex
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-sc-t1.tfm
 INPUT ./Conclusion/Conclusion.tex
 INPUT Conclusion/Conclusion.tex
 INPUT ./Conclusion/Conclusion.tex
@@ -2061,6 +2066,7 @@ INPUT Arbeit.bbl
 INPUT Arbeit.aux
 INPUT ./Arbeit.out
 INPUT ./Arbeit.out
+INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb

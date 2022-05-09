@@ -55,11 +55,28 @@ The button on the right can be used to collapse or expand the quickbar.
 \end{figure}
 
 On the top right side another menu will be placed that contains different interaction modes.
+By clicking a button an interaction mode will be selected and moved to the top right corner.
+Also, the menu will be collapsed and only the buttons regarding the selected interaction mode shall be shown.
+By clicking the button on the top right again the menu shall expand and the other interaction modes shall be selectable.
+The other buttons shall be kept in the same order to reduce confusion of the user.
+
+The first interaction mode seen on figure \ref{fig:select} is for selecting nodes.
+Nodes can be selected by being touched and deselected by being touched again.
+There can be multiple nodes selected at once.
+The hole selection can be deselected by clicking the deselect button next to the select interaction mode button.
+Selected nodes shall be highlighted with a different node color and also display their name.
+
 \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Concept/img/menu1.png}
     \caption{Selection mode in \enquote{\gls{see}}}\label{fig:select}
 \end{figure}
+
+The second interaction mode seen in figure \ref{fig:delete} is for deleting node.
+It does not need additional buttons.
+Node will be deleted by being touched.-
+Unlike in the desktop version there will not be a group deletion interaction because it would require an additional menu panel.
+The added functionality would be minimal and selecting a group of nodes, confirming and finally deleting would require a handful more steps and would therefore most likely not be used.
 
 \begin{figure}[htb]
     \centering
@@ -67,12 +84,29 @@ On the top right side another menu will be placed that contains different intera
     \caption{Delete mode in \enquote{\gls{see}}}\label{fig:delete}
 \end{figure}
 
+The following interaction mode seen in figure \ref{fig:nodes} is dedicated to the nodes and edges of a \enquote{\gls{city}}.
+Starting on with the "add node" button on the right.
+When activated the user can create new node by clicking on a certain spot on the \enquote{\gls{city}} plane. 
+The following button on the left is for adding edges.
+By selecting two nodes a new edge will be created between them. 
+Then, the button one further on the right is for editing nodes.
+By touching a node a window will pop up that allows the user to edit the node by changing its name and its type.
+Last but not least the button on the left-hand side will be used to scale nodes.
+That means the node height and width can be adjusted by first selecting it via touch and then hold a corner and slide it further away from the node center to increase the size or slide it towards the center to decrease the size of the node.
+Each button of the node interactions will be marked green after being pressed to indicate that it is active.
+
 \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Concept/img/menu3.png}
     \caption{Node interactions in \enquote{\gls{see}}}\label{fig:nodes}
 \end{figure}
 
+Then there will be a button for rotation interactions that can be seen in figure \ref{fig:rotate}.
+Starting with the first activatable button that lets the user rotate the hole \enquote{\gls{city}} by touching any point on it and then sliding away from that point.
+Similar to that there will be a button that lets the user rotate just a single node on the \enquote{\gls{city}}.
+In addition to that there will be a button that activates the so-called "locked-rotation" mode.
+While in "locked-rotation" mode the rotation of a node or \enquote{\gls{city}} will be done in eight predefined steps to a full rotation.
+Each step will have the same 45° range.
 \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Concept/img/menu4.png}

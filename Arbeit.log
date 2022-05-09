@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  6 MAY 2022 15:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  9 MAY 2022 12:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1371,57 +1371,70 @@ File: Concept/img/quickbar.png Graphic file (type png)
 <use Concept/img/quickbar.png>
 Package pdftex.def Info: Concept/img/quickbar.png  used on input line 53.
 (pdftex.def)             Requested size: 336.0pt x 185.92151pt.
-<Concept/img/menu1.png, id=133, 557.08125pt x 304.13625pt>
+<Concept/img/menu1.png, id=134, 557.08125pt x 304.13625pt>
 File: Concept/img/menu1.png Graphic file (type png)
 <use Concept/img/menu1.png>
-Package pdftex.def Info: Concept/img/menu1.png  used on input line 60.
+Package pdftex.def Info: Concept/img/menu1.png  used on input line 71.
 (pdftex.def)             Requested size: 336.0pt x 183.43913pt.
-<Concept/img/menu2.png, id=136, 557.83406pt x 303.38344pt>
+
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [2 <./Concept/img/joystick.png>]
+<Concept/img/menu2.png, id=145, 557.83406pt x 303.38344pt>
 File: Concept/img/menu2.png Graphic file (type png)
 <use Concept/img/menu2.png>
-Package pdftex.def Info: Concept/img/menu2.png  used on input line 66.
+Package pdftex.def Info: Concept/img/menu2.png  used on input line 83.
 (pdftex.def)             Requested size: 336.0pt x 182.73973pt.
-<Concept/img/menu3.png, id=139, 633.11531pt x 347.79938pt>
+
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [3 <./Concept/img/quickbar.png> <./Concept/img/menu1.png>]
+<Concept/img/menu3.png, id=160, 633.11531pt x 347.79938pt>
 File: Concept/img/menu3.png Graphic file (type png)
 <use Concept/img/menu3.png>
-Package pdftex.def Info: Concept/img/menu3.png  used on input line 72.
+Package pdftex.def Info: Concept/img/menu3.png  used on input line 100.
 (pdftex.def)             Requested size: 336.0pt x 184.58221pt.
-<Concept/img/menu4.png, id=142, 820.56563pt x 462.22687pt>
+LaTeX Font Info:    Trying to load font information for TS1+zplTLF on input line 109.
+ (c:/texlive/2021/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+File: ts1zpltlf.fd 2021/11/24 v1.0 fd file for TS1/zplTLF
+)
+LaTeX Font Info:    Font shape `TS1/zplTLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 109.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplTLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<Concept/img/menu4.png, id=167, 820.56563pt x 462.22687pt>
 File: Concept/img/menu4.png Graphic file (type png)
 <use Concept/img/menu4.png>
-Package pdftex.def Info: Concept/img/menu4.png  used on input line 78.
+Package pdftex.def Info: Concept/img/menu4.png  used on input line 112.
 (pdftex.def)             Requested size: 336.0pt x 189.26738pt.
-<Concept/img/menu5.png, id=145, 824.32968pt x 465.23813pt>
+
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [4 <./Concept/img/menu2.png> <./Concept/img/menu3.png>]
+<Concept/img/menu5.png, id=178, 824.32968pt x 465.23813pt>
 File: Concept/img/menu5.png Graphic file (type png)
 <use Concept/img/menu5.png>
-Package pdftex.def Info: Concept/img/menu5.png  used on input line 84.
+Package pdftex.def Info: Concept/img/menu5.png  used on input line 118.
 (pdftex.def)             Requested size: 336.0pt x 189.63432pt.
 ) (./Implementation/Implementation.tex
 Chapter 2.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [2 <./Concept/img/joystick.png>]
+ [5 <./Concept/img/menu4.png> <./Concept/img/menu5.png>]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [3 <./Concept/img/quickbar.png> <./Concept/img/menu1.png>]
-Overfull \vbox (6.579pt too high) has occurred while \output is active []
-
- [4 <./Concept/img/menu2.png> <./Concept/img/menu3.png> <./Concept/img/menu4.png>]
-Overfull \vbox (6.579pt too high) has occurred while \output is active []
-
- [5 <./Concept/img/menu5.png>]
-Overfull \vbox (6.579pt too high) has occurred while \output is active []
-
- [6
-
-
-]) (./Conclusion/Conclusion.tex
+ [6]) (./Conclusion/Conclusion.tex
 Chapter 3.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [7]
+ [7
+
+
+]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [8
@@ -1496,20 +1509,20 @@ Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33786 strings out of 478353
- 647386 string characters out of 5852102
+ 33837 strings out of 478353
+ 648425 string characters out of 5852102
  1229806 words of memory out of 5000000
- 51061 multiletter control sequences out of 15000+600000
- 535434 words of font info for 253 fonts, out of 8000000 for 9000
+ 51094 multiletter control sequences out of 15000+600000
+ 536422 words of font info for 261 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,22n,109p,10663b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on Arbeit.pdf (27 pages, 2959333 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
+Output written on Arbeit.pdf (27 pages, 2963555 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
+ 357 PDF objects out of 1000 (max. 8388607)
+ 286 compressed objects within 3 object streams
  63 named destinations out of 1000 (max. 500000)
- 73881 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 75929 words of extra memory for PDF output out of 89155 (max. 10000000)
 
