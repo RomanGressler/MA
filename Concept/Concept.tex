@@ -60,7 +60,7 @@ Also, the menu will be collapsed and only the buttons regarding the selected int
 By clicking the button on the top right again the menu shall expand and the other interaction modes shall be selectable.
 The other buttons shall be kept in the same order to reduce confusion of the user.
 
-The first interaction mode seen on figure \ref{fig:select} is for selecting nodes.
+The first interaction mode, seen in figure \ref{fig:select}, is for selecting nodes.
 Nodes can be selected by being touched and deselected by being touched again.
 There can be multiple nodes selected at once.
 The hole selection can be deselected by clicking the deselect button next to the select interaction mode button.
@@ -72,7 +72,7 @@ Selected nodes shall be highlighted with a different node color and also display
     \caption{Selection mode in \enquote{\gls{see}}}\label{fig:select}
 \end{figure}
 
-The second interaction mode seen in figure \ref{fig:delete} is for deleting node.
+The second interaction mode, seen in figure \ref{fig:delete}, is for deleting node.
 It does not need additional buttons.
 Node will be deleted by being touched.-
 Unlike in the desktop version there will not be a group deletion interaction because it would require an additional menu panel.
@@ -84,7 +84,7 @@ The added functionality would be minimal and selecting a group of nodes, confirm
     \caption{Delete mode in \enquote{\gls{see}}}\label{fig:delete}
 \end{figure}
 
-The following interaction mode seen in figure \ref{fig:nodes} is dedicated to the nodes and edges of a \enquote{\gls{city}}.
+The following interaction mode, seen in figure \ref{fig:nodes}, is dedicated to the nodes and edges of a \enquote{\gls{city}}.
 Starting on with the "add node" button on the right.
 When activated the user can create new node by clicking on a certain spot on the \enquote{\gls{city}} plane. 
 The following button on the left is for adding edges.
@@ -107,12 +107,22 @@ Similar to that there will be a button that lets the user rotate just a single n
 In addition to that there will be a button that activates the so-called "locked-rotation" mode.
 While in "locked-rotation" mode the rotation of a node or \enquote{\gls{city}} will be done in eight predefined steps to a full rotation.
 Each step will have the same 45° range.
+The last button of this group will be for changing the center of the rotations. 
+There are to options: the first option is a center of rotation in the middle of the \enquote{\gls{city}} and the second is in the middle of a node selection made with the interactions seen in figure \ref{fig:select}.
+The second option can be activated by pressing the last button.
+
 \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Concept/img/menu4.png}
     \caption{Rotation mode in \enquote{\gls{see}}}\label{fig:rotate}
 \end{figure}
 
+The last interaction group, seen in figure \ref{fig:move}, is for moving the \enquote{\gls{city}} or a single node.
+The move interactions are quite similar to the rotation interactions.
+There will be a button to move a hole \enquote{\gls{city}} as well as a button to move only single nodes.
+In addition to that there will be a button that restricts the movement of the \enquote{\gls{city}} or node to a predefined direction.
+The directions will be again in 45° angles and objects can be moved on a straight line on that angle.
+Moving a node or a \enquote{\gls{city}} can be achieved by touching and holding it and then moving it to the desired position.
 \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Concept/img/menu5.png}
