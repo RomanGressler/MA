@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  10 MAY 2022 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  10 MAY 2022 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1515,20 +1515,20 @@ Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33856 strings out of 478353
- 648785 string characters out of 5852102
+ 33859 strings out of 478353
+ 648843 string characters out of 5852102
  1229806 words of memory out of 5000000
- 51100 multiletter control sequences out of 15000+600000
- 536928 words of font info for 266 fonts, out of 8000000 for 9000
+ 51101 multiletter control sequences out of 15000+600000
+ 537043 words of font info for 267 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,22n,109p,10663b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on Arbeit.pdf (29 pages, 2968488 bytes).
+Output written on Arbeit.pdf (29 pages, 2969795 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
+ 390 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
  66 named destinations out of 1000 (max. 500000)
  75929 words of extra memory for PDF output out of 89155 (max. 10000000)
 
