@@ -10,6 +10,10 @@
 \contentsline {section}{\numberline {3.1}{\csqQQ {34}SEE\csqQQ {34} Desktop}}{11}{section.3.1}%
 \contentsline {section}{\numberline {3.2}{Aim and hypotheses}}{11}{section.3.2}%
 \contentsline {section}{\numberline {3.3}{Experiment set up}}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.4}{Realization}}{12}{section.3.4}%
+\contentsline {section}{\numberline {3.5}{Survey tool}}{12}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}{Pilot study}}{12}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}{Execution}}{12}{subsection.3.5.2}%
 \contentsline {chapter}{\numberline {4}{Conclusion}}{13}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{Outlook}}{13}{section.4.1}%
 \contentsline {chapter}{\numberline {A}{Glossary}}{15}{appendix.A}%

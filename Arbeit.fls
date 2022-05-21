@@ -2041,6 +2041,9 @@ INPUT ./Evaluation/Evaluation.tex
 INPUT Evaluation/Evaluation.tex
 INPUT ./Evaluation/Evaluation.tex
 INPUT Evaluation/Evaluation.tex
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-sc-t1.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-BoldItalic-tlf-t1.tfm
 INPUT ./Conclusion/Conclusion.tex
 INPUT Conclusion/Conclusion.tex
 INPUT ./Conclusion/Conclusion.tex
@@ -2070,10 +2073,11 @@ INPUT Arbeit.bbl
 INPUT Arbeit.aux
 INPUT ./Arbeit.out
 INPUT ./Arbeit.out
+INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc
-INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb
