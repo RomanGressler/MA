@@ -65,6 +65,73 @@ For renaming a node the user has to use a keyboard which does not make it compar
 
 \subsubsection{Final experiment set up}
 
+Demographic questions:
+\begin{itemize}
+    \item Age
+    \begin{itemize}
+        \item 0-15 years old
+        \item 16-30 years old
+        \item 31-45 years old
+        \item 46+ years old
+    \end{itemize}
+    \item What gender do you identify as?
+    \begin{itemize}
+        \item Male
+        \item Female
+        \item Other ...
+        \item Prefer not to say
+    \end{itemize}
+    \item What is the highest degree or level of education you have completed?
+    \begin{itemize}
+        \item Some High School (Hauptschule/Realschule...)
+        \item High School (Abitur)
+        \item Bachelor's Degree
+        \item Master's Degree
+        \item Ph.D. or higher
+        \item Prefer not to say
+        \item Other ...
+    \end{itemize}
+\end{itemize}
+
+Questions regarding used hardware and experience
+\begin{itemize}
+    \item Are you already experienced with See? 
+    \item Do or did you play first person video games?
+    \item Do or did you develop software? 
+    \item On which Android device will you attend?
+    \item Which Android version are you using?*
+\end{itemize}
+
+\begin{table}[]
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{lll}
+    Nr. &
+      Task &
+      Expected time \\ \hline
+    Training &
+      \begin{tabular}[c]{@{}l@{}}Navigate through the planes "dir\_root" \\ \textgreater "dir\_B" \textgreater "dir\_B\_2". On that plane \\ select "b2\_b.cpp" and rename it "b42".\end{tabular} &
+      1 - 5 mins \\
+    1 &
+      \begin{tabular}[c]{@{}l@{}}Detect the largest plane "xfs". On that\\ plane find plane "scrub". Then find \\ and delete node "alloc.c".\end{tabular} &
+      0.5 - 5 mins \\
+    2 &
+      \begin{tabular}[c]{@{}l@{}}Find the plane with one blue child \\ plane ("btrfs"). On the blue child \\ plane "tests" add four new nodes.\end{tabular} &
+      1 - 5 mins \\ \hline
+    Training &
+      \begin{tabular}[c]{@{}l@{}}Navigate through the planes "dir\_root" \\ \textgreater "dir\_C" \textgreater "dir\_C\_2". On that plane \\ select "c2\_b.cpp" and rename it "c42".\end{tabular} &
+      1 - 5 mins \\
+    3 &
+      \begin{tabular}[c]{@{}l@{}}On the right Code-City detect the \\ largest plane "netfilter". On that plane\\ find plane "ipset". Then find and \\ delete node "pfxlen.c".\end{tabular} &
+      0.5 - 5 mins \\
+    4 &
+      \begin{tabular}[c]{@{}l@{}}On the plane with the most \\ edges ("ipv6") find the smallest plane\\ "ila" and connect all four nodes on it.\end{tabular} &
+      1 - 5 mins \\ \hline
+    \end{tabular}%
+    }
+    \caption{The tasks used for the experiment. The device will be switched after task 2.}
+    \label{table:tasks}
+    \end{table}
+    
 \begin{table}[]
     \resizebox{\textwidth}{!}{%
     \begin{tabular}{llll}
@@ -88,4 +155,6 @@ For renaming a node the user has to use a keyboard which does not make it compar
     \caption{Experimental procedure per subject. The procedure is swapped per group.}
     \label{table:procedure}
     \end{table}
+
+
 \subsubsection{Execution}

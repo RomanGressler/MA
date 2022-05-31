@@ -2,6 +2,6 @@ This is makeindex, version 2.15 [TeX Live 2021/W32TeX] (kpathsea + Thai support)
 Scanning style file ./Arbeit.ist.............................done (29 attributes redefined, 0 ignored).
 Scanning input file arbeit.glo....done (33 entries accepted, 0 rejected).
 Sorting entries....done (143 comparisons).
-Generating output file arbeit.gls....done (7 lines written, 0 warnings).
+Generating output file arbeit.gls....done (8 lines written, 0 warnings).
 Output written in arbeit.gls.
 Transcript written in arbeit.glg.

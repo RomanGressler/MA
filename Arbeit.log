@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  31 MAY 2022 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  1 JUN 2022 01:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1487,33 +1487,43 @@ File: Evaluation/img/task1.png Graphic file (type png)
 Package pdftex.def Info: Evaluation/img/task1.png  used on input line 62.
 (pdftex.def)             Requested size: 336.0pt x 147.40431pt.
 
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [12 <./Evaluation/img/city_1.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 68.
+               Default added (so using `tbp') on input line 105.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 135.
 
 ) (./Conclusion/Conclusion.tex
 Chapter 4.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [12 <./Evaluation/img/city_1.png>]
+ [13 <./Evaluation/img/city_2.png>]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [13 <./Evaluation/img/city_2.png> <./Evaluation/img/city_3.png>]
+ [14]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [14 <./Evaluation/img/task1.png>]) (./arbeit.gls
+ [15 <./Evaluation/img/city_3.png>]
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [16 <./Evaluation/img/task1.png>]) (./arbeit.gls
 Appendix A.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [15
+ [17
 
 
 ]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [16
+ [18
 
 
 ]) (./arbeit.gls-abr
@@ -1521,10 +1531,10 @@ Appendix B.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [17]
+ [19]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [18
+ [20
 
 
 ]
@@ -1540,10 +1550,10 @@ Appendix C.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [19]
+ [21]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [20
+ [22
 
 
 ]
@@ -1557,10 +1567,10 @@ Appendix D.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [21]
+ [23]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [22
+ [24
 
 
 ]
@@ -1572,10 +1582,10 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 312
  (./Arbeit.bbl
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [23]
+ [25]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [24
+ [26
 
 
 ])
@@ -1586,25 +1596,25 @@ See the caption package documentation for explanation.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [25] (./Arbeit.aux)
+ [27] (./Arbeit.aux)
 Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34037 strings out of 478353
- 652225 string characters out of 5852102
- 1230364 words of memory out of 5000000
- 51221 multiletter control sequences out of 15000+600000
- 546480 words of font info for 280 fonts, out of 8000000 for 9000
+ 34046 strings out of 478353
+ 652349 string characters out of 5852102
+ 1234364 words of memory out of 5000000
+ 51225 multiletter control sequences out of 15000+600000
+ 546595 words of font info for 281 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,22n,109p,10663b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on Arbeit.pdf (35 pages, 4194448 bytes).
+Output written on Arbeit.pdf (37 pages, 4197476 bytes).
 PDF statistics:
- 520 PDF objects out of 1000 (max. 8388607)
- 426 compressed objects within 5 object streams
- 87 named destinations out of 1000 (max. 500000)
+ 534 PDF objects out of 1000 (max. 8388607)
+ 438 compressed objects within 5 object streams
+ 90 named destinations out of 1000 (max. 500000)
  82173 words of extra memory for PDF output out of 89155 (max. 10000000)
 
