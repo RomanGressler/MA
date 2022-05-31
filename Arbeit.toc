@@ -11,12 +11,14 @@
 \contentsline {section}{\numberline {3.2}{Aim and hypotheses}}{11}{section.3.2}%
 \contentsline {section}{\numberline {3.3}{Experiment set up}}{11}{section.3.3}%
 \contentsline {section}{\numberline {3.4}{Realization}}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}{Survey tool}}{12}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}{Pilot study}}{12}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}{Execution}}{12}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.4.1}{Survey tool}}{12}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}{Pilot study}}{12}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}{Final experiment set up}}{12}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}{Execution}}{12}{subsection.3.4.4}%
 \contentsline {chapter}{\numberline {4}{Conclusion}}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{Outlook}}{15}{section.4.1}%
 \contentsline {chapter}{\numberline {A}{Glossary}}{17}{appendix.A}%
 \contentsline {chapter}{\numberline {B}{Acronyms}}{19}{appendix.B}%
 \contentsline {chapter}{\numberline {C}{List of Figures}}{21}{appendix.C}%
+\contentsline {chapter}{\numberline {D}{List of Tables}}{23}{appendix.D}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

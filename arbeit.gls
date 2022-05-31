@@ -2,5 +2,6 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossentry{city}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{1\delimR 5}}}%
+		\setentrycounter[]{page}\glsnumberformat{1\delimR 7}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{12\delimN 13}}}%
 \end{theglossary}\glossarypostamble
