@@ -1,8 +1,8 @@
-PWD C:/Users/roman/OneDrive/Desktop/MA
+PWD c:/Users/roman/OneDrive/Desktop/MA
 INPUT c:/texlive/2021/texmf.cnf
 INPUT c:/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT Arbeit.tex
+INPUT c:/Users/roman/OneDrive/Desktop/MA/Arbeit.tex
 OUTPUT Arbeit.log
 INPUT c:/texlive/2021/texmf-dist/tex/latex/classicthesis/classicthesis.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/classicthesis/classicthesis.sty
@@ -2053,6 +2053,12 @@ INPUT ./Evaluation/Evaluation.tex
 INPUT Evaluation/Evaluation.tex
 INPUT ./Evaluation/Evaluation.tex
 INPUT Evaluation/Evaluation.tex
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tlf-sc-t1.tfm
+INPUT ./Evaluation/img/menu.png
+INPUT ./Evaluation/img/menu.png
+INPUT Evaluation/img/menu.png
+INPUT ./Evaluation/img/menu.png
+INPUT ./Evaluation/img/menu.png
 INPUT ./Evaluation/img/city_1.png
 INPUT ./Evaluation/img/city_1.png
 INPUT Evaluation/img/city_1.png
@@ -2110,8 +2116,8 @@ INPUT Arbeit.aux
 INPUT ./Arbeit.out
 INPUT ./Arbeit.out
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
-INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc
+INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb
