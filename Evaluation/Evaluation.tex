@@ -7,38 +7,64 @@ Therefore, it is necessary to take a deeper look at the differences between thos
 
 \subsection{Aim and hypotheses}
 The finished prototype of the mobile extension shall be evaluated. 
-Therefor the system shall be compared on smartphones as well as desktop computers. 
+Therefore, the system shall be compared on smartphones as well as desktop computers. 
 Comparing these two use cases shall give insight on how much impact the constraints of mobile devices have on the usability and overall user experience.
 
 The hypotheses of this thesis is that the mobile version of \enquote{\gls{see}} lacks slightly in usability compared to the desktop version.
 This due to the constraints of the mobile device. 
 A smartphone has far less screen space and also does not have a physical keyboard, which would allow many more shortcuts.
 \subsection{Experiment set up}
+
 The system shall be tested in two groups each starting with a different device. 
 Each group does the test on both devices, but one group will start with the mobile application and the other one with the desktop application.
 The participants will be assigned random to the groups.
-The testers will have various tasks to test parameters such as understandability, learnability, operability and attractiveness. 
-Afterwards the users will get a survey in English or German to document their impressions.
-The survey shall also conclude differences between screen sizes and Android versions. 
+The testers will have various tasks to test the usability of the two applications. 
+Afterwards the users will get a survey in English to document their impressions.
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=1\textwidth]{Evaluation/img/city_1.png}
+  \caption{The first \enquote{\gls{city}} for the user study}\label{fig:city1}
+\end{figure}
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=1\textwidth]{Evaluation/img/city_2.png}
+  \caption{The second \enquote{\gls{city}} for the user study}\label{fig:city2}
+\end{figure}
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=1\textwidth]{Evaluation/img/city_3.png}
+  \caption{The third \enquote{\gls{city}} for the user study}\label{fig:city3}
+\end{figure}
+In this survey the subjects will be asked various demographic questions as well as what Android device and version they will be using.
+In addition to that the subjects will be asked if they are experienced with \enquote{\gls{see}} and if they are experienced with software development.
+Before the subjects will be asked to solve various tasks they will be asked to watch a short tutorial video on each application.
+After the video they will get a training task where every subject can get used to the system and ask questions if they have trouble solving the training task. 
+The overseer will also make sure that every essential action will be practiced such as zooming and moving the \enquote{\gls{city}}.
+Figure \ref{fig:city1} shows a small arranged \enquote{\gls{city}} that shall be used for the training tasks.
+The structure of the training \enquote{\gls{city}} is generic and follows a simple pattern. 
+That shall ensure that the user can focus on the training and that the user does not get overwhelmed. 
+
+Following the first questions and the training, the subjects can start with the main tasks.
+For each application there will be two tasks and after each task the subjects will be handed a \enquote{\gls{post-task}} questionnaire.
+Last but not least there will another questionnaire that aims to scale the \enquote{\gls{usability}} of the two applications.
+For the \enquote{\gls{post-task}} questions the \enquote{\gls{ASQ}} will be used and for the \enquote{\gls{usability}} questions \enquote{\gls{sus}} will be used.
+Both questionnaires will be discussed later on in section \ref{questionaires}.
+For each main task the overseer will also take the completion time of every main task.
+The first and second task on the first device will be performed on the \enquote{\gls{city}} that can be seen in figure \ref{fig:city2} and the third and forth task on device two will be performed on the \enquote{\gls{city}} that can be seen on figure \ref{fig:city3}.
+These examples are much larger than the training \enquote{\gls{city}} and represent real life code.
+The second \enquote{\gls{city}} shows the file system of Linux and the third one shows the network component of Linux. 
+That way the tasks reflect better on real world uses for \enquote{\gls{see}}.
 
 To not exhaust the testers too much the experiment shall not take longer than one hour. 
-This also ensures that there is not to little variance due to exhaustion.
+This also ensures that there is no to little variance due to exhaustion.
 Each participant might have a different concentration span, but this shall not be the focus of this experiment. 
-
-\begin{figure}[htb]
-    \centering
-    \includegraphics[width=1\textwidth]{Evaluation/img/city_1.png}
-    \caption{The first \enquote{\gls{city}} for the user study}\label{fig:city1}
-\end{figure}
-
-\begin{figure}[htb]
-    \centering
-    \includegraphics[width=1\textwidth]{Evaluation/img/city_2.png}
-    \caption{The second \enquote{\gls{city}} for the user study}\label{fig:city2}
-\end{figure}
 
 \subsection{Realization}
 \subsubsection{Survey tool}
+\subsubsection{Questionnaires}
+\label{questionaires}
 \subsubsection{Pilot study}
 In a first test the pilot study was executed with one tester. 
 Afterwards the study was discussed and checked for errors. 
@@ -51,11 +77,7 @@ In one task the user was asked to rename a node and in the other one the user sh
 For renaming a node the user has to use a keyboard which does not make it comparable to just click and add nodes in the second task.
 
 
-\begin{figure}[htb]
-    \centering
-    \includegraphics[width=1\textwidth]{Evaluation/img/city_3.png}
-    \caption{The third \enquote{\gls{city}} for the user study}\label{fig:city3}
-\end{figure}
+
 
 \begin{figure}[htb]
     \centering
@@ -121,7 +143,7 @@ Questions regarding used hardware and experience
       \begin{tabular}[c]{@{}l@{}}Navigate through the planes "dir\_root" \\ \textgreater "dir\_C" \textgreater "dir\_C\_2". On that plane \\ select "c2\_b.cpp" and rename it "c42".\end{tabular} &
       1 - 5 mins \\
     3 &
-      \begin{tabular}[c]{@{}l@{}}On the right Code-City detect the \\ largest plane "netfilter". On that plane\\ find plane "ipset". Then find and \\ delete node "pfxlen.c".\end{tabular} &
+      \begin{tabular}[c]{@{}l@{}}Detect the \\ largest plane "netfilter". On that plane\\ find plane "ipset". Then find and \\ delete node "pfxlen.c".\end{tabular} &
       0.5 - 5 mins \\
     4 &
       \begin{tabular}[c]{@{}l@{}}On the plane with the most \\ edges ("ipv6") find the smallest plane\\ "ila" and connect all four nodes on it.\end{tabular} &
