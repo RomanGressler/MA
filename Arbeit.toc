@@ -17,8 +17,8 @@
 \contentsline {subsection}{\numberline {4.4.1}{Survey tool}}{17}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}{Questionnaires}}{17}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}{Pilot study}}{17}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}{Final experiment set up}}{17}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}{Execution}}{18}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.4}{Final experiment set up}}{18}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}{Execution}}{19}{subsection.4.4.5}%
 \contentsline {chapter}{\numberline {5}{Conclusion}}{21}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Outlook}}{21}{section.5.1}%
 \contentsline {chapter}{\numberline {A}{Glossary}}{23}{appendix.A}%

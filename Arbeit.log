@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  3 JUN 2022 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  4 JUN 2022 01:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1475,78 +1475,78 @@ LaTeX Font Info:    Font shape `T1/zplTLF/m/scit' will be
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [13]
-<Evaluation/img/city_1.png, id=312, 1093.08376pt x 595.47469pt>
-File: Evaluation/img/city_1.png Graphic file (type png)
-<use Evaluation/img/city_1.png>
-Package pdftex.def Info: Evaluation/img/city_1.png  used on input line 58.
-(pdftex.def)             Requested size: 336.0pt x 183.0415pt.
-
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [14 <./Evaluation/img/menu.png>]
-<Evaluation/img/city_2.png, id=321, 1011.02719pt x 759.58781pt>
+<Evaluation/img/city_1.png, id=321, 1093.08376pt x 595.47469pt>
+File: Evaluation/img/city_1.png Graphic file (type png)
+<use Evaluation/img/city_1.png>
+Package pdftex.def Info: Evaluation/img/city_1.png  used on input line 77.
+(pdftex.def)             Requested size: 336.0pt x 183.0415pt.
+<Evaluation/img/city_2.png, id=324, 1011.02719pt x 759.58781pt>
 File: Evaluation/img/city_2.png Graphic file (type png)
 <use Evaluation/img/city_2.png>
-Package pdftex.def Info: Evaluation/img/city_2.png  used on input line 64.
+Package pdftex.def Info: Evaluation/img/city_2.png  used on input line 83.
 (pdftex.def)             Requested size: 336.0pt x 252.43808pt.
-<Evaluation/img/city_3.png, id=324, 913.91437pt x 847.66687pt>
+<Evaluation/img/city_3.png, id=327, 913.91437pt x 847.66687pt>
 File: Evaluation/img/city_3.png Graphic file (type png)
 <use Evaluation/img/city_3.png>
-Package pdftex.def Info: Evaluation/img/city_3.png  used on input line 70.
+Package pdftex.def Info: Evaluation/img/city_3.png  used on input line 89.
 (pdftex.def)             Requested size: 336.0pt x 311.63994pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [15 <./Evaluation/img/city_1.png> <./Evaluation/img/city_2.png>]
+ [15 <./Evaluation/img/city_1.png>]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [16 <./Evaluation/img/city_3.png>]
+ [16 <./Evaluation/img/city_2.png>]
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 99.
+(Font)              scaled to size 12.0pt on input line 118.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/sc' will be
-(Font)              scaled to size 12.0pt on input line 99.
+(Font)              scaled to size 12.0pt on input line 118.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zplTLF/b/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/it' will be
-(Font)              scaled to size 10.95pt on input line 99.
-<Evaluation/img/task1.png, id=371, 1805.24437pt x 791.95876pt>
+(Font)              scaled to size 10.95pt on input line 118.
+
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [17 <./Evaluation/img/city_3.png>]
+<Evaluation/img/task1.png, id=385, 1805.24437pt x 791.95876pt>
 File: Evaluation/img/task1.png Graphic file (type png)
 <use Evaluation/img/task1.png>
-Package pdftex.def Info: Evaluation/img/task1.png  used on input line 118.
+Package pdftex.def Info: Evaluation/img/task1.png  used on input line 134.
 (pdftex.def)             Requested size: 336.0pt x 147.40431pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [17]
+ [18 <./Evaluation/img/task1.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 161.
+               Default added (so using `tbp') on input line 177.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 191.
+               Default added (so using `tbp') on input line 207.
 
 ) (./Conclusion/Conclusion.tex
 Chapter 5.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [18 <./Evaluation/img/task1.png>]
-Overfull \vbox (6.579pt too high) has occurred while \output is active []
-
  [19]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [20
-
-
-]) (./arbeit.gls
+ [20]) (./arbeit.gls
 Appendix A.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [21]
+ [21
+
+
+]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [22
@@ -1565,12 +1565,12 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `T1/zplTLF/b/sc' will be
-(Font)              scaled to size 10.95pt on input line 12.
+(Font)              scaled to size 10.95pt on input line 11.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zplTLF/b/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 12.
+(Font)              scaled to size 8.0pt on input line 11.
 )
 Appendix C.
 
@@ -1627,20 +1627,20 @@ Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34397 strings out of 478353
- 658282 string characters out of 5852102
- 1238873 words of memory out of 5000000
- 51529 multiletter control sequences out of 15000+600000
- 551166 words of font info for 294 fonts, out of 8000000 for 9000
+ 34415 strings out of 478353
+ 658464 string characters out of 5852102
+ 1236873 words of memory out of 5000000
+ 51531 multiletter control sequences out of 15000+600000
+ 555636 words of font info for 305 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,22n,109p,10663b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on Arbeit.pdf (41 pages, 4513284 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
+Output written on Arbeit.pdf (41 pages, 4533338 bytes).
 PDF statistics:
- 650 PDF objects out of 1000 (max. 8388607)
- 546 compressed objects within 6 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 561 compressed objects within 6 object streams
+ 111 named destinations out of 1000 (max. 500000)
  84258 words of extra memory for PDF output out of 89155 (max. 10000000)
 
