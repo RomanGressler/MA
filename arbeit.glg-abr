@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [TeX Live 2021/W32TeX] (kpathsea + Thai support).
 Scanning style file ./Arbeit.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file arbeit.glo-abr....done (25 entries accepted, 0 rejected).
-Sorting entries....done (112 comparisons).
-Generating output file arbeit.gls-abr....done (13 lines written, 0 warnings).
+Scanning input file arbeit.glo-abr....done (28 entries accepted, 0 rejected).
+Sorting entries....done (133 comparisons).
+Generating output file arbeit.gls-abr....done (15 lines written, 0 warnings).
 Output written in arbeit.gls-abr.
 Transcript written in arbeit.glg-abr.

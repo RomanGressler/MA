@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -52,6 +52,15 @@ Suzanne Robertson and James Robertson.
 P.~Stevens and R.~Pooley.
 \newblock \emph{Software Engineering with Objects and Components}.
 \newblock Springer, 2005.
+
+\bibitem[Kim et~al.(2014)Kim, Aulck, Bartha, Harper, and
+  Johnson]{kim2014differences}
+Jeong~Ho Kim, Lovenoor Aulck, Michael~C Bartha, Christy~A Harper, and Peter~W
+  Johnson.
+\newblock Differences in typing forces, muscle activity, comfort, and typing
+  performance among virtual, notebook, and desktop keyboards.
+\newblock \emph{Applied ergonomics}, 45\penalty0 (6):\penalty0 1406--1413,
+  2014.
 
 \bibitem[Santos et~al.(2016)Santos, Miranda, Araujo, Carneiro, Marques, Mota,
   Morais, and Meiguins]{santos2016guidelines}
