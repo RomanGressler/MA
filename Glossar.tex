@@ -93,7 +93,7 @@
 % Format: \newacronym[description={your description}]{yourKey}{yourShortName}{yourLongName}
 % `yourKey` will be used to access the glossary term later on, e.g. using \gls{yourKey}.
 
-\newacronym[description={Eine interaktive Visualisierung von Software, welche die \emph{Code-City}-Metapher verwendet und einen kollaborativen Multiplayer über verschiedene Plattformen\footnote{Neben Desktop- und Touch-Umgebungen noch Virtual Reality (\zB{} \emph{Valve Index}) und Augmented Reality (\zB{} \emph{Microsoft HoloLens})} hinweg ermöglicht.},sort=see]{see}{\textsc{see}}{Software Engineering Experience}
+\newacronym[description={An interactive software visualization that uses the \emph{{code-city}} metaphor and enables collaborative multiplayer interactions via multiple platforms like desktop, virtual reality and soon Android devices.},sort=see]{see}{\textsc{see}}{Software Engineering Experience}
 \newacronym[description={A post-task questionnaire consisting of three questions that is used to access how difficult a user perceived a task (See \enquote{\gls{post-task}}).}]{ASQ}{ASQ}{After-Scenario Questionnaire}
 \newacronym[description={The Sytem Usability Scale consists of ten questions that measure \enquote{\gls{usability}}}]{sus}{SUS}{System Usability Scale}
 %%% GLOSSARY HERE %%%
@@ -103,8 +103,9 @@
 % Later on, you can access the plural using \glspl{key}.
 
 \newglossaryentry{city}{name=Code-City,
-description={In der Code-City-Metapher werden Softwarekomponenten durch Gebäude in einer Stadt repräsentiert, wobei die Eigenschaften dieser Gebäude verschiedene Metriken der Software ausdrücken können --- \zB{} könnte die Höhe eines Gebäudes der Anzahl der Codezeilen entsprechen.}, plural=Code-Cities}
+description={In the Code-City metaphor, software components are represented by buildings in a city, and the properties of these buildings can express different metrics of the software. For example the height of a \enquote{\gls{node}} could represent the lines of code in that class.}, plural=Code-Cities}
 \newglossaryentry{post-task}{name={Post-Task},description={A questionnaire that is taken after every task of an experiment.}}
+\newglossaryentry{post-study}{name={Post-Study},description={A questionnaire that is taken after every block of an experiment.}}
 \newglossaryentry{usability}{name={Usability},description={A term that describes how well a (software) system can be used.}}
 \newglossaryentry{node}{name={Node},description={A point in a diagram where lines intersect. In \enquote{\gls{see}} it usually displays a software class}, plural={nodes}}
 \newglossaryentry{plane}{name={Plane},description={An area that bundeles \enquote{\glspl{node}}. Could for example represent a namespace.}}
