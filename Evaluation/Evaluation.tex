@@ -102,13 +102,13 @@ Each group does the test on both devices, but one group will start with the mobi
 The participants will be assigned random to the groups.
 The testers will have various tasks to test the usability of the two applications.
 Afterwards the users will get a survey in English to document their impressions.
-\begin{figure}[htb]
+\begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{Evaluation/img/city_1.png}
   \caption{The first \gls{city} for the user study}\label{fig:city1}
 \end{figure}
 
-\begin{figure}[htb]
+\begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{Evaluation/img/city_2.png}
   \caption{The second \gls{city} for the user study}\label{fig:city2}
@@ -145,10 +145,43 @@ Each participant might have a different concentration span, but this shall not b
 
 \subsection{Realization}
 \label{real}
+The following sections will cover the realization of the previously planned study. 
+The choice of the used survey tool and questionnaires will be explained in section \ref{survey} and section \ref{questionaires}.
+Afterwards a pilot study will be executed to test the study and possibly find missing aspects in section \ref{pilot}.
+Finally, the final experiment set up will be discussed in section \ref{final}.
+
 \subsubsection{Survey tool}
+\label{survey}
+As a survey tool Google Forms\footnote{https://www.google.com/forms/about/ (last visit: 05.06.2022)} will be used.
+The survey tool has to fulfill the following requirements: 
+\begin{itemize}
+  \item The study will be online because an overseer has to attend every experiment, and therefore it comes in handy to be flexible in terms of location. For this reason the survey shall be fully in a browser. 
+  \item The survey tool should be free to use.
+  \item Subjects shall be anonymous.
+  \item The results shall be exportable in a data format like \gls{csv}
+  \item Subjects should have the option to presave their answers. In addition to that answers should not be lost on reload.
+  \item There should be an option to embed the introduction videos in the survey.
+\end{itemize}
+
+Google Forms fulfills all these requirements and will therefore be used. 
+The final form can be seen in figure \ref{fig:intro} which shows the intro of the survey and in figure \ref{fig:video} which shows the embedded intro video for \gls{see} mobile.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{Evaluation/img/form_intro.png}
+  \caption{The intro of the survey}\label{fig:intro}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{Evaluation/img/form_video.png}
+  \caption{The introduction video of the survey}\label{fig:video}
+\end{figure}
+
 \subsubsection{Questionnaires}
 \label{questionaires}
+blabal
 \subsubsection{Pilot study}
+\label{pilot}
 In a first test the pilot study was executed with one tester.
 Afterwards the study was discussed and checked for errors.
 It stood out that the example \gls{city} of task one was too different to the one in the second task.
@@ -166,7 +199,7 @@ For renaming a node the user has to use a keyboard which does not make it compar
 \end{figure}
 
 \subsubsection{Final experiment set up}
-
+\label{final}
 Demographic questions:
 \begin{itemize}
   \item Age
