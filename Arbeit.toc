@@ -16,6 +16,9 @@
 \contentsline {section}{\numberline {4.4}{Realization}}{19}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}{Survey tool}}{19}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}{Questionnaires}}{20}{subsection.4.4.2}%
+\contentsline {paragraph}{{Demographic questionnaire}}{21}{subsection.4.4.2}%
+\contentsline {paragraph}{{Post-task questionnaire}}{21}{subsection.4.4.2}%
+\contentsline {paragraph}{{Post-study questionnaire}}{21}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}{Pilot study}}{21}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}{Final experiment set up}}{21}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}{Execution}}{22}{subsection.4.4.5}%
