@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  6 JUN 2022 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  7 JUN 2022 00:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1359,7 +1359,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [3]
-<Concept/img/joystick.png, id=166, 335.00156pt x 164.86594pt>
+<Concept/img/joystick.png, id=168, 335.00156pt x 164.86594pt>
 File: Concept/img/joystick.png Graphic file (type png)
 <use Concept/img/joystick.png>
 Package pdftex.def Info: Concept/img/joystick.png  used on input line 37.
@@ -1369,12 +1369,12 @@ LaTeX Font Info:    Font shape `T1/zplTLF/m/sc' will be
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zplTLF/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-<Concept/img/quickbar.png, id=175, 564.60938pt x 312.41719pt>
+<Concept/img/quickbar.png, id=177, 564.60938pt x 312.41719pt>
 File: Concept/img/quickbar.png Graphic file (type png)
 <use Concept/img/quickbar.png>
 Package pdftex.def Info: Concept/img/quickbar.png  used on input line 54.
 (pdftex.def)             Requested size: 336.0pt x 185.92151pt.
-<Concept/img/menu1.png, id=179, 557.08125pt x 304.13625pt>
+<Concept/img/menu1.png, id=181, 557.08125pt x 304.13625pt>
 File: Concept/img/menu1.png Graphic file (type png)
 <use Concept/img/menu1.png>
 Package pdftex.def Info: Concept/img/menu1.png  used on input line 72.
@@ -1383,7 +1383,7 @@ Package pdftex.def Info: Concept/img/menu1.png  used on input line 72.
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [4 <./Concept/img/joystick.png>]
-<Concept/img/menu2.png, id=190, 557.83406pt x 303.38344pt>
+<Concept/img/menu2.png, id=192, 557.83406pt x 303.38344pt>
 File: Concept/img/menu2.png Graphic file (type png)
 <use Concept/img/menu2.png>
 Package pdftex.def Info: Concept/img/menu2.png  used on input line 84.
@@ -1392,7 +1392,7 @@ Package pdftex.def Info: Concept/img/menu2.png  used on input line 84.
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [5 <./Concept/img/quickbar.png> <./Concept/img/menu1.png>]
-<Concept/img/menu3.png, id=204, 633.11531pt x 347.79938pt>
+<Concept/img/menu3.png, id=206, 633.11531pt x 347.79938pt>
 File: Concept/img/menu3.png Graphic file (type png)
 <use Concept/img/menu3.png>
 Package pdftex.def Info: Concept/img/menu3.png  used on input line 101.
@@ -1411,12 +1411,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [6 <./Concept/img/menu2.png> <./Concept/img/menu3.png>]
-<Concept/img/menu4.png, id=220, 820.56563pt x 462.22687pt>
+<Concept/img/menu4.png, id=222, 820.56563pt x 462.22687pt>
 File: Concept/img/menu4.png Graphic file (type png)
 <use Concept/img/menu4.png>
 Package pdftex.def Info: Concept/img/menu4.png  used on input line 117.
 (pdftex.def)             Requested size: 336.0pt x 189.26738pt.
-<Concept/img/menu5.png, id=228, 824.32968pt x 465.23813pt>
+<Concept/img/menu5.png, id=230, 824.32968pt x 465.23813pt>
 File: Concept/img/menu5.png Graphic file (type png)
 <use Concept/img/menu5.png>
 Package pdftex.def Info: Concept/img/menu5.png  used on input line 129.
@@ -1450,7 +1450,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
 
 ]
-<Evaluation/img/menu.png, id=288, 664.73344pt x 645.91313pt>
+<Evaluation/img/menu.png, id=290, 664.73344pt x 645.91313pt>
 File: Evaluation/img/menu.png Graphic file (type png)
 <use Evaluation/img/menu.png>
 Package pdftex.def Info: Evaluation/img/menu.png  used on input line 22.
@@ -1473,7 +1473,7 @@ Package microtype Info: Character `029' is missing
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [15]
-<Evaluation/img/city_1.png, id=396, 1093.08376pt x 595.47469pt>
+<Evaluation/img/city_1.png, id=398, 1093.08376pt x 595.47469pt>
 File: Evaluation/img/city_1.png Graphic file (type png)
 <use Evaluation/img/city_1.png>
 Package pdftex.def Info: Evaluation/img/city_1.png  used on input line 107.
@@ -1482,12 +1482,12 @@ Package pdftex.def Info: Evaluation/img/city_1.png  used on input line 107.
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [16]
-<Evaluation/img/city_2.png, id=405, 1011.02719pt x 759.58781pt>
+<Evaluation/img/city_2.png, id=407, 1011.02719pt x 759.58781pt>
 File: Evaluation/img/city_2.png Graphic file (type png)
 <use Evaluation/img/city_2.png>
 Package pdftex.def Info: Evaluation/img/city_2.png  used on input line 113.
 (pdftex.def)             Requested size: 336.0pt x 252.43808pt.
-<Evaluation/img/city_3.png, id=408, 913.91437pt x 847.66687pt>
+<Evaluation/img/city_3.png, id=410, 913.91437pt x 847.66687pt>
 File: Evaluation/img/city_3.png Graphic file (type png)
 <use Evaluation/img/city_3.png>
 Package pdftex.def Info: Evaluation/img/city_3.png  used on input line 119.
@@ -1510,7 +1510,7 @@ LaTeX Font Info:    Font shape `T1/zplTLF/b/it' will be
 (Font)              scaled to size 10.95pt on input line 153.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 155.
-<Evaluation/img/form_intro.png, id=454, 498.36188pt x 356.83313pt>
+<Evaluation/img/form_intro.png, id=456, 498.36188pt x 356.83313pt>
 File: Evaluation/img/form_intro.png Graphic file (type png)
 <use Evaluation/img/form_intro.png>
 Package pdftex.def Info: Evaluation/img/form_intro.png  used on input line 170.
@@ -1519,7 +1519,7 @@ Package pdftex.def Info: Evaluation/img/form_intro.png  used on input line 170.
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [19]
-<Evaluation/img/form_video.png, id=465, 493.845pt x 395.22656pt>
+<Evaluation/img/form_video.png, id=467, 493.845pt x 395.22656pt>
 File: Evaluation/img/form_video.png Graphic file (type png)
 <use Evaluation/img/form_video.png>
 Package pdftex.def Info: Evaluation/img/form_video.png  used on input line 176.
@@ -1528,44 +1528,35 @@ Package pdftex.def Info: Evaluation/img/form_video.png  used on input line 176.
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [20 <./Evaluation/img/form_intro.png> <./Evaluation/img/form_video.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- []
-
-<Evaluation/img/task1.png, id=493, 1805.24437pt x 791.95876pt>
+ [21]
+<Evaluation/img/task1.png, id=537, 1805.24437pt x 791.95876pt>
 File: Evaluation/img/task1.png Graphic file (type png)
 <use Evaluation/img/task1.png>
-Package pdftex.def Info: Evaluation/img/task1.png  used on input line 209.
+Package pdftex.def Info: Evaluation/img/task1.png  used on input line 240.
 (pdftex.def)             Requested size: 336.0pt x 147.40431pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [21]
+ [22]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 252.
+               Default added (so using `tbp') on input line 283.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 282.
+               Default added (so using `tbp') on input line 313.
 
 ) (./Conclusion/Conclusion.tex
 Chapter 5.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [22 <./Evaluation/img/task1.png>]
+ [23 <./Evaluation/img/task1.png>]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [23]
-Overfull \vbox (6.579pt too high) has occurred while \output is active []
-
- [24
-
-
-]) (./arbeit.gls
-Appendix A.
-
+ [24]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [25]
@@ -1574,8 +1565,8 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
  [26
 
 
-]) (./arbeit.gls-abr
-Appendix B.
+]) (./arbeit.gls
+Appendix A.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
@@ -1585,8 +1576,8 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
  [28
 
 
-])
-Appendix C.
+]) (./arbeit.gls-abr
+Appendix B.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
@@ -1594,6 +1585,17 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [30
+
+
+])
+Appendix C.
+
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [31]
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [32
 
 
 ]
@@ -1607,10 +1609,10 @@ Appendix D.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [31]
+ [33]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [32
+ [34
 
 
 ]
@@ -1622,16 +1624,37 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 309
  (./Arbeit.bbl
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [33]
+ [35]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [34
+ [36
 
 
 ]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [35])
+ [37]
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 122.
+ (c:/texlive/2021/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 122.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `fvm' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 1292) in paragraph at lines 126--132
+[]\T1/zplTLF/m/n/10.95 (+20) Aaron Ban-gor, Philip T. Ko-r-tum, and James T. Miller.  An
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 126--132
+\T1/zplTLF/m/n/10.95 (+20) em-pir-i-cal eval-u-a-tion of the sys-tem us-abil-ity scale.  \T1/zplTLF/m/it/10.95 (+20) In-ter-na-
+ []
+
+)
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 183.
 See the caption package documentation for explanation.
@@ -1639,23 +1662,23 @@ See the caption package documentation for explanation.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [36] (./Arbeit.aux)
+ [38] (./Arbeit.aux)
 Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 34502 strings out of 478353
- 660209 string characters out of 5852102
- 1243626 words of memory out of 5000000
- 51575 multiletter control sequences out of 15000+600000
- 544447 words of font info for 291 fonts, out of 8000000 for 9000
+ 34572 strings out of 478353
+ 661591 string characters out of 5852102
+ 1242626 words of memory out of 5000000
+ 51629 multiletter control sequences out of 15000+600000
+ 545067 words of font info for 293 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,22n,109p,10663b,1025s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on Arbeit.pdf (46 pages, 4744856 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
+Output written on Arbeit.pdf (48 pages, 4757504 bytes).
 PDF statistics:
- 811 PDF objects out of 1000 (max. 8388607)
- 690 compressed objects within 7 object streams
- 128 named destinations out of 1000 (max. 500000)
- 77612 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 874 PDF objects out of 1000 (max. 8388607)
+ 748 compressed objects within 8 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 78132 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -19,13 +19,14 @@
 \contentsline {paragraph}{{Demographic questionnaire}}{21}{subsection.4.4.2}%
 \contentsline {paragraph}{{Post-task questionnaire}}{21}{subsection.4.4.2}%
 \contentsline {paragraph}{{Post-study questionnaire}}{21}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}{Pilot study}}{21}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}{Final experiment set up}}{21}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}{Execution}}{22}{subsection.4.4.5}%
-\contentsline {chapter}{\numberline {5}{Conclusion}}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}{Outlook}}{25}{section.5.1}%
-\contentsline {chapter}{\numberline {A}{Glossary}}{27}{appendix.A}%
-\contentsline {chapter}{\numberline {B}{Acronyms}}{29}{appendix.B}%
-\contentsline {chapter}{\numberline {C}{List of Figures}}{31}{appendix.C}%
-\contentsline {chapter}{\numberline {D}{List of Tables}}{33}{appendix.D}%
+\contentsline {subsection}{\numberline {4.4.3}{Pilot study}}{22}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}{Final experiment set up}}{22}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}{Execution}}{25}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}{Results}}{25}{subsection.4.4.6}%
+\contentsline {chapter}{\numberline {5}{Conclusion}}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}{Outlook}}{27}{section.5.1}%
+\contentsline {chapter}{\numberline {A}{Glossary}}{29}{appendix.A}%
+\contentsline {chapter}{\numberline {B}{Acronyms}}{31}{appendix.B}%
+\contentsline {chapter}{\numberline {C}{List of Figures}}{33}{appendix.C}%
+\contentsline {chapter}{\numberline {D}{List of Tables}}{35}{appendix.D}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -62,6 +62,33 @@ Jeong~Ho Kim, Lovenoor Aulck, Michael~C Bartha, Christy~A Harper, and Peter~W
 \newblock \emph{Applied ergonomics}, 45\penalty0 (6):\penalty0 1406--1413,
   2014.
 
+\bibitem[Mclellan et~al.(2011)Mclellan, Muddimer, and Peres]{Mclellan2011}
+Sam Mclellan, Andrew Muddimer, and S.~Peres.
+\newblock The effect of experience on system usability scale ratings.
+\newblock \emph{Journal of Usability Studies}, 7, 11 2011.
+
+\bibitem[Lewis(1991)]{lewis1991psychometric}
+James~R Lewis.
+\newblock Psychometric evaluation of an after-scenario questionnaire for
+  computer usability studies: the asq.
+\newblock \emph{ACM Sigchi Bulletin}, 23\penalty0 (1):\penalty0 78--81, 1991.
+
+\bibitem[Hajesmaeel-Gohari et~al.(2022)Hajesmaeel-Gohari, Khordastan, Fatehi,
+  Samzadeh, and Bahaadinbeigy]{hajesmaeel2022most}
+Sadrieh Hajesmaeel-Gohari, Firoozeh Khordastan, Farhad Fatehi, Hamidreza
+  Samzadeh, and Kambiz Bahaadinbeigy.
+\newblock The most used questionnaires for evaluating satisfaction, usability,
+  acceptance, and quality outcomes of mobile health.
+\newblock \emph{BMC Medical Informatics and Decision Making}, 22\penalty0
+  (1):\penalty0 1--9, 2022.
+
+\bibitem[Lewis(1995)]{lewis1995ibm}
+James~R Lewis.
+\newblock Ibm computer usability satisfaction questionnaires: psychometric
+  evaluation and instructions for use.
+\newblock \emph{International Journal of Human-Computer Interaction},
+  7\penalty0 (1):\penalty0 57--78, 1995.
+
 \bibitem[Brooke(1996)]{brooke1996sus}
 John Brooke.
 \newblock Sus: a “quick and dirty’usability.
@@ -84,6 +111,31 @@ Rebecca~A Grier, Aaron Bangor, Philip Kortum, and S~Camille Peres.
 \newblock In \emph{Proceedings of the Human Factors and Ergonomics Society
   Annual Meeting}, volume~57, pages 187--191. SAGE Publications Sage CA: Los
   Angeles, CA, 2013.
+
+\bibitem[Peres et~al.(2013)Peres, Pham, and
+  Phillips]{doi:10.1177/1541931213571043}
+S.~Camille Peres, Tri Pham, and Ronald Phillips.
+\newblock Validation of the system usability scale (sus): Sus in the wild.
+\newblock \emph{Proceedings of the Human Factors and Ergonomics Society Annual
+  Meeting}, 57\penalty0 (1):\penalty0 192--196, 2013.
+\newblock \doi{10.1177/1541931213571043}.
+\newblock URL \url{https://doi.org/10.1177/1541931213571043}.
+
+\bibitem[Bangor et~al.(2008)Bangor, Kortum, and
+  Miller]{doi:10.1080/10447310802205776}
+Aaron Bangor, Philip~T. Kortum, and James~T. Miller.
+\newblock An empirical evaluation of the system usability scale.
+\newblock \emph{International Journal of Human–Computer Interaction},
+  24\penalty0 (6):\penalty0 574--594, 2008.
+\newblock \doi{10.1080/10447310802205776}.
+\newblock URL \url{https://doi.org/10.1080/10447310802205776}.
+
+\bibitem[Lewis and Sauro(2009)]{10.1007/978-3-642-02806-9_12}
+James~R. Lewis and Jeff Sauro.
+\newblock The factor structure of the system usability scale.
+\newblock In Masaaki Kurosu, editor, \emph{Human Centered Design}, pages
+  94--103, Berlin, Heidelberg, 2009. Springer Berlin Heidelberg.
+\newblock ISBN 978-3-642-02806-9.
 
 \bibitem[Santos et~al.(2016)Santos, Miranda, Araujo, Carneiro, Marques, Mota,
   Morais, and Meiguins]{santos2016guidelines}
