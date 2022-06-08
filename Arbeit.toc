@@ -22,7 +22,15 @@
 \contentsline {subsection}{\numberline {4.4.3}{Pilot study}}{22}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}{Final experiment set up}}{22}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}{Execution}}{25}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}{Results}}{25}{subsection.4.4.6}%
+\contentsline {section}{\numberline {4.5}{Results}}{25}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}{Demographic data}}{25}{subsection.4.5.1}%
+\contentsline {paragraph}{{Gender}}{25}{subsection.4.5.1}%
+\contentsline {paragraph}{{Age}}{25}{subsection.4.5.1}%
+\contentsline {paragraph}{{Highest degree}}{25}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}{Performance}}{26}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}{Usability}}{26}{subsection.4.5.3}%
+\contentsline {paragraph}{{ASQ}}{26}{subsection.4.5.3}%
+\contentsline {paragraph}{{SUS}}{26}{subsection.4.5.3}%
 \contentsline {chapter}{\numberline {5}{Conclusion}}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Outlook}}{27}{section.5.1}%
 \contentsline {chapter}{\numberline {A}{Glossary}}{29}{appendix.A}%
