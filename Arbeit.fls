@@ -2109,6 +2109,10 @@ INPUT ./Arbeit.lot
 INPUT Arbeit.lot
 INPUT Arbeit.lot
 OUTPUT Arbeit.lot
+INPUT ./related.tex
+INPUT related.tex
+INPUT ./related.tex
+INPUT related.tex
 INPUT ./Arbeit.bbl
 INPUT Arbeit.bbl
 INPUT ./Arbeit.bbl

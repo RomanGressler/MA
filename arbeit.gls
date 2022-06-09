@@ -5,7 +5,8 @@
 		\setentrycounter[]{page}\glsnumberformat{3\delimR 9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{16\delimR 18}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{22}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{25}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossentry{node}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
