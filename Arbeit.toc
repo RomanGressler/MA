@@ -27,16 +27,19 @@
 \contentsline {paragraph}{{Gender}}{25}{subsection.4.5.1}%
 \contentsline {paragraph}{{Age}}{25}{subsection.4.5.1}%
 \contentsline {paragraph}{{Highest degree}}{25}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}{Performance}}{26}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}{Usability}}{26}{subsection.4.5.3}%
-\contentsline {paragraph}{{ASQ}}{26}{subsection.4.5.3}%
-\contentsline {paragraph}{{SUS}}{26}{subsection.4.5.3}%
-\contentsline {chapter}{\numberline {5}{Conclusion}}{27}{chapter.5}%
-\contentsline {section}{\numberline {5.1}{Outlook}}{27}{section.5.1}%
-\contentsline {chapter}{\numberline {A}{Glossary}}{29}{appendix.A}%
-\contentsline {chapter}{\numberline {B}{Acronyms}}{31}{appendix.B}%
-\contentsline {chapter}{\numberline {C}{List of Figures}}{33}{appendix.C}%
-\contentsline {chapter}{\numberline {D}{List of Tables}}{35}{appendix.D}%
-\contentsline {chapter}{\numberline {E}{Related Files}}{37}{appendix.E}%
-\contentsline {section}{References}{37}{table.caption.20}%
+\contentsline {paragraph}{{Experience}}{26}{figure.caption.17}%
+\contentsline {paragraph}{{Android device and version}}{26}{figure.caption.17}%
+\contentsline {subsection}{\numberline {4.5.2}{Performance}}{27}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}{Usability}}{27}{subsection.4.5.3}%
+\contentsline {paragraph}{{ASQ}}{27}{subsection.4.5.3}%
+\contentsline {paragraph}{{SUS}}{27}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}{Threads to validity}}{28}{section.4.6}%
+\contentsline {chapter}{\numberline {5}{Conclusion}}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}{Outlook}}{29}{section.5.1}%
+\contentsline {chapter}{\numberline {A}{Glossary}}{31}{appendix.A}%
+\contentsline {chapter}{\numberline {B}{Acronyms}}{33}{appendix.B}%
+\contentsline {chapter}{\numberline {C}{List of Figures}}{35}{appendix.C}%
+\contentsline {chapter}{\numberline {D}{List of Tables}}{37}{appendix.D}%
+\contentsline {chapter}{\numberline {E}{Related Files}}{39}{appendix.E}%
+\contentsline {section}{References}{42}{table.caption.23}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

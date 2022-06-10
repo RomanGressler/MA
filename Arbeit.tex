@@ -164,6 +164,8 @@
 \newcommand{\Regie}[1]{\textbf{Regie:} #1}
 \newcommand{\Stil}[1]{\textbf{Stil:} #1}
 
+\newtheorem{file}{Related file}
+
 % Improve caption fonts.
 \setkomafont{caption}{\footnotesize\itshape}
 \setkomafont{captionlabel}{\usekomafont{caption}}
@@ -321,11 +323,10 @@ I want to thank me and only me for putting all this hard work in.
 \input{related.tex}
 
 % Finally, the bibliography.
-\addcontentsline{toc}{section}{References}
 \ifdef{\sourcesFile}{
 \bibliographystyle{unsrtnat}
 \bibliography{\sourcesFile}
 %\printbibliography[heading=bibnumbered]
 }{}
-
+\addcontentsline{toc}{section}{References}
 \end{document}
