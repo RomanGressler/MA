@@ -347,6 +347,8 @@ From the 20 subjects, two could not finish the tasks on their mobile device, whi
 The overseer hosted an instance of \gls{see} from his home network and watched the subjects doing their task.
 He also gave instructions for the training tasks and made sure that all essential interactions were trained such as zooming and moving the \gls{city}.
 Every subject got the same training.
+
+
 \subsection{Results}
 The \hyperref[calc]{calc\_data.ipynb} script can be used to reproduce the result data for the following section.
 Also, all shown diagrams in this section can be reproduced with the script.
@@ -356,8 +358,15 @@ The task order of the two groups remains the same.
 Both groups start with the same task.
 That way not only both groups but also the desktop and the mobile \gls{see} version will be compared. 
 
+In the coming up section the \gls{utest} will be used multiple times to see if there are significant differences between to data sets.
+The \gls{utest} brings the advantage that the tested data sets do not need to fulfill the requirement of a normal distribution (\cite{gibbons1991comparisons}).
+This is important because the sample size of n = 18 is too small to assume a normal distribution.
+The used level of significance will be $\alpha = 0.05$.
+
 \label{results}
 \subsubsection{Demographic data}
+In this subsection it will be verified if the two groups differ significantly in their demographic data. 
+Therefore, a two-tailed \gls{utest} that checks whether a demographic value from \textit{Group 1} = \textit{Group 2}.
 \paragraph{Gender}\mbox{}\\
 Of 18 participants, 17 reported being male. 
 One participant preferred not to say his or her gender and can therefore not be grouped.
@@ -374,7 +383,7 @@ Nine of the participants answered with \enquote{Bachelor's Degree} for their hig
 It is therefore the most common option as pictured in figure \ref{fig:degree}.
 
 To measure the \gls{utest} the options were put into an ordinal scale which follows the same order as in the survey.
-The test shows there is no significant difference between the two groups ($U = 33.0, p \approx 0.51$).
+The test shows there is no significant difference between the two groups ($U = 33.0; p \approx 0.51$).
 
 \begin{figure}[H]
   \centering
@@ -388,12 +397,12 @@ All but one subject had experience with first person video games and the single 
 Therefore, experience with first person video games should not have an impact on this study.
 
 Five of 19 subjects had experience with \gls{see}.
-The \gls{utest} shows there is no significant difference the two groups ($U = 27.0, p \approx 0.23$).
+The \gls{utest} shows there is no significant difference the two groups ($U = 27.0; p \approx 0.23$).
 Even though there is no significant difference, four of the subjects with \gls{see} experience are in \textit{Group 2} and only one in \textit{Group 1}.
 
 The majority of ten subjects had experience with software development.
 The other eight subject had no experience.
-The \gls{utest} shows there is no significant difference the two groups ($U = 49.5, p \approx 0.38$).
+The \gls{utest} shows there is no significant difference the two groups ($U = 49.5; p \approx 0.38$).
 
 \paragraph{Android device and version}\mbox{}\\
 A large variety of 17 different Android devices were used.
@@ -411,7 +420,7 @@ The second most used version was Android 11.
 One subject used Android 7 on the \enquote{Huawei P10 lite}.
 Which is remarkable because Android 7 was released in 2016\footnote{\url{https://android-developers.googleblog.com/2016/08/taking-final-wrapper-off-of-nougat.html} (10.06.2022, 12:37)} and the \enquote{Huawei P10 lite} was released a little later in March 2017\footnote{\url{https://www.gsmarena.com/huawei_p10_lite-8598.php} (10.06.2022, 12:37)} but \gls{see} still managed to work, if with lower performance.
 The distribution of the used Android devices can be seen in \ref{fig:android_version}.
-The \gls{utest} shows there is no significant difference the two groups ($U = 39.0, p \approx 0.93$).
+The \gls{utest} shows there is no significant difference the two groups ($U = 39.0; p \approx 0.93$).
 
 \begin{figure}[htb]
   \centering
@@ -422,7 +431,58 @@ The \gls{utest} shows there is no significant difference the two groups ($U = 39
 \mbox{}\\
 Surprisingly there has been no significant difference with the demographic data between the two groups.
 In the following section the more exciting data will be analyzed. 
+
 \subsubsection{Performance}
+For the performance the time needed for each task was measured.
+The time for the trainings task, however, was not measure because it would not fit the purpose of a training to be measured by time.
+Therefore, the overseer asked the subjects to tell him when they begin the task. 
+The time was taken after the subject has read and understood the task, and it was stopped when the subject successfully finished.
+This will help to prove or discard hypothesis $H_{a}$.
+
+Let's have a look at the two groups in general.
+Is there any significant difference?
+The total time needed for all subjects in the two groups can be seen in figure \ref{fig:group_time_violin}.
+The average time \textit{Group 1} needed to complete all tasks was $\overline{t_1} = 487s$ and for \textit{Group 2} it was $\overline{t_2} = \approx388s$.
+The median time for \textit{Group 1} was $\widetilde{t1} = 315s$ and for \textit{Group 2} it was $\widetilde{t_2} = 384s$.
+As figure \ref{fig:group_time_violin} and the values mentioned above suggest the \gls{utest} shows there is no significant difference between the two groups with a $U = 43.0$ and $p \approx 0.86$.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics*[width=1\textwidth]{Evaluation/img/group_time_violin.png}
+  \caption{Total time each group needed as violin plot}
+  \label{fig:group_time_violin}
+\end{figure}
+
+Furthermore, let's look at the single tasks. 
+Has there maybe been a learning effect or difference in general between the groups? 
+To find out task 1 from \textit{Group 1} will be compared with task 3 from \textit{Group 2} and so on.
+Every couple of tasks is comparable because they have been done on the same device and use the same set of user interactions as described in section \ref{final}.
+The \gls{utest} shows that there is no significant difference in any combination as listed below:
+\begin{itemize}
+  \item \textit{Group 1}, task 1 \& \textit{Group 2}, task 3: $U = 26.5; p \approx 0.23$
+  \item \textit{Group 1}, task 2 \& \textit{Group 2}, task 4: $U = 35.5; p \approx 0.69$
+  \item \textit{Group 1}, task 3 \& \textit{Group 2}, task 1: $U = 49.0; p \approx 0.48$
+  \item \textit{Group 1}, task 4 \& \textit{Group 2}, task 2: $U = 57.0; p \approx 0.16$
+\end{itemize}
+
+Finally, let's see if there is a significant difference between the two used versions of \gls{see} in the single tasks.
+The time needed for every single task on both versions can be seen in figure \ref{fig:speed_violin}.
+There are some results that stand out and took way longer than the medians would suggest.
+That could be caused by various reasons as for example:
+\begin{itemize}
+  \item The mobile version of \gls{see} did not run smooth on the subjects device and therefore the tasks became harder.
+  \item The subject did not understand the task correctly and has to reread it.
+  \item The subject overlooked a key object and continued the search at wrong areas.
+\end{itemize}
+
+
+\begin{sidewaysfigure}
+  \centering
+  \includegraphics*[width=1.15\textwidth]{Evaluation/img/speed1_violin.png}
+  \caption{Violin plots of all tasks by device}
+  \label{fig:speed_violin}
+\end{sidewaysfigure}
+
 \subsubsection{Usability}
 \paragraph{ASQ}\mbox{}\\
 ...

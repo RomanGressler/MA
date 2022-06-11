@@ -25,21 +25,21 @@
 \contentsline {section}{\numberline {4.5}{Results}}{25}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}{Demographic data}}{25}{subsection.4.5.1}%
 \contentsline {paragraph}{{Gender}}{25}{subsection.4.5.1}%
-\contentsline {paragraph}{{Age}}{25}{subsection.4.5.1}%
-\contentsline {paragraph}{{Highest degree}}{25}{subsection.4.5.1}%
+\contentsline {paragraph}{{Age}}{26}{subsection.4.5.1}%
+\contentsline {paragraph}{{Highest degree}}{26}{subsection.4.5.1}%
 \contentsline {paragraph}{{Experience}}{26}{figure.caption.17}%
-\contentsline {paragraph}{{Android device and version}}{26}{figure.caption.17}%
-\contentsline {subsection}{\numberline {4.5.2}{Performance}}{27}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}{Usability}}{27}{subsection.4.5.3}%
-\contentsline {paragraph}{{ASQ}}{27}{subsection.4.5.3}%
-\contentsline {paragraph}{{SUS}}{27}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}{Threads to validity}}{28}{section.4.6}%
-\contentsline {chapter}{\numberline {5}{Conclusion}}{29}{chapter.5}%
-\contentsline {section}{\numberline {5.1}{Outlook}}{29}{section.5.1}%
-\contentsline {chapter}{\numberline {A}{Glossary}}{31}{appendix.A}%
-\contentsline {chapter}{\numberline {B}{Acronyms}}{33}{appendix.B}%
-\contentsline {chapter}{\numberline {C}{List of Figures}}{35}{appendix.C}%
-\contentsline {chapter}{\numberline {D}{List of Tables}}{37}{appendix.D}%
-\contentsline {chapter}{\numberline {E}{Related Files}}{39}{appendix.E}%
-\contentsline {section}{References}{42}{table.caption.23}%
+\contentsline {paragraph}{{Android device and version}}{27}{figure.caption.17}%
+\contentsline {subsection}{\numberline {4.5.2}{Performance}}{28}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}{Usability}}{29}{subsection.4.5.3}%
+\contentsline {paragraph}{{ASQ}}{29}{subsection.4.5.3}%
+\contentsline {paragraph}{{SUS}}{29}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}{Threads to validity}}{31}{section.4.6}%
+\contentsline {chapter}{\numberline {5}{Conclusion}}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}{Outlook}}{33}{section.5.1}%
+\contentsline {chapter}{\numberline {A}{Glossary}}{35}{appendix.A}%
+\contentsline {chapter}{\numberline {B}{Acronyms}}{37}{appendix.B}%
+\contentsline {chapter}{\numberline {C}{List of Figures}}{39}{appendix.C}%
+\contentsline {chapter}{\numberline {D}{List of Tables}}{41}{appendix.D}%
+\contentsline {chapter}{\numberline {E}{Related Files}}{43}{appendix.E}%
+\contentsline {section}{References}{46}{table.caption.25}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

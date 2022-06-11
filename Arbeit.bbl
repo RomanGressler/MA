@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -136,6 +136,13 @@ James~R. Lewis and Jeff Sauro.
 \newblock In Masaaki Kurosu, editor, \emph{Human Centered Design}, pages
   94--103, Berlin, Heidelberg, 2009. Springer Berlin Heidelberg.
 \newblock ISBN 978-3-642-02806-9.
+
+\bibitem[Gibbons and Chakraborti(1991)]{gibbons1991comparisons}
+Jean~D Gibbons and S~Chakraborti.
+\newblock Comparisons of the mann-whitney, student’st, and alternate t tests
+  for means of normal distributions.
+\newblock \emph{The Journal of Experimental Education}, 59\penalty0
+  (3):\penalty0 258--267, 1991.
 
 \bibitem[Santos et~al.(2016)Santos, Miranda, Araujo, Carneiro, Marques, Mota,
   Morais, and Meiguins]{santos2016guidelines}
