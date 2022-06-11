@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  11 JUN 2022 13:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  12 JUN 2022 00:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1771,7 +1771,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [25]
-<Evaluation/img/degree.png, id=604, 433.62pt x 289.08pt>
+<Evaluation/img/degree.png, id=607, 433.62pt x 289.08pt>
 File: Evaluation/img/degree.png Graphic file (type png)
 <use Evaluation/img/degree.png>
 Package pdftex.def Info: Evaluation/img/degree.png  used on input line 392.
@@ -1807,7 +1807,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--423
 [][][][][]$\T1/fvm/m/n/9 https : / / android -[] developers . googleblog . com / 2016 / 08 / taking -[] final -[] wrapper -[]
  []
 
-<Evaluation/img/droid_version.png, id=626, 433.62pt x 289.08pt>
+<Evaluation/img/droid_version.png, id=629, 433.62pt x 289.08pt>
 File: Evaluation/img/droid_version.png Graphic file (type png)
 <use Evaluation/img/droid_version.png>
 Package pdftex.def Info: Evaluation/img/droid_version.png  used on input line 429.
@@ -1816,7 +1816,7 @@ Package pdftex.def Info: Evaluation/img/droid_version.png  used on input line 42
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [27 <./Evaluation/img/droid_version.png>]
-<Evaluation/img/group_time_violin.png, id=642, 433.62pt x 289.08pt>
+<Evaluation/img/group_time_violin.png, id=645, 433.62pt x 289.08pt>
 File: Evaluation/img/group_time_violin.png Graphic file (type png)
 <use Evaluation/img/group_time_violin.png>
 Package pdftex.def Info: Evaluation/img/group_time_violin.png  used on input line 453.
@@ -1825,44 +1825,51 @@ Package pdftex.def Info: Evaluation/img/group_time_violin.png  used on input lin
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [28 <./Evaluation/img/group_time_violin.png>]
-<Evaluation/img/speed1_violin.png, id=657, 1806.75pt x 758.835pt>
+<Evaluation/img/speed1_violin.png, id=660, 1806.75pt x 758.835pt>
 File: Evaluation/img/speed1_violin.png Graphic file (type png)
 <use Evaluation/img/speed1_violin.png>
-Package pdftex.def Info: Evaluation/img/speed1_violin.png  used on input line 483.
+Package pdftex.def Info: Evaluation/img/speed1_violin.png  used on input line 482.
 (pdftex.def)             Requested size: 765.9534pt x 321.70746pt.
 
-Overfull \hbox (99.90343pt too wide) in paragraph at lines 483--484
+Overfull \hbox (99.90343pt too wide) in paragraph at lines 482--483
  [][] 
  []
 
-<Evaluation/img/SUS-Score_violin.png, id=663, 433.62pt x 289.08pt>
-File: Evaluation/img/SUS-Score_violin.png Graphic file (type png)
-<use Evaluation/img/SUS-Score_violin.png>
-Package pdftex.def Info: Evaluation/img/SUS-Score_violin.png  used on input line 504.
-(pdftex.def)             Requested size: 336.0pt x 224.01262pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [29]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [30 <./Evaluation/img/speed1_violin.png>]) (./Conclusion/Conclusion.tex
+ [30 <./Evaluation/img/speed1_violin.png>]
+<Evaluation/img/device_time_violin.png, id=687, 433.62pt x 289.08pt>
+File: Evaluation/img/device_time_violin.png Graphic file (type png)
+<use Evaluation/img/device_time_violin.png>
+Package pdftex.def Info: Evaluation/img/device_time_violin.png  used on input line 518.
+(pdftex.def)             Requested size: 336.0pt x 224.01262pt.
+
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [31 <./Evaluation/img/device_time_violin.png>]
+<Evaluation/img/SUS-Score_violin.png, id=702, 433.62pt x 289.08pt>
+File: Evaluation/img/SUS-Score_violin.png Graphic file (type png)
+<use Evaluation/img/SUS-Score_violin.png>
+Package pdftex.def Info: Evaluation/img/SUS-Score_violin.png  used on input line 544.
+(pdftex.def)             Requested size: 336.0pt x 224.01262pt.
+) (./Conclusion/Conclusion.tex
 Chapter 5.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [31 <./Evaluation/img/SUS-Score_violin.png>]
-Overfull \vbox (6.579pt too high) has occurred while \output is active []
-
- [32
-
-
-]) (./arbeit.gls
+ [32 <./Evaluation/img/SUS-Score_violin.png>]) (./arbeit.gls
 Appendix A.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [33]
+ [33
+
+
+]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [34
@@ -1962,18 +1969,18 @@ Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 45006 strings out of 478353
- 889094 string characters out of 5852102
- 1432523 words of memory out of 5000000
- 61781 multiletter control sequences out of 15000+600000
+ 45020 strings out of 478353
+ 889550 string characters out of 5852102
+ 1432517 words of memory out of 5000000
+ 61792 multiletter control sequences out of 15000+600000
  557765 words of font info for 338 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,22n,109p,10663b,1025s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on Arbeit.pdf (56 pages, 5272736 bytes).
+Output written on Arbeit.pdf (56 pages, 5328774 bytes).
 PDF statistics:
- 1058 PDF objects out of 1200 (max. 8388607)
- 901 compressed objects within 10 object streams
- 162 named destinations out of 1000 (max. 500000)
- 83349 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 1076 PDF objects out of 1200 (max. 8388607)
+ 916 compressed objects within 10 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 83360 words of extra memory for PDF output out of 89155 (max. 10000000)
 

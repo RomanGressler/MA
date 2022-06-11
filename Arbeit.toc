@@ -30,10 +30,10 @@
 \contentsline {paragraph}{{Experience}}{26}{figure.caption.17}%
 \contentsline {paragraph}{{Android device and version}}{27}{figure.caption.17}%
 \contentsline {subsection}{\numberline {4.5.2}{Performance}}{28}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}{Usability}}{29}{subsection.4.5.3}%
-\contentsline {paragraph}{{ASQ}}{29}{subsection.4.5.3}%
-\contentsline {paragraph}{{SUS}}{29}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}{Threads to validity}}{31}{section.4.6}%
+\contentsline {subsection}{\numberline {4.5.3}{Usability}}{32}{subsection.4.5.3}%
+\contentsline {paragraph}{{ASQ}}{32}{subsection.4.5.3}%
+\contentsline {paragraph}{{SUS}}{32}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}{Threads to validity}}{32}{section.4.6}%
 \contentsline {chapter}{\numberline {5}{Conclusion}}{33}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Outlook}}{33}{section.5.1}%
 \contentsline {chapter}{\numberline {A}{Glossary}}{35}{appendix.A}%
@@ -41,5 +41,5 @@
 \contentsline {chapter}{\numberline {C}{List of Figures}}{39}{appendix.C}%
 \contentsline {chapter}{\numberline {D}{List of Tables}}{41}{appendix.D}%
 \contentsline {chapter}{\numberline {E}{Related Files}}{43}{appendix.E}%
-\contentsline {section}{References}{46}{table.caption.25}%
+\contentsline {section}{References}{46}{table.caption.26}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -48,8 +48,8 @@ The two aspects performance and usability will be measured in the following stud
 \begin{enumerate}[{label=\alph*)}]
   \item \textbf{Performance:} The time required for a task in \gls{see} desktop will be called $t_D$ and for mobile $t_M$.
         \begin{itemize}
-          \item \textit{Null Hypothesis} $H_{a0}$: The time required in \gls{see} mobile is higher or the same as the time required in \gls{see} desktop: $t_M \geq t_D$
-          \item \textit{Alternative Hypothesis} $H_{a1}$: The time required in {\gls{see}} mobile is lower as the time required in \gls{see} desktop: $t_M < t_D$
+          \item \textit{Null Hypothesis} $H_{a0}$: The time required in \gls{see} desktop is less or the same as the time required in \gls{see} mobile: $t_D \leq t_M$
+          \item \textit{Alternative Hypothesis} $H_{a1}$: The time required in {\gls{see}} desktop is lower as the time required in \gls{see} mobile: $t_D < t_M$
         \end{itemize}
   \item \textbf{Usability:} Two aspects are measured for \gls{usability}. First the \gls{ASQ}-Score as a \gls{post-task} result and second the \gls{sus}-Score as a \gls{post-study} result.
         \begin{enumerate}[label=\roman*)]
@@ -367,7 +367,7 @@ The used level of significance will be $\alpha = 0.05$.
 \subsubsection{Demographic data}
 In this subsection it will be verified if the two groups differ significantly in their demographic data. 
 Therefore, a two-tailed \gls{utest} that checks whether a set of demographic values from \textit{Group 1} $\neq$  a set of demographic values from \textit{Group 2} will be used.
-Both groups have a sample size of $n = m = 9 $ with $\alpha = 0.05$ which leads to a critical value of $U = 17$ for a two-tailed \gls{utest}.
+Both groups have a sample size of $n = m = 9 $ with $\alpha = 0.05$ which leads to a critical value of $U = 17$ for a two-tailed \gls{utest} (\cite{zar2010biostatistical}).
 
 \paragraph{Gender}\mbox{}\\
 Of 18 participants, 17 reported being male. 
@@ -477,13 +477,53 @@ That could be caused by various reasons as for example:
   \item The subject overlooked a key object and continued the search at wrong areas.
 \end{itemize}
 
-
 \begin{sidewaysfigure}
   \centering
   \includegraphics*[width=1.15\textwidth]{Evaluation/img/speed1_violin.png}
   \caption{Violin plots of all tasks by device}
   \label{fig:speed_violin}
 \end{sidewaysfigure}
+
+To prove the hypothesis, $H_a$ for every task will be checked if the subjects needed significantly less time with the desktop version of \gls{see} than with the mobile version.
+Therefore, a one-sided \gls{utest} will be used.
+The critical value here is $U = 21$.
+
+\begin{description}
+  \item[Task i] The subjects needed an average time of $\approx 80s$ with the desktop version and $\approx 166s$ with the mobile version. 
+  The median here was 47s with the desktop version and 150s with the mobile version. 
+  The medians show that there are son outliers on both sides that took longer than the usual subject needed. 
+  The one-sided \gls{utest} shows, with $U = 19; p \approx 0.03$, that the subjects needed significantly less time than with the mobile version.
+  \item[Task ii] This task shows the lowest notable difference in figure \ref{fig:speed_violin}. 
+  The \gls{utest} shall confirm this assumption with $U=24; p \approx 0.08$.
+  This results that the subjects did not need significantly less time to solve task 2 with the desktop version than with the mobile version.
+  The average time of the desktop version here is $\approx 47s$ and of the mobile version $\approx 74$, while the desktop median lays at $57s$ and the mobile median at $67s$.
+  \item[task iii] In contrast to task 2 this task shows the biggest difference in figure \ref{fig:speed_violin} and once again the one-sided \gls{utest} approves this clearly with a result of $U=12.0;p \approx 0.007$. 
+  This shows that the desktop version needed significantly less time than the mobile version once more. 
+  Also, the average time needed spread quite far with an average of $\approx 82s$ for the desktop version and $\approx 247s$ for the mobile version.
+  The median values are 77s for the desktop version and 151s for the mobile version.
+  The desktop median is almost the same as the desktop average while the mobile median is again quite far from the average, which shows that there are again some outliers that took much longer than the usual subject. 
+  This could, among other things, be caused by the reported bad performance of the devices \enquote{Huawei P20 Pro} and \enquote{Huawei P10 Lite}, which were used for task 3.
+  \item[Task iv] The average time needed to complete the task was $\approx 67s$ for the desktop version and $\approx 113s$ for the mobile version. 
+  The medians here were 46s for the desktop version and 111s for the mobile version. 
+  The values differ quite much and the \gls{utest} validates one last time that the desktop version needed significantly less time than the mobile version to complete the tasks ($U=17.5;p \approx 0.023$).
+\end{description}
+
+To close this section figure \ref{fig:device_time_violin} shows the total time needed for all tasks by used device.
+The \gls{utest} has a clear result of $U=11.0$ and $p \approx 0.005$.
+Therefore, the null hypothesis $H_a0:$ \enquote{The time required in \gls{see} desktop is less
+or the same as the time required in see mobile} can not be rejected.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics*[width=1\textwidth]{Evaluation/img/device_time_violin.png}
+  \caption{Total time the subjects needed on the different devices as violin plot}
+  \label{fig:device_time_violin}
+\end{figure}
+
+Summarized it can be said that the subjects were faster on the desktop version of \gls{see}.
+All data sets regarding the required time to solve the four tasks are comparable even crossed over like for example task 1 and task 3. 
+Only for one task the subjects did not need significantly less time on the desktop version, but the border value to a significant result was quite close.
+All in all the desktop version did perform better than the mobile version regarding the required time.
 
 \subsubsection{Usability}
 \paragraph{ASQ}\mbox{}\\
