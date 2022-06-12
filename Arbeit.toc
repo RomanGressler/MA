@@ -32,7 +32,7 @@
 \contentsline {subsection}{\numberline {4.5.2}{Performance}}{28}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}{Usability}}{32}{subsection.4.5.3}%
 \contentsline {paragraph}{{ASQ}}{32}{subsection.4.5.3}%
-\contentsline {paragraph}{{SUS}}{32}{figure.caption.29}%
+\contentsline {paragraph}{{SUS}}{34}{figure.caption.29}%
 \contentsline {section}{\numberline {4.6}{Threads to validity}}{34}{section.4.6}%
 \contentsline {chapter}{\numberline {5}{Conclusion}}{39}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Outlook}}{39}{section.5.1}%

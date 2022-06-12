@@ -539,13 +539,14 @@ Having another look at figure \ref{fig:asq_group} the result on \textit{Group 1}
 Comparing the two groups without the described results of \textit{Group 1} results in a \gls{utest} of $U=266.5; p \approx 0.29$, which means without the subset of \textit{Group 1} the two groups show no significant difference.
 
 \begin{sidewaysfigure}
+  \hspace*{-1.5in}
   \centering
   \includegraphics*[width=1.15\textwidth]{Evaluation/img/group_asq_violin.png}
   \caption{Violin plots of all tasks by group}
   \label{fig:asq_group}
 \end{sidewaysfigure}
 
-To ensure a good comparability further on the all task will be looked a separately. 
+To ensure a good comparability further on the all task will be looked at separately. 
 The \gls{ASQ} consists of three questions.
 Each representing a different aspect.
 In the following all tasks will be compared as shown in table \ref{table:asq_combi}.
@@ -556,11 +557,11 @@ In the following all tasks will be compared as shown in table \ref{table:asq_com
     ASQ Question                        & \multicolumn{4}{l}{Complexity}  \\ \hline
     \multicolumn{1}{l|}{Group 1, Task:} & 1       & 2     & 3     & 4     \\
     \multicolumn{1}{l|}{Group 2, Task:} & 3       & 4     & 1     & 2     \\
-    \multicolumn{1}{l|}{Mann-Whitney-U} & $U=47 ;p \approx 0.58$ & $U=37.5;p \approx 0.81$ & $U=7.0;p \approx 0.003$  & $U= 24.5;p \approx 0.16$      \\ \hline
+    \multicolumn{1}{l|}{Mann-Whitney-U} & $U=47 ;p \approx 0.58$ & $U=37.5;p \approx 0.81$ & \cellcolor[HTML]{FFFC9E} $U=7.0;p \approx 0.003$  & $U= 24.5;p \approx 0.16$      \\ \hline
     ASQ Question                        & \multicolumn{4}{l}{Effort}      \\ \hline
     \multicolumn{1}{l|}{Group 1, Task:} & 1       & 2     & 3     & 4     \\
     \multicolumn{1}{l|}{Group 2, Task:} & 3       & 4     & 1     & 2     \\
-    \multicolumn{1}{l|}{Mann-Whitney-U} & $U= 44;p \approx 0.78$        & $U=37 ;p \approx 0.78$      & $U= 13.5;p \approx 0.02$      & $U= 23;p \approx 0.11$      \\ \hline
+    \multicolumn{1}{l|}{Mann-Whitney-U} & $U= 44;p \approx 0.78$        & $U=37 ;p \approx 0.78$      & \cellcolor[HTML]{FFFC9E} $U= 13.5;p \approx 0.02$      & $U= 23;p \approx 0.11$      \\ \hline
     ASQ Question                        & \multicolumn{4}{l}{Information} \\ \hline
     \multicolumn{1}{l|}{Group 1, Task:} & 1       & 2     & 3     & 4     \\
     \multicolumn{1}{l|}{Group 2, Task:} & 3       & 4     & 1     & 2     \\
@@ -571,26 +572,40 @@ In the following all tasks will be compared as shown in table \ref{table:asq_com
   \label{table:asq_combi}
   \end{table}
 
-\begin{figure}
+The two marked \glspl{utest} in table \ref{table:asq_combi} as they show that the pair \textit{Group 1, Task 3 - Group 2, Task 1 - ASQ Question 1} as well as \textit{Group 1, Task 3 - Group 2, Task 1 - ASQ Question 2} have significant differences.
+As those two pairs are not comparable, they will not be observed further on.
+All remaining results can be seen in figure \ref{fig:effort_violin} for the ASQ aspect effort, in figure \ref{fig:complexity_violin} for ASQ aspect complexity as well as in figure \ref{fig:info_violin} which covers the \gls{ASQ} aspect information.
+
+\begin{figure}[htb]
+  \hspace*{-1.4in}
   \centering
-  \includegraphics*[width=1\textwidth]{Evaluation/img/effort_violin.png}
+  \includegraphics*[width=1.4\textwidth]{Evaluation/img/effort_violin.png}
   \caption{ASQ effort results violin plots of all tasks by device}
   \label{fig:effort_violin}
 \end{figure}
 
-\begin{sidewaysfigure}
+\begin{figure}[htb]
+  \hspace*{-1.4in}
   \centering
-  \includegraphics*[width=1.15\textwidth]{Evaluation/img/complexity_violin.png}
+  \includegraphics*[width=1.4\textwidth]{Evaluation/img/complexity_violin.png}
   \caption{ASQ complexity results violin plots of all tasks by device}
   \label{fig:complexity_violin}
-\end{sidewaysfigure}
+\end{figure}
 
-\begin{sidewaysfigure}
+\begin{sidewaysfigure}[htb]
+  \hspace*{-1.5in}
   \centering
   \includegraphics*[width=1.15\textwidth]{Evaluation/img/information_violin.png}
   \caption{ASQ information results violin plots of all tasks by device}
   \label{fig:info_violin}
 \end{sidewaysfigure}
+
+The \gls{utest} only shows significant findings for two tasks:
+\begin{description}
+  \item[Task iii] The desktop version of \gls{see} has significant better results than the mobile version in the aspect of information. 
+  The subjects rated the desktop version with an average score of 6.22 and a median score of 7, while the mobile version was rated an average of 6.44 and a median of 5.22.
+  \item[Task iv]  
+\end{description}
 
 \begin{figure}[htb]
   \centering
@@ -601,8 +616,8 @@ In the following all tasks will be compared as shown in table \ref{table:asq_com
 \begin{table}[htb]
   \resizebox{\textwidth}{!}{%
   \begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
-  D & 60 & 58 & 80 & 60 & 78 & 70 & 85 & 53 & 80 & 88 & 80 & 50 & 63 & 85 & 50 & 93 & 100  & 85 \\
-  M & 38 & 53 & 83 & 53 & 53 & 30 & 88 & 35 & 43 & 86 & 48 & 48 & 55 & 90 & 50 & 88 & 98 & 58
+  D & 5.8 & 4.7 & 6.3 & 5.2 & 6.8 & 5.8 & 6.7 & 6.3 & 4.8 & 6.7 & 6.7 & 5.8 & 5.3 & 6.8 & 5.0 & 6.5 & 6.8 & 6.3 \\
+  M & 6.8 & 6.8 & 6.0 & 6.8 & 6.3 & 4.0 & 6.0 & 7.0 & 6.3 & 6.3 & 5.0 & 6.0 & 5.3 & 5.3 & 2.3 & 7.0 & 5.3 & 3.0
   \end{tabular}%
   }
   \caption{The \gls{ASQ}-scores from all 18 subjects. The first row contains the \gls{ASQ}-scores for the desktop application and the second row for the mobile application. The figures have been rounded to whole numbers.}
