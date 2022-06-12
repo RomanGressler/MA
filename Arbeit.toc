@@ -32,8 +32,8 @@
 \contentsline {subsection}{\numberline {4.5.2}{Performance}}{28}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}{Usability}}{32}{subsection.4.5.3}%
 \contentsline {paragraph}{{ASQ}}{32}{subsection.4.5.3}%
-\contentsline {paragraph}{{SUS}}{32}{figure.caption.28}%
-\contentsline {section}{\numberline {4.6}{Threads to validity}}{32}{section.4.6}%
+\contentsline {paragraph}{{SUS}}{32}{figure.caption.29}%
+\contentsline {section}{\numberline {4.6}{Threads to validity}}{34}{section.4.6}%
 \contentsline {chapter}{\numberline {5}{Conclusion}}{39}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Outlook}}{39}{section.5.1}%
 \contentsline {chapter}{\numberline {A}{Glossary}}{41}{appendix.A}%
@@ -41,5 +41,5 @@
 \contentsline {chapter}{\numberline {C}{List of Figures}}{45}{appendix.C}%
 \contentsline {chapter}{\numberline {D}{List of Tables}}{47}{appendix.D}%
 \contentsline {chapter}{\numberline {E}{Related Files}}{49}{appendix.E}%
-\contentsline {section}{References}{52}{table.caption.33}%
+\contentsline {section}{References}{52}{table.caption.34}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

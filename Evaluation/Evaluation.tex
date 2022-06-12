@@ -530,11 +530,13 @@ This section will discuss the results of the usability questionnaires presented 
 First the \gls{ASQ} results will be analyzed and second the \gls{sus} results to test the hypotheses presented in section \ref{aim}.
 \paragraph{ASQ}\mbox{}\\
 As a start the \gls{post-task} questionnaire will be looked at. 
-Figure \ref{fig:asq-group} shows the ASQ results by group independent of the used device.
+Figure \ref{fig:asq_group} shows the ASQ results by group independent of the used device.
 Unfortunately the result differ significantly as the \gls{utest} shows with $U=392.5$ and $p \approx 0.0037$.
 Therefore, a deeper look is needed. 
 The results of \textit{Group 1} do not differ significantly from \textit{Group 2} looking only at the tasks completed with the desktop device as the \gls{utest} shows with $U=122.5$ and $p \approx 0.21$.
 On the other hand side the results only caused by completing tasks with a mobile device differ significantly as the \gls{utest} shows ($U=73.0;p \approx 0.0048$).
+Having another look at figure \ref{fig:asq_group} the result on \textit{Group 1} only on the mobile stands out. 
+Comparing the two groups without the described results of \textit{Group 1} results in a \gls{utest} of $U=266.5; p \approx 0.29$, which means without the subset of \textit{Group 1} the two groups show no significant difference.
 
 \begin{sidewaysfigure}
   \centering
@@ -542,6 +544,32 @@ On the other hand side the results only caused by completing tasks with a mobile
   \caption{Violin plots of all tasks by group}
   \label{fig:asq_group}
 \end{sidewaysfigure}
+
+To ensure a good comparability further on the all task will be looked a separately. 
+The \gls{ASQ} consists of three questions.
+Each representing a different aspect.
+In the following all tasks will be compared as shown in table \ref{table:asq_combi}.
+
+\begin{table}[htb]
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{lllll}
+    ASQ Question                        & \multicolumn{4}{l}{Complexity}  \\ \hline
+    \multicolumn{1}{l|}{Group 1, Task:} & 1       & 2     & 3     & 4     \\
+    \multicolumn{1}{l|}{Group 2, Task:} & 3       & 4     & 1     & 2     \\
+    \multicolumn{1}{l|}{Mann-Whitney-U} & $U=47 ;p \approx 0.58$ & $U=37.5;p \approx 0.81$ & $U=7.0;p \approx 0.003$  & $U= 24.5;p \approx 0.16$      \\ \hline
+    ASQ Question                        & \multicolumn{4}{l}{Effort}      \\ \hline
+    \multicolumn{1}{l|}{Group 1, Task:} & 1       & 2     & 3     & 4     \\
+    \multicolumn{1}{l|}{Group 2, Task:} & 3       & 4     & 1     & 2     \\
+    \multicolumn{1}{l|}{Mann-Whitney-U} & $U= 44;p \approx 0.78$        & $U=37 ;p \approx 0.78$      & $U= 13.5;p \approx 0.02$      & $U= 23;p \approx 0.11$      \\ \hline
+    ASQ Question                        & \multicolumn{4}{l}{Information} \\ \hline
+    \multicolumn{1}{l|}{Group 1, Task:} & 1       & 2     & 3     & 4     \\
+    \multicolumn{1}{l|}{Group 2, Task:} & 3       & 4     & 1     & 2     \\
+    \multicolumn{1}{l|}{Mann-Whitney-U} & $U= 39.5;p \approx 0.96$ & $U= 36;p \approx 0.70$      & $U= 20.5;p \approx 0.07$      & $U= 20.5;p \approx 0.07$     
+    \end{tabular}%
+  }
+  \caption{Two-sided \gls{utest} for each comparable question on the same device}
+  \label{table:asq_combi}
+  \end{table}
 
 \begin{figure}
   \centering
