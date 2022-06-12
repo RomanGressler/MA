@@ -55,15 +55,15 @@ The two aspects performance and usability will be measured in the following stud
         \begin{enumerate}[label=\roman*)]
           \item \textbf{ASQ:} Once again the aspect has to be split into three child aspects, because the three questions of the \gls{ASQ} are independent:
                 \begin{enumerate}[{label=\arabic*)}]
-                  \item The \gls{ASQ}-Score for \textit{effort} for \gls{see} desktop is called $A_{eD}$ and for \gls{see} mobile is called $A_{eM}$
-                        \begin{itemize}
-                          \item \textit{Null Hypothesis} $H_{b0}$: The \gls{ASQ}-Score for \textit{effort} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{eD} \geq A_{eM}$
-                          \item \textit{Alternative Hypothesis} $H_{b1}$: The \gls{ASQ}-Score for \textit{effort} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{eD} < A_{eM}$
-                        \end{itemize}
                   \item The \gls{ASQ}-Score for \textit{complexity} for \gls{see} desktop is called $A_{cD}$ and for \gls{see} mobile is called $A_{cM}$
                         \begin{itemize}
                           \item \textit{Null Hypothesis} $H_{c0}$: The \gls{ASQ}-Score for \textit{complexity} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{cD} \geq A_{cM}$
                           \item \textit{Alternative Hypothesis} $H_{c1}$: The \gls{ASQ}-Score for \textit{complexity} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{cD} < A_{cM}$
+                        \end{itemize}
+                  \item The \gls{ASQ}-Score for \textit{effort} for \gls{see} desktop is called $A_{eD}$ and for \gls{see} mobile is called $A_{eM}$
+                        \begin{itemize}
+                          \item \textit{Null Hypothesis} $H_{b0}$: The \gls{ASQ}-Score for \textit{effort} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{eD} \geq A_{eM}$
+                          \item \textit{Alternative Hypothesis} $H_{b1}$: The \gls{ASQ}-Score for \textit{effort} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{eD} < A_{eM}$
                         \end{itemize}
                   \item The \gls{ASQ}-Score for \textit{information} for \gls{see} desktop is called $A_{iD}$ and for \gls{see} mobile is called $A_{iM}$
                         \begin{itemize}
@@ -526,8 +526,66 @@ Only for one task the subjects did not need significantly less time on the deskt
 All in all the desktop version did perform better than the mobile version regarding the required time.
 
 \subsubsection{Usability}
+This section will discuss the results of the usability questionnaires presented in section \ref{questionaires}.
+First the \gls{ASQ} results will be analyzed and second the \gls{sus} results to test the hypotheses presented in section \ref{aim}.
 \paragraph{ASQ}\mbox{}\\
-...
+As a start the \gls{post-task} questionnaire will be looked at. 
+Figure \ref{fig:asq-group} shows the ASQ results by group independent of the used device.
+Unfortunately the result differ significantly as the \gls{utest} shows with $U=392.5$ and $p \approx 0.0037$.
+Therefore, a deeper look is needed. 
+The results of \textit{Group 1} do not differ significantly from \textit{Group 2} looking only at the tasks completed with the desktop device as the \gls{utest} shows with $U=122.5$ and $p \approx 0.21$.
+On the other hand side the results only caused by completing tasks with a mobile device differ significantly as the \gls{utest} shows ($U=73.0;p \approx 0.0048$).
+
+\begin{sidewaysfigure}
+  \centering
+  \includegraphics*[width=1.15\textwidth]{Evaluation/img/group_asq_violin.png}
+  \caption{Violin plots of all tasks by group}
+  \label{fig:asq_group}
+\end{sidewaysfigure}
+
+\begin{figure}
+  \centering
+  \includegraphics*[width=1\textwidth]{Evaluation/img/effort_violin.png}
+  \caption{ASQ effort results violin plots of all tasks by device}
+  \label{fig:effort_violin}
+\end{figure}
+
+\begin{sidewaysfigure}
+  \centering
+  \includegraphics*[width=1.15\textwidth]{Evaluation/img/complexity_violin.png}
+  \caption{ASQ complexity results violin plots of all tasks by device}
+  \label{fig:complexity_violin}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+  \centering
+  \includegraphics*[width=1.15\textwidth]{Evaluation/img/information_violin.png}
+  \caption{ASQ information results violin plots of all tasks by device}
+  \label{fig:info_violin}
+\end{sidewaysfigure}
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=1\textwidth]{Evaluation/img/complete_asq_violin.png}
+  \caption{The ASQ-Scores of the two groups}\label{fig:asq-group-vio}
+\end{figure}
+
+\begin{table}[htb]
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
+  D & 60 & 58 & 80 & 60 & 78 & 70 & 85 & 53 & 80 & 88 & 80 & 50 & 63 & 85 & 50 & 93 & 100  & 85 \\
+  M & 38 & 53 & 83 & 53 & 53 & 30 & 88 & 35 & 43 & 86 & 48 & 48 & 55 & 90 & 50 & 88 & 98 & 58
+  \end{tabular}%
+  }
+  \caption{The \gls{ASQ}-scores from all 18 subjects. The first row contains the \gls{ASQ}-scores for the desktop application and the second row for the mobile application. The figures have been rounded to whole numbers.}
+  \end{table}
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=1\textwidth]{Evaluation/img/complete_asq_violin.png}
+  \caption{The ASQ-Scores of the two \gls{see} versions}\label{fig:asq-vio}
+\end{figure}
+
 \paragraph{SUS}\mbox{}\\
 \begin{table}[htb]
   \resizebox{\textwidth}{!}{%
@@ -539,7 +597,7 @@ All in all the desktop version did perform better than the mobile version regard
   \caption{The \gls{sus}-scores from all 18 subjects. The first row contains the \gls{sus}-scores for the desktop application and the second row for the mobile application. The figures have been rounded to whole numbers.}
   \end{table}
 
-  \begin{figure}[H]
+  \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Evaluation/img/SUS-Score_violin.png}
     \caption{The SUS-Scores of the two \gls{see} versions}\label{fig:sus-vio}
