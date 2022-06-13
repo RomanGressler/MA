@@ -57,13 +57,13 @@ The two aspects performance and usability will be measured in the following stud
                 \begin{enumerate}[{label=\arabic*)}]
                   \item The \gls{ASQ}-Score for \textit{complexity} for \gls{see} desktop is called $A_{cD}$ and for \gls{see} mobile is called $A_{cM}$
                         \begin{itemize}
-                          \item \textit{Null Hypothesis} $H_{c0}$: The \gls{ASQ}-Score for \textit{complexity} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{cD} \geq A_{cM}$
-                          \item \textit{Alternative Hypothesis} $H_{c1}$: The \gls{ASQ}-Score for \textit{complexity} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{cD} < A_{cM}$
+                          \item \textit{Null Hypothesis} $H_{b0}$: The \gls{ASQ}-Score for \textit{complexity} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{cD} \geq A_{cM}$
+                          \item \textit{Alternative Hypothesis} $H_{b1}$: The \gls{ASQ}-Score for \textit{complexity} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{cD} < A_{cM}$
                         \end{itemize}
                   \item The \gls{ASQ}-Score for \textit{effort} for \gls{see} desktop is called $A_{eD}$ and for \gls{see} mobile is called $A_{eM}$
                         \begin{itemize}
-                          \item \textit{Null Hypothesis} $H_{b0}$: The \gls{ASQ}-Score for \textit{effort} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{eD} \geq A_{eM}$
-                          \item \textit{Alternative Hypothesis} $H_{b1}$: The \gls{ASQ}-Score for \textit{effort} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{eD} < A_{eM}$
+                          \item \textit{Null Hypothesis} $H_{c0}$: The \gls{ASQ}-Score for \textit{effort} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{eD} \geq A_{eM}$
+                          \item \textit{Alternative Hypothesis} $H_{c1}$: The \gls{ASQ}-Score for \textit{effort} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{eD} < A_{eM}$
                         \end{itemize}
                   \item The \gls{ASQ}-Score for \textit{information} for \gls{see} desktop is called $A_{iD}$ and for \gls{see} mobile is called $A_{iM}$
                         \begin{itemize}
@@ -604,9 +604,24 @@ The \gls{utest} only shows significant findings for two tasks:
 \begin{description}
   \item[Task iii] The desktop version of \gls{see} has significant better results than the mobile version in the aspect of information. 
   The subjects rated the desktop version with an average score of 6.22 and a median score of 7, while the mobile version was rated an average of 6.44 and a median of 5.22.
-  \item[Task iv]  
+  The \gls{utest} results here are $U = 20.5$ and $p \approx 0.037$.
+  \item[Task iv]  The desktop version also showed better results for the aspect of information in this task. 
+  The subjects rated the desktop version with an average score of 6.44 and a median of 7, while the mobile version was rated with an average of 5.22 and a median of 6. 
+  The \gls{utest} resulted in $U=20.5$ and $p \approx 0.035$ in a one-sided test, which means the desktop version got a significantly higher rating than the mobile version.
 \end{description}
 
+All other tasks show significant higher or lower results. 
+It is also to mention that only the desktop version only scored a significant higher value at the aspect of information.
+That was to be expected because the mobile versions offer less information because of its constrains regarding the screen size. 
+The mobile version uses for example only icon button and not text buttons like the desktop version, which safe screen space but sacrifices information value since the user has to remember the meaning of each icon.
+
+Finally, the hypotheses $H_b$, $H_c$, $H_d$ can be rated:
+
+\begin{description}
+  \item[$H_b$] 
+  \item[$H_c$]
+  \item[$H_d$]  
+\end{description}
 \begin{figure}[htb]
   \centering
   \includegraphics[width=1\textwidth]{Evaluation/img/complete_asq_violin.png}
@@ -622,12 +637,6 @@ The \gls{utest} only shows significant findings for two tasks:
   }
   \caption{The \gls{ASQ}-scores from all 18 subjects. The first row contains the \gls{ASQ}-scores for the desktop application and the second row for the mobile application. The figures have been rounded to whole numbers.}
   \end{table}
-
-\begin{figure}[htb]
-  \centering
-  \includegraphics[width=1\textwidth]{Evaluation/img/complete_asq_violin.png}
-  \caption{The ASQ-Scores of the two \gls{see} versions}\label{fig:asq-vio}
-\end{figure}
 
 \paragraph{SUS}\mbox{}\\
 \begin{table}[htb]
@@ -646,5 +655,6 @@ The \gls{utest} only shows significant findings for two tasks:
     \caption{The SUS-Scores of the two \gls{see} versions}\label{fig:sus-vio}
   \end{figure}
 
+  \subsection{Impact of experience}
   \subsection{Threads to validity}
   \label{sec:validity}
