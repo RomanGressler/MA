@@ -21,10 +21,10 @@
 \contentsline {paragraph}{{Post-study questionnaire}}{21}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}{Pilot study}}{22}{subsection.4.4.3}%
 \contentsline {subsection}{\numberline {4.4.4}{Final experiment set up}}{22}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}{Execution}}{25}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.5}{Execution}}{23}{subsection.4.4.5}%
 \contentsline {section}{\numberline {4.5}{Results}}{25}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}{Demographic data}}{25}{subsection.4.5.1}%
-\contentsline {paragraph}{{Gender}}{26}{subsection.4.5.1}%
+\contentsline {paragraph}{{Gender}}{25}{subsection.4.5.1}%
 \contentsline {paragraph}{{Age}}{26}{subsection.4.5.1}%
 \contentsline {paragraph}{{Highest degree}}{26}{subsection.4.5.1}%
 \contentsline {paragraph}{{Experience}}{26}{figure.caption.17}%
@@ -32,9 +32,9 @@
 \contentsline {subsection}{\numberline {4.5.2}{Performance}}{28}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}{Usability}}{32}{subsection.4.5.3}%
 \contentsline {paragraph}{{ASQ}}{32}{subsection.4.5.3}%
-\contentsline {paragraph}{{SUS}}{35}{table.caption.28}%
-\contentsline {section}{\numberline {4.6}{Impact of experience}}{35}{section.4.6}%
-\contentsline {section}{\numberline {4.7}{Threads to validity}}{35}{section.4.7}%
+\contentsline {paragraph}{{SUS}}{37}{table.caption.27}%
+\contentsline {section}{\numberline {4.6}{Impact of experience}}{38}{section.4.6}%
+\contentsline {section}{\numberline {4.7}{Threads to validity}}{38}{section.4.7}%
 \contentsline {chapter}{\numberline {5}{Conclusion}}{39}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Outlook}}{39}{section.5.1}%
 \contentsline {chapter}{\numberline {A}{Glossary}}{41}{appendix.A}%

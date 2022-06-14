@@ -10,7 +10,8 @@
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossentry{utest}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{25\delimR 29}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{31\delimN 32}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{31\delimN 32}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{34\delimN 35}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossentry{node}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 

@@ -2289,7 +2289,6 @@ INPUT Evaluation/img/menu.png
 INPUT ./Evaluation/img/menu.png
 INPUT ./Evaluation/img/menu.png
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tlf-sc-t1.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-sc-t1.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -2305,6 +2304,7 @@ INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-sc-t1.tfm
 INPUT ./Evaluation/img/city_1.png
 INPUT ./Evaluation/img/city_1.png
 INPUT Evaluation/img/city_1.png
@@ -2459,16 +2459,18 @@ INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT ./Evaluation/img/complete_asq_violin.png
-INPUT ./Evaluation/img/complete_asq_violin.png
-INPUT Evaluation/img/complete_asq_violin.png
-INPUT ./Evaluation/img/complete_asq_violin.png
-INPUT ./Evaluation/img/complete_asq_violin.png
+INPUT ./Evaluation/img/SUS-Score_group_violin.png
+INPUT ./Evaluation/img/SUS-Score_group_violin.png
+INPUT Evaluation/img/SUS-Score_group_violin.png
+INPUT ./Evaluation/img/SUS-Score_group_violin.png
+INPUT ./Evaluation/img/SUS-Score_group_violin.png
 INPUT ./Evaluation/img/SUS-Score_violin.png
 INPUT ./Evaluation/img/SUS-Score_violin.png
 INPUT Evaluation/img/SUS-Score_violin.png
 INPUT ./Evaluation/img/SUS-Score_violin.png
 INPUT ./Evaluation/img/SUS-Score_violin.png
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT ./Conclusion/Conclusion.tex
 INPUT Conclusion/Conclusion.tex
 INPUT ./Conclusion/Conclusion.tex
@@ -2516,6 +2518,7 @@ INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb

@@ -4,45 +4,45 @@ The top-level auxiliary file: Arbeit.aux
 The style file: unsrtnat.bst
 Database file #1: sources.bib
 Warning--can't use both volume and number fields in grier2013system
-You've used 23 entries,
+You've used 22 entries,
             2481 wiz_defined-function locations,
-            713 strings with 8980 characters,
-and the built_in function-call counts, 9291 in all, are:
-= -- 824
-> -- 415
-< -- 21
-+ -- 165
-- -- 119
-* -- 683
-:= -- 1439
-add.period$ -- 80
-call.type$ -- 23
-change.case$ -- 43
-chr.to.int$ -- 23
-cite$ -- 24
-duplicate$ -- 498
-empty$ -- 867
-format.name$ -- 158
-if$ -- 2024
+            703 strings with 8763 characters,
+and the built_in function-call counts, 8762 in all, are:
+= -- 770
+> -- 396
+< -- 19
++ -- 158
+- -- 114
+* -- 649
+:= -- 1362
+add.period$ -- 75
+call.type$ -- 22
+change.case$ -- 41
+chr.to.int$ -- 22
+cite$ -- 23
+duplicate$ -- 469
+empty$ -- 819
+format.name$ -- 150
+if$ -- 1901
 int.to.chr$ -- 1
-int.to.str$ -- 24
-missing$ -- 26
-newline$ -- 130
-num.names$ -- 71
-pop$ -- 194
+int.to.str$ -- 23
+missing$ -- 25
+newline$ -- 124
+num.names$ -- 66
+pop$ -- 184
 preamble$ -- 1
-purify$ -- 23
+purify$ -- 22
 quote$ -- 0
-skip$ -- 311
+skip$ -- 291
 stack$ -- 0
-substring$ -- 438
-swap$ -- 101
-text.length$ -- 7
+substring$ -- 409
+swap$ -- 92
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
+type$ -- 145
 warning$ -- 1
-while$ -- 82
+while$ -- 76
 width$ -- 0
-write$ -- 323
+write$ -- 306
 (There was 1 warning)

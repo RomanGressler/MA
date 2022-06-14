@@ -48,7 +48,7 @@ The two aspects performance and usability will be measured in the following stud
 \begin{enumerate}[{label=\alph*)}]
   \item \textbf{Performance:} The time required for a task in \gls{see} desktop will be called $t_D$ and for mobile $t_M$.
         \begin{itemize}
-          \item \textit{Null Hypothesis} $H_{a0}$: The time required in \gls{see} desktop is less or the same as the time required in \gls{see} mobile: $t_D \leq t_M$
+          \item \textit{Null Hypothesis} $H_{a0}$: The time required in \gls{see} desktop is higher or the same as the time required in \gls{see} mobile: $t_D \geq t_M$
           \item \textit{Alternative Hypothesis} $H_{a1}$: The time required in {\gls{see}} desktop is lower as the time required in \gls{see} mobile: $t_D < t_M$
         \end{itemize}
   \item \textbf{Usability:} Two aspects are measured for \gls{usability}. First the \gls{ASQ}-Score as a \gls{post-task} result and second the \gls{sus}-Score as a \gls{post-study} result.
@@ -57,25 +57,25 @@ The two aspects performance and usability will be measured in the following stud
                 \begin{enumerate}[{label=\arabic*)}]
                   \item The \gls{ASQ}-Score for \textit{complexity} for \gls{see} desktop is called $A_{cD}$ and for \gls{see} mobile is called $A_{cM}$
                         \begin{itemize}
-                          \item \textit{Null Hypothesis} $H_{b0}$: The \gls{ASQ}-Score for \textit{complexity} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{cD} \geq A_{cM}$
-                          \item \textit{Alternative Hypothesis} $H_{b1}$: The \gls{ASQ}-Score for \textit{complexity} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{cD} < A_{cM}$
+                          \item \textit{Null Hypothesis} $H_{b0}$: The \gls{ASQ}-Score for \textit{complexity} is higher or even for \gls{see} mobile than on \gls{see} desktop: $A_{cM} \geq A_{cD}$
+                          \item \textit{Alternative Hypothesis} $H_{b1}$: The \gls{ASQ}-Score for \textit{complexity} is higher for \gls{see} desktop than on \gls{see} mobile: $A_{cD} > A_{cM}$
                         \end{itemize}
                   \item The \gls{ASQ}-Score for \textit{effort} for \gls{see} desktop is called $A_{eD}$ and for \gls{see} mobile is called $A_{eM}$
                         \begin{itemize}
-                          \item \textit{Null Hypothesis} $H_{c0}$: The \gls{ASQ}-Score for \textit{effort} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{eD} \geq A_{eM}$
-                          \item \textit{Alternative Hypothesis} $H_{c1}$: The \gls{ASQ}-Score for \textit{effort} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{eD} < A_{eM}$
+                          \item \textit{Null Hypothesis} $H_{b0}$: The \gls{ASQ}-Score for \textit{effort} is higher or even for \gls{see} mobile than on \gls{see} desktop: $A_{eM} \geq A_{eD}$
+                          \item \textit{Alternative Hypothesis} $H_{b1}$: The \gls{ASQ}-Score for \textit{effort} is higher for \gls{see} desktop than on \gls{see} mobile: $A_{eD} > A_{eM}$
                         \end{itemize}
                   \item The \gls{ASQ}-Score for \textit{information} for \gls{see} desktop is called $A_{iD}$ and for \gls{see} mobile is called $A_{iM}$
                         \begin{itemize}
-                          \item \textit{Null Hypothesis} $H_{d0}$: The \gls{ASQ}-Score for \textit{information} is higher or even for \gls{see} desktop than on \gls{see} mobile: $A_{iD} \geq A_{iM}$
-                          \item \textit{Alternative Hypothesis} $H_{d1}$: The \gls{ASQ}-Score for \textit{information} is lower for \gls{see} desktop than on \gls{see} mobile: $A_{iD} < A_{iM}$
+                          \item \textit{Null Hypothesis} $H_{b0}$: The \gls{ASQ}-Score for \textit{information} is higher or even for \gls{see} mobile than on \gls{see} desktop: $A_{iM} \geq A_{iD}$
+                          \item \textit{Alternative Hypothesis} $H_{b1}$: The \gls{ASQ}-Score for \textit{information} is higher for \gls{see} desktop than on \gls{see} mobile: $A_{iD} > A_{iM}$
                         \end{itemize}
                 \end{enumerate}
 
           \item \textbf{SUS:} The \gls{sus}-Score is called $S_D$ for \gls{see} desktop and $S_M$ for \gls{see} mobile.
                 \begin{itemize}
-                  \item \textit{Null Hypothesis} $H_{e0}$: The \gls{sus}-Score is higher or even for \gls{see} desktop than for \gls{see} mobile: $S_D \geq S_M$
-                  \item \textit{Alternative Hypothesis} $H_{e1}$: The \gls{sus}-Score is lower for \gls{see} desktop than for \gls{see} mobile: $S_D < S_M$
+                  \item \textit{Null Hypothesis} $H_{e0}$: The \gls{sus}-Score is higher or even for \gls{see} mobile than for \gls{see} desktop: $S_M \geq S_D$
+                  \item \textit{Alternative Hypothesis} $H_{e1}$: The \gls{sus}-Score is lower for \gls{see} mobile than for \gls{see} desktop: $S_M > S_D$
                 \end{itemize}
         \end{enumerate}
 \end{enumerate}
@@ -218,7 +218,6 @@ The \gls{sus} is used in this study for the following advantages:
   \item It has been made publicly available and is free to use (\cite{brooke1996sus}).
   \item It is widely used and therefore already proven to give useful results (\cite{brooke2013}; \cite{lewis2018system}; \cite{grier2013system}).
   \item According to \cite{doi:10.1177/1541931213571043} and \cite{doi:10.1080/10447310802205776} it is suited to compare two systems.
-  \item Besides \gls{usability} \cite{10.1007/978-3-642-02806-9_12} finds that also learnability is measured, which will also be looked at later on in section \ref{results}.
 \end{itemize}
 The \gls{sus} questionnaire will contain as already mentioned ten questions.
 Each question will give a five-level rating from \enquote{strongly disagree} to \enquote{strongly agree}.
@@ -509,9 +508,9 @@ The critical value here is $U = 21$.
 \end{description}
 
 To close this section figure \ref{fig:device_time_violin} shows the total time needed for all tasks by used device.
-The \gls{utest} has a clear result of $U=11.0$ and $p \approx 0.005$.
-Therefore, the null hypothesis $H_a0:$ \enquote{The time required in \gls{see} desktop is less
-or the same as the time required in see mobile} can not be rejected.
+The one-sided \gls{utest} for the null hypothesis has a clear result of $U=11.0$ and $p \approx 0.005$.
+Therefore, the null hypothesis $H_a0:$ \enquote{The time required in \gls{see} desktop is higher
+or the same as the time required in see mobile} can be rejected, and the alternative hypothesis can be assumed true.
 
 \begin{figure}[htb]
   \centering
@@ -592,7 +591,7 @@ All remaining results can be seen in figure \ref{fig:effort_violin} for the ASQ 
   \label{fig:complexity_violin}
 \end{figure}
 
-\begin{sidewaysfigure}[htb]
+\begin{sidewaysfigure}
   \hspace*{-1.5in}
   \centering
   \includegraphics*[width=1.15\textwidth]{Evaluation/img/information_violin.png}
@@ -618,15 +617,18 @@ The mobile version uses for example only icon button and not text buttons like t
 Finally, the hypotheses $H_b$, $H_c$, $H_d$ can be rated:
 
 \begin{description}
-  \item[$H_b$] 
-  \item[$H_c$]
-  \item[$H_d$]  
-\end{description}
-\begin{figure}[htb]
-  \centering
-  \includegraphics[width=1\textwidth]{Evaluation/img/complete_asq_violin.png}
-  \caption{The ASQ-Scores of the two groups}\label{fig:asq-group-vio}
-\end{figure}
+  \item[$H_b$] The null hypothesis $H_{b0}$ can not be rejected since the \gls{utest} results in $U = 362.0; p \approx 0.23$. 
+  Therefore, the alternative hypothesis can be assumed true, which means that the desktop score for the \gls{ASQ} aspect \textit{complexity} is not significantly higher. 
+  \item[$H_c$] The same goes for null hypothesis $H_{c0}$. 
+  It can not be rejected since the \gls{utest} results in $U = 348.5; p \approx 0.32$.
+  That means that the desktop \gls{ASQ} score for the aspect \textit{effort} is also not significantly higher than the mobile \gls{ASQ} score.
+  \item[$H_d$]  Two of the four tasks showed a significantly higher score for the desktop version in the \gls{ASQ} aspect \textit{information} but for all four tasks combined the null hypothesis $H_{d0}$ can not be rejected since the \gls{utest} resulted $U = 776.5; p \approx 0.06$.
+  Although the results are much closer to the significance level of $\alpha = 0.05$ in this example.
+ \end{description}
+
+ The final ASQ scores, which are an average of all three questions, can be found in table \ref{table:asq}.
+ However, the final ASQ-Scores still differ significantly as the \gls{utest} of $U=92.0; p \approx 0.03$ shows.
+ Since, even after not taking into account the previously discussed pairs of tasks, the \gls{ASQ} scores of the two groups differ significantly, which means the final scores cannot be compared.
 
 \begin{table}[htb]
   \resizebox{\textwidth}{!}{%
@@ -636,9 +638,31 @@ Finally, the hypotheses $H_b$, $H_c$, $H_d$ can be rated:
   \end{tabular}%
   }
   \caption{The \gls{ASQ}-scores from all 18 subjects. The first row contains the \gls{ASQ}-scores for the desktop application and the second row for the mobile application. The figures have been rounded to whole numbers.}
-  \end{table}
+  \label{table:asq}
+\end{table}
 
+Summarizing it can be said that the \gls{ASQ} results show that the two versions of \gls{see} show little significant difference. 
+In total only task 3 and task 4 showed a significant difference in favor of the desktop version for the \gls{ASQ} aspect \textit{information}.
 \paragraph{SUS}\mbox{}\\
+Last but not least the results of the \gls{sus} questionnaire will be discussed.
+The \gls{sus} questionnaire results in a \gls{sus} score which was calculated by the formula of \cite{lewis2018system}:
+
+\begin{equation}
+SUS = 2.5 \cdot (20 + \sum_{i=1}^1 (-1)^{i+1} \cdot S_i)
+\end{equation}
+
+In this formula $S_i$ is the score of one of the ten questions in the \gls{sus}. 
+The question scores are alternating positive and negative for the \gls{sus} score.
+Therefore, the factor $(-1)^{i+1}$ is needed to either add or subtract from the final \gls{sus} score.
+
+The \gls{sus} scores from both groups can be seen in table \ref{table:sus}.
+Both groups can be compared as the \gls{utest} shows with a result of $U=106.0; p \approx 0.08$. 
+The group results can also be seen visualized as violin plots in figure \ref{fig:sus-group-vio}.
+The average score of \textit{Group 1} was $ \approx 60.83$ and the score of \textit{Group 2} was $\approx 72.77$.
+The median of \textit{Group 1} was 58.75 and of \textit{Group 2} it was 82.5.
+The median of \textit{Group 2} differs quite much from the average which indicates an uneven distribution and outliers that are lower than normal.
+This can also be seen in figure \ref{fig:sus-group-vio}.
+
 \begin{table}[htb]
   \resizebox{\textwidth}{!}{%
   \begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
@@ -647,14 +671,24 @@ Finally, the hypotheses $H_b$, $H_c$, $H_d$ can be rated:
   \end{tabular}%
   }
   \caption{The \gls{sus}-scores from all 18 subjects. The first row contains the \gls{sus}-scores for the desktop application and the second row for the mobile application. The figures have been rounded to whole numbers.}
-  \end{table}
+  \label{table:sus}
+\end{table}
 
-  \begin{figure}[htb]
-    \centering
-    \includegraphics[width=1\textwidth]{Evaluation/img/SUS-Score_violin.png}
-    \caption{The SUS-Scores of the two \gls{see} versions}\label{fig:sus-vio}
-  \end{figure}
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=1\textwidth]{Evaluation/img/SUS-Score_group_violin.png}
+  \caption{The SUS-Scores of the two \gls{see} versions by group}\label{fig:sus-group-vio}
+\end{figure}
 
-  \subsection{Impact of experience}
-  \subsection{Threads to validity}
-  \label{sec:validity}
+Finally, comparing the \gls{sus}-Scores (figure \ref{fig:sus-vio}) of the two different versions shows that the null hypothesis $H_{e0}$ can be rejected since the \gls{utest} resulted in $U = 219.5; p \approx 0.035$.
+The desktop version had an average \gls{sus}-Score of $\approx 73.06$ and a median of 78.75, while the mobile version had an average \gls{sus}-Score of $\approx 60.56$ and a median of 52.5. 
+After seeing the results it can be assumed that the \gls{usability} of the desktop version is significantly higher than the \gls{usability} of the mobile version.
+\begin{figure}[htb]
+  \centering
+  \includegraphics[width=1\textwidth]{Evaluation/img/SUS-Score_violin.png}
+  \caption{The SUS-Scores of the two \gls{see} versions by device}\label{fig:sus-vio}
+\end{figure}
+
+\subsection{Impact of experience}
+\subsection{Threads to validity}
+\label{sec:validity}
