@@ -33,14 +33,17 @@
 \contentsline {subsection}{\numberline {4.5.3}{Usability}}{32}{subsection.4.5.3}%
 \contentsline {paragraph}{{ASQ}}{32}{subsection.4.5.3}%
 \contentsline {paragraph}{{SUS}}{37}{table.caption.27}%
-\contentsline {section}{\numberline {4.6}{Impact of experience}}{38}{section.4.6}%
-\contentsline {section}{\numberline {4.7}{Threads to validity}}{38}{section.4.7}%
-\contentsline {chapter}{\numberline {5}{Conclusion}}{39}{chapter.5}%
-\contentsline {section}{\numberline {5.1}{Outlook}}{39}{section.5.1}%
-\contentsline {chapter}{\numberline {A}{Glossary}}{41}{appendix.A}%
-\contentsline {chapter}{\numberline {B}{Acronyms}}{43}{appendix.B}%
-\contentsline {chapter}{\numberline {C}{List of Figures}}{45}{appendix.C}%
-\contentsline {chapter}{\numberline {D}{List of Tables}}{47}{appendix.D}%
-\contentsline {chapter}{\numberline {E}{Related Files}}{49}{appendix.E}%
-\contentsline {section}{References}{52}{table.caption.33}%
+\contentsline {subsection}{\numberline {4.5.4}{Impact of experience}}{38}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}{Comments of the subjects}}{38}{subsection.4.5.5}%
+\contentsline {paragraph}{{Desktop version}}{38}{subsection.4.5.5}%
+\contentsline {paragraph}{{Mobile version}}{39}{subsection.4.5.5}%
+\contentsline {section}{\numberline {4.6}{Threads to validity}}{40}{section.4.6}%
+\contentsline {chapter}{\numberline {5}{Conclusion}}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}{Outlook}}{41}{section.5.1}%
+\contentsline {chapter}{\numberline {A}{Glossary}}{43}{appendix.A}%
+\contentsline {chapter}{\numberline {B}{Acronyms}}{45}{appendix.B}%
+\contentsline {chapter}{\numberline {C}{List of Figures}}{47}{appendix.C}%
+\contentsline {chapter}{\numberline {D}{List of Tables}}{49}{appendix.D}%
+\contentsline {chapter}{\numberline {E}{Related Files}}{51}{appendix.E}%
+\contentsline {section}{References}{54}{table.caption.33}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

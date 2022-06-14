@@ -689,6 +689,93 @@ After seeing the results it can be assumed that the \gls{usability} of the deskt
   \caption{The SUS-Scores of the two \gls{see} versions by device}\label{fig:sus-vio}
 \end{figure}
 
-\subsection{Impact of experience}
+\subsubsection{Impact of experience}
+
+\subsubsection{Comments of the subjects}
+Last but not least the subjects were asked if they had suggestions for improvements or additional features.
+The original answers can be found in \hyperref[group1]{See Desktop - See Mobile.csv } and \hyperref[group2]{See Mobile - See Desktop.csv}.
+All the result have been grouped, commented and listed below: 
+
+\paragraph{Desktop version}
+\begin{itemize}
+  \item Information on key assignments \textbf{x3}
+  \begin{itemize}
+    \item Since this was mentioned multiple times it might be considered to add some kind of information on the \glspl{shortcut}. An option would be to implement a tutorial mode, which offers this kind of information but can later be turned off after the user memorized the \glspl{shortcut}.
+  \end{itemize}
+  \item Better contrast or font for nodes and planes \textbf{x5}
+  \begin{itemize}
+    \item This was mentioned the most for the desktop version. This problem is already known and solutions are in progress. 
+  \end{itemize}
+  \item Easier switch between interaction modes
+  \begin{itemize}
+    \item This is already implemented with the key 1-9 but was not mentioned in the tutorial video since it is not beginner-friendly and the subjects should not be confronted with too much information to memorize.
+  \end{itemize}
+  \item Hard to use without a mouse
+  \begin{itemize}
+    \item This is not optimized yet. Maybe it is worth considering an option to work only with a touchpad or just to clarify that a mouse is needed for an optimal use of \gls{see} desktop.
+  \end{itemize}
+  \item Visible UI elements, key combinations are hard to remember
+  \begin{itemize}
+    \item Eventually pressing \glspl{shortcut} like \enquote{alt} in the rotate mode could be indicated as well. 
+  \end{itemize}
+\end{itemize} 
+\paragraph{Mobile version}
+\begin{itemize}
+  \item Different colors for menu buttons and sub menu buttons 
+  \begin{itemize}
+    \item The UI design seemed to be confusing for some subjects. 
+    Maybe a division of the main button that also reopens the menu again and the additional buttons should be considered. 
+    Different colors could be an option or different icons for the main buttons that also indicate the menu can be opened. 
+  \end{itemize}
+  \item Less battery usage
+  \begin{itemize}
+    \item This is probably due to the high need of computing power of \gls{see}. \gls{see} is in ongoing development and on optimizing the efficiency is always a topic. 
+  \end{itemize}
+  \item Better icons \textbf{x2}
+  \begin{itemize}
+    \item One subject mentioned that the minus icon for adding an edge is confusing since a minus rather indicates to delete something. 
+    Most of the icons are the same in both versions, but the desktop version also contains a button title. 
+    Designing a set of homogeneous and innovative icons might be worth considering.
+  \end{itemize}
+  \item Deselect button should always be available 
+  \begin{itemize}
+    \item This can easily be fixed by moving the button into the \enquote{quickmenu}, which is available from every interaction mode.
+  \end{itemize}
+  \item The camera notches of some devices overlap some buttons \textbf{x2}
+  \begin{itemize}
+    \item A general approach for this would be to not allow screen space with a notch on it. 
+    This would sacrifice screen space but provide consistency over different devices. 
+    Having a design for every possible device seems to be too much effort.
+  \end{itemize}
+  \item Joysticks to far in the corner
+  \begin{itemize}
+    \item Since this did not apply for the testing device, there might need to be found a more dynamic approach which considers the actual screen size and adapts the UI size to it. 
+  \end{itemize}
+  \item Joystick handling to sensitive 
+  \begin{itemize}
+    \item This seemed to be an issue for more than one subjects even if only one mentioned it. The sensitivity should probably be reduced. That way the user can work more precisely.
+  \end{itemize}
+  \item Zooming inverted \textbf{x9}
+  \begin{itemize}
+    \item Since this was explicitly mentioned by half the subjects, this should definitely be changed. 
+  \end{itemize}
+  \item Better performance on older devices
+  \begin{itemize}
+    \item This is probably hard implement. Maybe optimizing features of \gls{see} that require heavy computing will help in the future.
+  \end{itemize}
+  \item App layout should be turned by 180° \textbf{x2}
+  \begin{itemize}
+    \item This can be adjusted in the Unity editor and is an easy fix. 
+  \end{itemize}
+  \item Add a search function
+  \begin{itemize}
+    \item This could be considered for the future since the desktop version already has a search option.
+  \end{itemize}
+  \item Sometimes planes were deleted after I changed the mode from delete
+  \begin{itemize}
+    \item The menu and joysticks need to be safe to touch. Right now objects below buttons or joysticks get selected.
+  \end{itemize}
+\end{itemize} 
+
 \subsection{Threads to validity}
 \label{sec:validity}
