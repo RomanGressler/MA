@@ -4,8 +4,9 @@ In the following chapter the mobile implication of \gls{see} will be evaluated i
 Therefore, the mobile application will be compared with the desktop version.
 
 This chapter will start with a description of the desktop version and its main differences in section \ref{desktop}.
-Continuing with a defined aim and the precise hypotheses for the user study in section \ref{aim}.
+Continuing with a defined aim and precise hypotheses for the user study in section \ref{aim}.
 After sketching the first experiment set up in section \ref{experiment} the actual experiment set up will be discussed in detail in section \ref{real} including the used survey tool, questionnaires and the pilot study.
+This chapter will then be closed by discussing the results of the user study in section \ref{results} and talking about the threads of validity in section \ref{sec:validity}.
 \subsection{SEE Desktop}
 \label{desktop}
 In this section the desktop version of \gls{see} will be explained.
@@ -41,7 +42,7 @@ If however the user has to type more text like in renaming objects, the common d
 \label{aim}
 The aim of this user study is to answer the research question discussed in section \ref{research}.
 In order of answering the research question the finished prototype of the mobile extension shall be evaluated.
-Therefore, the system shall be compared on Android smartphones as well as desktop computers.
+Therefore, the system shall be compared on \gls{android} smartphones as well as desktop computers.
 Comparing these two use cases shall give insight on how much impact the constraints of mobile devices have on the usability and overall user experience.
 To measure the difference between the desktop and the mobile version the following hypotheses will be used.
 The two aspects performance and usability will be measured in the following study and each aspect will have a null hypothesis and an alternative hypothesis.
@@ -119,7 +120,7 @@ Afterwards the users will get a survey in English to document their impressions.
   \includegraphics[width=1\textwidth]{Evaluation/img/city_3.png}
   \caption{The third \gls{city} for the user study}\label{fig:city3}
 \end{figure}
-In this survey the subjects will be asked various demographic questions as well as what Android device and version they will be using.
+In this survey the subjects will be asked various demographic questions as well as what \gls{android} device and version they will be using.
 In addition to that the subjects will be asked if they are experienced with \gls{see} and if they are experienced with software development.
 Before the subjects will be asked to solve various tasks they will be asked to watch a short tutorial video on each application.
 After the video they will get a training task where every subject can get used to the system and ask questions if they have trouble solving the training task.
@@ -184,13 +185,13 @@ The study will start with a demographic questionnaire that covers general inform
 After every task there will be \gls{ASQ} and after every block of tasks for each of the two covered devices there will be a \gls{sus} questionnaire.
 \paragraph{Demographic questionnaire}\mbox{}\\
 The subjects shall start the survey with a demographic questionnaire.
-In that section they will be asked for their age, gender, the highest degree, experience with \gls{see}, experience with first person video games, their Android device name, their Android version and their experience with software development.
+In that section they will be asked for their age, gender, the highest degree, experience with \gls{see}, experience with first person video games, their \gls{android} device name, their Android version and their experience with software development.
 These specifications will be used to form different groups to see if there is any impact on the result of the following measurements. 
 \cite{Mclellan2011} has shown that the user experience can have a significant impact on the \gls{sus}-score.
 It is therefore important to view the measured results in context of the paired demographic data.
 
-The mobile version was only tested on a single Android device.
-It is likely that the performance of the application varies on different Android versions or devices.
+The mobile version was only tested on a single \gls{android} device.
+It is likely that the performance of the application varies on different \gls{android} versions or devices.
 
 \paragraph{Post-task questionnaire}\mbox{}\\
 The \gls{post-task} questionnaire will supplement the \gls{post-study} questionnaire on a micro level.
@@ -224,15 +225,11 @@ Each question will give a five-level rating from \enquote{strongly disagree} to 
 The results will then be combined into a \gls{usability}-score from zero to 100 where a high value represents a good result and a low value a bad one.
 \subsubsection{Pilot study}
 \label{pilot}
-In a first test the pilot study was executed with one tester.
+In a first test the pilot study was executed with one subject.
 Afterwards the study was discussed and checked for errors.
 It stood out that the example \gls{city} of task one was too different to the one in the second task.
 Therefore, the \gls{city} of the first task was exchanged with a larger and better comparable one.
 Further on a \gls{city} with 1288 nodes (see figure \ref{fig:city2}) as well as one with 1464 nodes (see figure \ref{fig:city3}) will be used.
-
-Also, the tasks were not comparable because they differed in the types of interactions they used.
-In one task the user was asked to rename a node and in the other one the user shall add four nodes.
-For renaming a node the user has to use a keyboard which does not make it comparable to just click and add nodes in the second task.
 
 \begin{figure}[htb]
   \centering
@@ -240,9 +237,22 @@ For renaming a node the user has to use a keyboard which does not make it compar
   \caption{The two key nodes are marked with a yellow arrow}\label{fig:task1}
 \end{figure}
 
-\subsubsection{Final experiment set up}
+Also, the tasks were not comparable because they differed in the types of interactions they used.
+In one task the user was asked to rename a node and in the other one the user shall add four nodes.
+For renaming a node the user has to use a keyboard which does not make it comparable to just click and add nodes in the second task.
+
+To also ensure that task one and task three (first task of each version) were comparable both task are similar in their set-up as seen in figure \ref{fig:task1}.
+As one part of the task is to find the right node both are on a plane with a similar amount of nodes.
+
+The same goes for task three and four (second task of each device) as the target planes that have to be found have a similar size. 
+Both tasks also include a hint where to find the desired planes.
+
+\subsubsection{Final experiment set-up}
 \label{final}
-Demographic questions:
+After the pilot study the final set-up can be discussed.
+The demographic questionnaires will be designed as described in section \ref{experiment}.
+The final questions will be as listed below.
+\paragraph{Demographic questions:}
 \begin{itemize}
   \item Age
         \begin{itemize}
@@ -268,18 +278,22 @@ Demographic questions:
           \item Prefer not to say
           \item Other ...
         \end{itemize}
+  \item Questions regarding used hardware and experience
+        \begin{itemize}
+          \item Are you already experienced with See?
+          \item Do or did you play first person video games?
+          \item Do or did you develop software?
+          \item On which \gls{android} device will you attend?
+          \item Which \gls{android} version are you using?*
+        \end{itemize}
 \end{itemize}
 
-Questions regarding used hardware and experience
-\begin{itemize}
-  \item Are you already experienced with See?
-  \item Do or did you play first person video games?
-  \item Do or did you develop software?
-  \item On which Android device will you attend?
-  \item Which Android version are you using?*
-\end{itemize}
+After filling out the demographic questionnaires the subjects will be asked to watch a short tutorial video.
+Which video they will watch first will depend on with group they are in.
+If they start with the mobile version of \gls{see} they will be asked to watch \hyperref[calc]{SeeMobile.mp4} otherwise they will be asked to watch \hyperref[calc]{SeeDesktop.mp4}.
+After completing their first training and their first two tasks, as described in table \ref{table:tasks}, they will be asked to watch the video they have not started with.
 
-\begin{table}[]
+\begin{table}[htb]
   \resizebox{\textwidth}{!}{%
     \begin{tabular}{lll}
       Nr.                                                                                                                                                                                         &
@@ -309,7 +323,11 @@ Questions regarding used hardware and experience
   \label{table:tasks}
 \end{table}
 
-\begin{table}[]
+After each task the subjects will be asked to fill out a \gls{ASQ} and after each block of task, as described in table \ref{table:procedure}, they will be asked to fill out a \gls{sus} questionnaire.
+Therefore, each participant has to fill out four \glspl{ASQ} and two \gls{sus} questionnaires.
+The full study should not take longer than an hour.
+
+\begin{table}[htb]
   \resizebox{\textwidth}{!}{%
     \begin{tabular}{llll}
       Phase          &                        & \multicolumn{2}{l}{Description}                                          \\ \hline
@@ -364,6 +382,7 @@ The used level of significance will be $\alpha = 0.05$.
 
 \label{results}
 \subsubsection{Demographic data}
+\label{sec:demo}
 In this subsection it will be verified if the two groups differ significantly in their demographic data. 
 Therefore, a two-tailed \gls{utest} that checks whether a set of demographic values from \textit{Group 1} $\neq$  a set of demographic values from \textit{Group 2} will be used.
 Both groups have a sample size of $n = m = 9 $ with $\alpha = 0.05$ which leads to a critical value of $U = 17$ for a two-tailed \gls{utest} (\cite{zar2010biostatistical}).
@@ -406,21 +425,21 @@ The other eight subject had no experience.
 The \gls{utest} shows there is no significant difference the two groups ($U = 49.5; p \approx 0.38$).
 
 \paragraph{Android device and version}\mbox{}\\
-A large variety of 17 different Android devices were used.
-Therefore, the distribution of Android devices should not have impact on the study results.
+A large variety of 17 different \gls{android}d devices were used.
+Therefore, the distribution of \gls{android} devices should not have impact on the study results.
 Nonetheless, it has to be considered that the devices \enquote{Huawei P10 lite}, \enquote{Huawei P20 Pro} \enquote{Samsung A52S}, \enquote{Samsung S9} and the \enquote{Poco X3 Pro} had performance issues.
 These performance issues showed in bumpy movement and player interactions.
 Unfortunately, it could not be measured how strong the impact was on the performance on the single phones.
 The threads of validity this could cause will be further discussed in section \ref{sec:validity}.
 Three of the devices with bad performance belong to \textit{Group 1} and the other two to \textit{Group 2}.
 
-The Android version was not distributed as much as the Android devices used. 
-The most common used one was Android 12, which is also the most current one to the time of this writing.
-Android 12 was used by seven subjects.
-The second most used version was Android 11.
-One subject used Android 7 on the \enquote{Huawei P10 lite}.
-Which is remarkable because Android 7 was released in 2016\footnote{\url{https://android-developers.googleblog.com/2016/08/taking-final-wrapper-off-of-nougat.html} (10.06.2022, 12:37)} and the \enquote{Huawei P10 lite} was released a little later in March 2017\footnote{\url{https://www.gsmarena.com/huawei_p10_lite-8598.php} (10.06.2022, 12:37)} but \gls{see} still managed to work, if with lower performance.
-The distribution of the used Android devices can be seen in \ref{fig:android_version}.
+The \gls{android} version was not distributed as much as the \gls{android} devices used. 
+The most common used one was \gls{android} 12, which is also the most current one to the time of this writing.
+\gls{android} 12 was used by seven subjects.
+The second most used version was \gls{android}d 11.
+One subject used \gls{android} 7 on the \enquote{Huawei P10 lite}.
+Which is remarkable because \gls{android} 7 was released in 2016\footnote{\url{https://android-developers.googleblog.com/2016/08/taking-final-wrapper-off-of-nougat.html} (10.06.2022, 12:37)} and the \enquote{Huawei P10 lite} was released a little later in March 2017\footnote{\url{https://www.gsmarena.com/huawei_p10_lite-8598.php} (10.06.2022, 12:37)} but \gls{see} still managed to work, if with lower performance.
+The distribution of the used \gls{android} devices can be seen in \ref{fig:android_version}.
 The \gls{utest} shows there is no significant difference the two groups ($U = 39.0; p \approx 0.93$).
 
 \begin{figure}[htb]
@@ -525,6 +544,7 @@ Only for one task the subjects did not need significantly less time on the deskt
 All in all the desktop version did perform better than the mobile version regarding the required time.
 
 \subsubsection{Usability}
+\label{sec:usability}
 This section will discuss the results of the usability questionnaires presented in section \ref{questionaires}.
 First the \gls{ASQ} results will be analyzed and second the \gls{sus} results to test the hypotheses presented in section \ref{aim}.
 \paragraph{ASQ}\mbox{}\\
@@ -690,6 +710,7 @@ After seeing the results it can be assumed that the \gls{usability} of the deskt
 \end{figure}
 
 \subsubsection{Impact of experience}
+\label{sec:experinece}
 As already described in section \ref{aim} the subjects will be grouped by their level of experience and their results analyzed.
 Since only one subjects had no experience with first person video games but is still experienced with \gls{see} the subjects can be divided into three groups: 
 \begin{itemize}
@@ -882,3 +903,58 @@ All the result have been grouped, commented and listed below:
 
 \subsection{Threads to validity}
 \label{sec:validity}
+This chapter will be closed with a discussion on the threads of validity to the executed study.
+For this purpose, there will be a distinction into \textit{internal validity} and \textit{external validity} as by \cite{campbell2015experimental}
+
+\subsubsection{Internal Validity}
+The internal validity is about the correlation between the independent variable, which is the version of \gls{see} in this case, and the dependent variable, which is \textit{performance}, \textit{\gls{ASQ}-Score} and \textit{\gls{sus}-Score}.
+Some of \cite{campbell2015experimental} factors will be discussed in the following.
+
+\paragraph{History}\mbox{}\\
+The subjects did the study asynchronously and there is no significant difference between the time it took place for the two groups as seen in figure \ref{fig:date_violin}.
+The study took place within five days. 
+It is very unlikely that one of the subjects could have gotten an advantage by for example trying out \gls{see} because every subject got the applications just shortly before their appointment.
+
+\begin{figure}[htb]
+  \centering
+  \includegraphics*[width=1\textwidth]{Evaluation/img/_violin_time.png}
+  \caption{The time the subjects started the experiment}
+  \label{fig:date_violin}
+\end{figure}
+
+\paragraph{Testing}\mbox{}\\
+There could be a learning effect since the tasks were comparable to each other. 
+To prevent a learning effect the subjects got a training before the time was measured in the actual tasks.
+The training contained all necessary interactions to solve the tasks and since the interactions are executed in different ways in the two versions the learning effect should not be to high if even exciting.
+
+\paragraph{Instrumentation}\mbox{}\\
+Unfortunately the performance on the subjects \gls{android} devices fluctuated quite much and there was also a significant correlation between the performance of the \gls{android} device and the \gls{ASQ} aspect of \textit{effort} as described in section \ref{sec:experinece}.
+Furthermore, it can also not be ruled out that the performance of the desktop device had an inpact on the results even if no subjects mentioned any troubles.
+\paragraph{Biases}\mbox{}\\
+Many of the subjects know me personally and most of them also knew that I did the mobile implementation of \gls{see}. 
+It is therefore possible that they gave a higher rating. 
+There was also found a correlation between subjects experienced with \gls{see} and the \gls{sus} score in section \ref{sec:experinece}, which could be caused because \gls{see} developers are most likely emotional involved in the project.
+Since there is no significant difference of the amount of \gls{see} experienced subjects this should not have impact on the study results but could still be a thread to validity.
+\paragraph{Selection}\mbox{}\\
+The selection of the subjects was random, however it is still possible that the groups would have been formed uneven.
+In section \ref{sec:demo} no significant difference between the two groups was found.
+Still in section \ref{sec:usability} significant differences between the \gls{ASQ} ratings the two groups gave were found.
+Therefore, this thread to validity can not be excluded. 
+\paragraph{Other Threads}\mbox{}\\
+The \glspl{city} of the two task blocks were not the same. 
+This is to reduce the learning effect, but it is possible that they differed in complexity and had impact on the difficulty of the tasks.
+However, the \glspl{city} are at least similar as discussed in \ref{pilot}
+\subsubsection{External Validity}
+External validity looks at the generalizability of a study.
+Are the findings appliable in general or just for this specific case?
+However, the question of generalizability can never be fully answered and there can only be approximations. 
+Threads to the external validity could be:
+
+\paragraph{Nonrepresentative Sample}\mbox{}\\
+Unfortunately the subjects do not fully represent the population of the software development industry as all the subjects are male and 16 of 18 subjects are in the age of 12-30 years.
+In addition to that most of the subjects are not even software developers.
+
+\paragraph{Reactive effects of experimental arrangement}\mbox{}\\
+Since the study was supervised the subjects might felt observed, which could have an impact on there performance.
+The environmental conditions of the real use of \gls{see} cannot be reproduced in an experimental arrangement.
+The external validity is therefore in doubt.

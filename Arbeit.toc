@@ -20,14 +20,15 @@
 \contentsline {paragraph}{{Post-task questionnaire}}{21}{subsection.4.4.2}%
 \contentsline {paragraph}{{Post-study questionnaire}}{21}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}{Pilot study}}{22}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}{Final experiment set up}}{22}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}{Execution}}{23}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.4}{Final experiment set-up}}{23}{subsection.4.4.4}%
+\contentsline {paragraph}{{Demographic questions:}}{23}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}{Execution}}{24}{subsection.4.4.5}%
 \contentsline {section}{\numberline {4.5}{Results}}{25}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}{Demographic data}}{25}{subsection.4.5.1}%
-\contentsline {paragraph}{{Gender}}{25}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}{Demographic data}}{26}{subsection.4.5.1}%
+\contentsline {paragraph}{{Gender}}{26}{subsection.4.5.1}%
 \contentsline {paragraph}{{Age}}{26}{subsection.4.5.1}%
 \contentsline {paragraph}{{Highest degree}}{26}{subsection.4.5.1}%
-\contentsline {paragraph}{{Experience}}{26}{figure.caption.17}%
+\contentsline {paragraph}{{Experience}}{27}{figure.caption.17}%
 \contentsline {paragraph}{{Android device and version}}{27}{figure.caption.17}%
 \contentsline {subsection}{\numberline {4.5.2}{Performance}}{28}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}{Usability}}{32}{subsection.4.5.3}%
@@ -36,18 +37,28 @@
 \contentsline {subsection}{\numberline {4.5.4}{Impact of experience}}{38}{subsection.4.5.4}%
 \contentsline {paragraph}{{Experience with \gls {see}}}{39}{subsection.4.5.4}%
 \contentsline {paragraph}{{Experience with software development}}{39}{table.caption.31}%
-\contentsline {paragraph}{{Highest achieved degree}}{39}{table.caption.32}%
+\contentsline {paragraph}{{Highest achieved degree}}{40}{table.caption.32}%
 \contentsline {paragraph}{{Android version and device}}{40}{table.caption.33}%
-\contentsline {subsection}{\numberline {4.5.5}{Comments of the subjects}}{40}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.5}{Comments of the subjects}}{41}{subsection.4.5.5}%
 \contentsline {paragraph}{{Desktop version}}{41}{subsection.4.5.5}%
-\contentsline {paragraph}{{Mobile version}}{41}{subsection.4.5.5}%
+\contentsline {paragraph}{{Mobile version}}{42}{subsection.4.5.5}%
 \contentsline {section}{\numberline {4.6}{Threads to validity}}{43}{section.4.6}%
-\contentsline {chapter}{\numberline {5}{Conclusion}}{45}{chapter.5}%
-\contentsline {section}{\numberline {5.1}{Outlook}}{45}{section.5.1}%
-\contentsline {chapter}{\numberline {A}{Glossary}}{47}{appendix.A}%
-\contentsline {chapter}{\numberline {B}{Acronyms}}{49}{appendix.B}%
-\contentsline {chapter}{\numberline {C}{List of Figures}}{51}{appendix.C}%
-\contentsline {chapter}{\numberline {D}{List of Tables}}{53}{appendix.D}%
-\contentsline {chapter}{\numberline {E}{Related Files}}{55}{appendix.E}%
-\contentsline {section}{References}{59}{table.caption.37}%
+\contentsline {subsection}{\numberline {4.6.1}{Internal Validity}}{43}{subsection.4.6.1}%
+\contentsline {paragraph}{{History}}{43}{subsection.4.6.1}%
+\contentsline {paragraph}{{Testing}}{44}{figure.caption.35}%
+\contentsline {paragraph}{{Instrumentation}}{44}{figure.caption.35}%
+\contentsline {paragraph}{{Biases}}{44}{figure.caption.35}%
+\contentsline {paragraph}{{Selection}}{44}{figure.caption.35}%
+\contentsline {paragraph}{{Other Threads}}{45}{figure.caption.35}%
+\contentsline {subsection}{\numberline {4.6.2}{External Validity}}{45}{subsection.4.6.2}%
+\contentsline {paragraph}{{Nonrepresentative Sample}}{45}{subsection.4.6.2}%
+\contentsline {paragraph}{{Reactive effects of experimental arrangement}}{45}{subsection.4.6.2}%
+\contentsline {chapter}{\numberline {5}{Conclusion}}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}{Outlook}}{47}{section.5.1}%
+\contentsline {chapter}{\numberline {A}{Glossary}}{49}{appendix.A}%
+\contentsline {chapter}{\numberline {B}{Acronyms}}{51}{appendix.B}%
+\contentsline {chapter}{\numberline {C}{List of Figures}}{53}{appendix.C}%
+\contentsline {chapter}{\numberline {D}{List of Tables}}{55}{appendix.D}%
+\contentsline {chapter}{\numberline {E}{Related Files}}{57}{appendix.E}%
+\contentsline {section}{References}{61}{table.caption.38}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
