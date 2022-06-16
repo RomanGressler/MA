@@ -2284,9 +2284,12 @@ INPUT ./Implementation/img/mobile_player.png
 INPUT Implementation/img/mobile_player.png
 INPUT ./Implementation/img/mobile_player.png
 INPUT ./Implementation/img/mobile_player.png
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-sc-t1.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-BoldItalic-tlf-t1.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tlf-sc-t1.tfm
+INPUT ./Implementation/img/joysticks.png
+INPUT ./Implementation/img/joysticks.png
+INPUT Implementation/img/joysticks.png
+INPUT ./Implementation/img/joysticks.png
+INPUT ./Implementation/img/joysticks.png
 INPUT ./Implementation/img/quickmenu.png
 INPUT ./Implementation/img/quickmenu.png
 INPUT Implementation/img/quickmenu.png
@@ -2307,7 +2310,6 @@ INPUT ./Evaluation/img/menu.png
 INPUT Evaluation/img/menu.png
 INPUT ./Evaluation/img/menu.png
 INPUT ./Evaluation/img/menu.png
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tlf-sc-t1.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -2339,6 +2341,9 @@ INPUT ./Evaluation/img/city_3.png
 INPUT Evaluation/img/city_3.png
 INPUT ./Evaluation/img/city_3.png
 INPUT ./Evaluation/img/city_3.png
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-sc-t1.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-BoldItalic-tlf-t1.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
 INPUT ./Evaluation/img/form_intro.png
 INPUT ./Evaluation/img/form_intro.png
@@ -2531,8 +2536,8 @@ INPUT Arbeit.aux
 INPUT ./Arbeit.out
 INPUT ./Arbeit.out
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
+INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
