@@ -1,24 +1,24 @@
 # Fdb version 3
-["bibtex Arbeit"] 1655336996 "Arbeit.aux" "Arbeit.bbl" "Arbeit" 1655337260
-  "Arbeit.aux" 1655337259 37391 f3e8d4feae9e97e36a441a3f46b68952 "pdflatex"
+["bibtex Arbeit"] 1655394741 "Arbeit.aux" "Arbeit.bbl" "Arbeit" 1655394751
+  "Arbeit.aux" 1655394750 40764 0960e18e8e4c374182260f3c02a8fb5f "pdflatex"
   "c:/texlive/2021/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1641395485 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
   "sources.bib" 1655328312 10109 e1ea7d474538cb0b0394c5df105a573a ""
   (generated)
   "Arbeit.bbl"
   "Arbeit.blg"
-["cusdep glo gls arbeit"] 1655335724 "arbeit.glo" "arbeit.gls" "arbeit" 1655337260
-  "arbeit.glo" 1655337259 13952 6915e30422f6375f95f91a4f64231b88 ""
+["cusdep glo gls arbeit"] 1655388267 "arbeit.glo" "arbeit.gls" "arbeit" 1655394751
+  "arbeit.glo" 1655394750 14576 47ba2563d8447640d041060fcb7095d3 ""
   (generated)
   "arbeit.gls"
-["pdflatex"] 1655337251 "c:/Users/roman/OneDrive/Desktop/MA/Arbeit.tex" "Arbeit.pdf" "Arbeit" 1655337260
+["pdflatex"] 1655394741 "c:/Users/roman/OneDrive/Desktop/MA/Arbeit.tex" "Arbeit.pdf" "Arbeit" 1655394751
   "Abstract.tex" 1650535701 62 6b473b8117b51ced07597bf88af57527 ""
-  "Arbeit.aux" 1655337259 37391 f3e8d4feae9e97e36a441a3f46b68952 "pdflatex"
-  "Arbeit.bbl" 1655336996 7455 69696c1fc3b238e41e5fa6f10575c86e "bibtex Arbeit"
-  "Arbeit.lof" 1655337259 3784 fdd5a69f97be724b3790c7972351f9cb "pdflatex"
-  "Arbeit.lot" 1655337259 2250 7175a4b5eac4d2c04bc3e395b13f2a7e "pdflatex"
-  "Arbeit.out" 1655337253 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Arbeit.aux" 1655394750 40764 0960e18e8e4c374182260f3c02a8fb5f "pdflatex"
+  "Arbeit.bbl" 1655394741 7455 69696c1fc3b238e41e5fa6f10575c86e "bibtex Arbeit"
+  "Arbeit.lof" 1655394750 4408 a9e890b936ec90341d8ba3ebfe98d940 "pdflatex"
+  "Arbeit.lot" 1655394750 2250 d5aa7f34eae83d574137c5c8a9137182 "pdflatex"
+  "Arbeit.out" 1655394744 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Arbeit.tex" 1655069600 9839 867750bda988fbc31dca0dcd7f3c770f ""
-  "Arbeit.toc" 1655337259 4633 d81db4282b4c0d027dfde03553ce69a8 "pdflatex"
+  "Arbeit.toc" 1655394750 5043 fd745ce347e9d77a7940356b3bc5de6b "pdflatex"
   "Concept/Concept.tex" 1655320114 12886 5d7b9269871083165b399a3bc6fa2bb3 ""
   "Concept/img/joystick.png" 1651594509 132748 78d944556c71c466958dd8a494b9d5c1 ""
   "Concept/img/menu1.png" 1651605981 316938 8929b55d8e77326051d96aed017a62cc ""
@@ -48,8 +48,11 @@
   "Evaluation/img/menu.png" 1654189477 351718 41cca63fe7460232d1f55030abbc2880 ""
   "Evaluation/img/speed1_violin.png" 1655332004 216290 97b9d5ac3cabff51443633ccff0f7079 ""
   "Evaluation/img/task1.png" 1654010694 556196 b4290140dd5cfff93afcbffd8444d6b2 ""
-  "Glossar.tex" 1655253925 7280 a0a5643461e70a8ab6dc7c9c8dd938d2 ""
-  "Implementation/Implementation.tex" 1651594101 61 422eda703a2efdab6facfe656d509436 ""
+  "Glossar.tex" 1655387370 7827 aaf6bd806ddd285ba3e21b7343cba436 ""
+  "Implementation/Implementation.tex" 1655394729 1426 934ab8f31564ffcae8f02dd3a45bf94c ""
+  "Implementation/img/menu.png" 1655394623 57095 27f779585a7f98c456c377a20e22dbf1 ""
+  "Implementation/img/mobile_player.png" 1655385386 43689 d190e597c407b6c8110b4e55d4693362 ""
+  "Implementation/img/quickmenu.png" 1655391936 339619 66f77c425e05d0f7564815565f50a507 ""
   "Introduction/Introduction.tex" 1654374194 778 4dbe7b295172e91f40080c98f40be46a ""
   "arbeit.gls" 1655254552 2566 1a1d7cd732dc67594769bc834abde0fd "cusdep glo gls arbeit"
   "arbeit.gls-abr" 1655254552 1790 a6855ef2b496a196effa4634e5e0ae26 ""
