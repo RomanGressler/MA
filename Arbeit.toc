@@ -11,8 +11,8 @@
 \contentsline {chapter}{\numberline {3}{Implementation}}{11}{chapter.3}%
 \contentsline {section}{\numberline {3.1}{Mobile Player}}{11}{section.3.1}%
 \contentsline {section}{\numberline {3.2}{Player Movement}}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}{Mobile Menu}}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}{Player Actions}}{12}{section.3.4}%
+\contentsline {section}{\numberline {3.3}{Mobile Menu}}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}{Player Actions}}{14}{section.3.4}%
 \contentsline {chapter}{\numberline {4}{Evaluation}}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{SEE Desktop}}{15}{section.4.1}%
 \contentsline {section}{\numberline {4.2}{Aim and hypothesis}}{16}{section.4.2}%
@@ -32,28 +32,28 @@
 \contentsline {paragraph}{{Gender}}{28}{subsection.4.5.1}%
 \contentsline {paragraph}{{Age}}{28}{subsection.4.5.1}%
 \contentsline {paragraph}{{Highest degree}}{28}{subsection.4.5.1}%
-\contentsline {paragraph}{{Experience}}{29}{figure.caption.21}%
-\contentsline {paragraph}{{Android device and version}}{29}{figure.caption.21}%
+\contentsline {paragraph}{{Experience}}{29}{figure.caption.22}%
+\contentsline {paragraph}{{Android device and version}}{29}{figure.caption.22}%
 \contentsline {subsection}{\numberline {4.5.2}{Performance}}{30}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}{Usability}}{34}{subsection.4.5.3}%
 \contentsline {paragraph}{{ASQ}}{34}{subsection.4.5.3}%
-\contentsline {paragraph}{{SUS}}{39}{table.caption.31}%
+\contentsline {paragraph}{{SUS}}{39}{table.caption.32}%
 \contentsline {subsection}{\numberline {4.5.4}{Impact of experience}}{40}{subsection.4.5.4}%
 \contentsline {paragraph}{{Experience with \gls {see}}}{41}{subsection.4.5.4}%
-\contentsline {paragraph}{{Experience with software development}}{41}{table.caption.35}%
-\contentsline {paragraph}{{Highest achieved degree}}{42}{table.caption.36}%
-\contentsline {paragraph}{{Android version and device}}{42}{table.caption.37}%
+\contentsline {paragraph}{{Experience with software development}}{41}{table.caption.36}%
+\contentsline {paragraph}{{Highest achieved degree}}{42}{table.caption.37}%
+\contentsline {paragraph}{{Android version and device}}{42}{table.caption.38}%
 \contentsline {subsection}{\numberline {4.5.5}{Comments of the subjects}}{43}{subsection.4.5.5}%
 \contentsline {paragraph}{{Desktop version}}{43}{subsection.4.5.5}%
 \contentsline {paragraph}{{Mobile version}}{44}{subsection.4.5.5}%
 \contentsline {section}{\numberline {4.6}{Threads to validity}}{45}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}{Internal Validity}}{45}{subsection.4.6.1}%
 \contentsline {paragraph}{{History}}{45}{subsection.4.6.1}%
-\contentsline {paragraph}{{Testing}}{46}{figure.caption.39}%
-\contentsline {paragraph}{{Instrumentation}}{46}{figure.caption.39}%
-\contentsline {paragraph}{{Biases}}{46}{figure.caption.39}%
-\contentsline {paragraph}{{Selection}}{46}{figure.caption.39}%
-\contentsline {paragraph}{{Other Threads}}{47}{figure.caption.39}%
+\contentsline {paragraph}{{Testing}}{46}{figure.caption.40}%
+\contentsline {paragraph}{{Instrumentation}}{46}{figure.caption.40}%
+\contentsline {paragraph}{{Biases}}{46}{figure.caption.40}%
+\contentsline {paragraph}{{Selection}}{46}{figure.caption.40}%
+\contentsline {paragraph}{{Other Threads}}{47}{figure.caption.40}%
 \contentsline {subsection}{\numberline {4.6.2}{External Validity}}{47}{subsection.4.6.2}%
 \contentsline {paragraph}{{Nonrepresentative Sample}}{47}{subsection.4.6.2}%
 \contentsline {paragraph}{{Reactive effects of experimental arrangement}}{47}{subsection.4.6.2}%
@@ -64,5 +64,5 @@
 \contentsline {chapter}{\numberline {C}{List of Figures}}{55}{appendix.C}%
 \contentsline {chapter}{\numberline {D}{List of Tables}}{57}{appendix.D}%
 \contentsline {chapter}{\numberline {E}{Related Files}}{59}{appendix.E}%
-\contentsline {section}{References}{63}{table.caption.42}%
+\contentsline {section}{References}{63}{table.caption.43}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

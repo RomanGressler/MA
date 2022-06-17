@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -52,6 +52,14 @@ Suzanne Robertson and James Robertson.
 P.~Stevens and R.~Pooley.
 \newblock \emph{Software Engineering with Objects and Components}.
 \newblock Springer, 2005.
+
+\bibitem[Zhang et~al.(2014)Zhang, Fan, Li, Uchimura, and Serikawa]{Zhang2014}
+Lifeng Zhang, Qian Fan, Yujie Li, Yousuke Uchimura, and Seiichi Serikawa.
+\newblock An implementation of document image reconstruction system on a smart
+  device using a 1d histogram calibration algorithm.
+\newblock \emph{Mathematical Problems in Engineering}, 2014:\penalty0 1--10, 06
+  2014.
+\newblock \doi{10.1155/2014/313452}.
 
 \bibitem[Kim et~al.(2014)Kim, Aulck, Bartha, Harper, and
   Johnson]{kim2014differences}
