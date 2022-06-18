@@ -2334,6 +2334,11 @@ INPUT ./Implementation/img/menu.png
 INPUT Implementation/img/menu.png
 INPUT ./Implementation/img/menu.png
 INPUT ./Implementation/img/menu.png
+INPUT ./Implementation/img/zoom.png
+INPUT ./Implementation/img/zoom.png
+INPUT Implementation/img/zoom.png
+INPUT ./Implementation/img/zoom.png
+INPUT ./Implementation/img/zoom.png
 INPUT ./Evaluation/Evaluation.tex
 INPUT Evaluation/Evaluation.tex
 INPUT ./Evaluation/Evaluation.tex

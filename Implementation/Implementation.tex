@@ -97,12 +97,32 @@ This way the selected interaction mode will always be in the top right corner, w
 
 One essential part of the implementation are the player actions. 
 Almost all interactions a user can make in \gls{see} differ from the interactions in the desktop version.
+In the following the implementation of all mobile player actions will be shortly discussed.
 
 \subsubsection{Zooming}
 
-The interaction of zooming in or out of a \gls{city} can be fundamental when working with a large \gls{city}.
+The interaction of zooming in or out of a \gls{city} can be fundamental when working with a large \gls{city} because \glspl{node} become small and especially on a small mobile screen it becomes impossible to interact with those nodes via touch input. 
+Therefore, the user has to zoom in to properly interact with the desired node.
+
+Luckily the general zooming function is already implemented in \gls{see}.
+The zooming method- requires a center point and a scale of how far the \gls{city} shall be zoomed in or out.
+Zooming on a touchscreen will be done by dragging two fingers either towards or away from each other as visualized in figure \ref{fig:zooming}.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=1\textwidth]{Implementation/img/zoom.png}
+    \caption{Dragging the two touch points towards each other will zoom out and dragging them away from each other will zoom in.}\label{fig:zooming}
+\end{figure}
+
+The implementation of the zooming interaction in done in the following steps: 
+\begin{enumerate}
+    \item Check if there are two touch inputs on the same \gls{city}. If both inputs are not on the same city zooming is not wanted and will not be activated.
+    \item Compute the center of the two touch inputs
+    \item Pass the center and dragging range of the two inputs to the zooming function
+\end{enumerate}
 
 \subsubsection{Selecting and Deleting}
+..
 \subsubsection{Node Interactions}
 \subsubsection{Rotating}
 \subsubsection{Moving}
