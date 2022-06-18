@@ -73,6 +73,7 @@ By pressing the button on the right end of the \textit{quickbar} the menu can be
 
 The other part of the menu can be seen in figure \ref{fig:interaction_menu}.
 The menu is placed on the right side of the screen, and it contains all the player interactions.
+This part of the menu is slightly more complex since the selected button moves to the top, while the other buttons shall remain their initial order.
 
 \begin{figure}[htb]
     \centering
@@ -80,5 +81,33 @@ The menu is placed on the right side of the screen, and it contains all the play
     \caption{The player interaction menu on the right top side of the mobile device. The button on the top right side indicate the active interaction mode. Pressing the same button also expands the menu.}\label{fig:interaction_menu}
 \end{figure}
 
+The implementation of the menu on the right is done in the following steps:
+\begin{enumerate}
+    \item All main buttons get an index
+    \item When a button on the far right side gets clicked the index gets saved
+    \item The button group with the selected index get shown on the top right side
+    \item All other buttons get disabled
+    \item By clicking the button on the top right again the other main buttons get reactivated 
+    \item The order is as follows: selected index → index in ascending order
+\end{enumerate} 
+This way the selected interaction mode will always be in the top right corner, while the other buttons remain the same order.
+
 \subsection{Player Actions}
 \label{sec:player_actions}
+
+One essential part of the implementation are the player actions. 
+Almost all interactions a user can make in \gls{see} differ from the interactions in the desktop version.
+
+\subsubsection{Zooming}
+
+The interaction of zooming in or out of a \gls{city} can be fundamental when working with a large \gls{city}.
+
+\subsubsection{Selecting and Deleting}
+\subsubsection{Node Interactions}
+\subsubsection{Rotating}
+\subsubsection{Moving}
+
+\subsection{Android Build Requirements}
+\subsubsection{Preprocessor Tags}
+\subsubsection{Restructure}
+\subsubsection{File Loading}
