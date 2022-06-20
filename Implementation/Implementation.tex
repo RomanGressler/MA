@@ -58,7 +58,7 @@ That way the player's perspective can move a full rotation.
 
 The mobile menu is essential for the implementation since the input methods of a smartphone in an everyday usage are limited.
 The desktop version uses many \glspl{shortcut}, which cannot be used in the mobile version.
-These \glspl{shortcut} will replaced with buttons in the menu.
+These \glspl{shortcut} will replaced with buttons in the menu to fulfill requirement [R2.2].
 
 \begin{figure}[htb]
     \centering
@@ -100,7 +100,7 @@ Almost all interactions a user can make in \gls{see} differ from the interaction
 In the following the implementation of all mobile player actions will be shortly discussed.
 
 \subsubsection{Zooming}
-
+To fulfill requirement [R2.3] zooming needs to be implemented.
 The interaction of zooming in or out of a \gls{city} can be fundamental when working with a large \gls{city} because \glspl{node} become small and especially on a small mobile screen it becomes impossible to interact with those nodes via touch input. 
 Therefore, the user has to zoom in to properly interact with the desired node.
 
@@ -121,13 +121,83 @@ The implementation of the zooming interaction in done in the following steps:
     \item Pass the center and dragging range of the two inputs to the zooming function
 \end{enumerate}
 
-\subsubsection{Selecting and Deleting}
-..
-\subsubsection{Node Interactions}
-\subsubsection{Rotating}
-\subsubsection{Moving}
+Note that the direction of zooming has been inverted in the version used for the evaluation in chapter \ref{section:evaluation}.
+This is because of the heavy demand by the subjects to invert the direction of zooming since it feel odd.
 
+\subsubsection{Selecting and Deleting}
+The interactions of selecting and deleting a \gls{node} or \gls{plane} are quite similar because the user selects or deletes an object by touching it.
+The object get determined by a ray cast from the center of the touch position as discussed in section \ref{sec:ray}.
+
+Since the selecting mode is always enabled except when the delete mode is active, the select button really does nothing except ensuring that no other interaction mode is active.
+Keeping the selected objects active makes sense for the mobile version because the user cannot hover with a mouse to see the object names.
+Therefore, the selection will be kept and not discarded by selecting a different object as in the desktop version.
+The deselect button call the already implemented \textit{UnselectAll} method that empties a list of selected items.
+
+To delete interaction works as already mentioned just like in the desktop version. 
+The only difference is the type of input. 
+Other than in the desktop version the mobile version only supports single deletions and not the deletion of multiple objects at once.
+This is due to the limited space for the interactions menu and the results from a multi deletion can also be achieved with the single delete interaction.
+
+The discussed implementation fulfills requirements [R3] and [R4].
+\subsubsection{Node Interactions}
+The node interactions consist of four types.
+The active interaction is always highlighted in green as seen in figure \ref{fig:node}
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=1\textwidth]{Implementation/img/node.png}
+    \caption{The node interactions menu. The active node interaction has a green button}\label{fig:node}
+\end{figure}
+
+The circled plus button stands for adding a \gls{node}.
+Adding \glspl{node} is implemented in the following steps:
+\begin{enumerate}
+    \item Check if the device is an \gls{android} with a preprocessor tag
+    \item Check if there is exactly on touch input
+    \item Cast a ray and check if the collided object is of the type \enquote{Node} (\gls{see} does not distinguish between \gls{plane} and \gls{node} as a type)
+    \item Create a \gls{node} ad that position with the already implemented \textit{AddChild} method of the class \textit{GameNodeAdder}
+\end{enumerate}
+
+The circled minus button is for adding an \gls{edge}.
+The implementation is quite similar to the one for adding \glspl{node}.
+In this case however the first and second \gls{gameObject} of type \enquote{\gls{node}} will be saved.
+After there are two \glspl{gameObject} an \gls{edge} between those objects will be created.
+
+Next in line is the gear button, which can be used for editing \glspl{node}.
+The implementation here is almost the same as for the desktop version.
+A \gls{node} or a \gls{plane} can be selected by touch and a window will open.
+In that window attributes like the name can be changed.
+Different from the desktop version is that a virtual keyboard will pop up to let the user type in a new name for example.
+
+Last but not least there is the interaction of scaling a node left.
+The implementation here was largely adopted from the desktop version, except again the input type is via touch.
+In addition to that the dots that can be selected and dragged are larger in the mobile version (see figure \ref{fig:scale}) because otherwise it would be hard to hit them with a touch input.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Implementation/img/scale.jpeg}
+    \caption{The node interactions menu. The active node interaction has a green button}\label{fig:scale}
+\end{figure}
+
+The listed implementations of the node interactions fulfill the requirements of [R5].
+
+\subsubsection{Rotating}
+[R6]
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=1\textwidth]{Implementation/img/rotate.png}
+    \caption{The \gls{city} can be rotated by for example touching the screen on the orange dot and dragging from there like the arrow indicates.}\label{fig:rotate}
+\end{figure}
+\subsubsection{Moving}
+[R7]
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=1\textwidth]{Implementation/img/move.png}
+    \caption{The \gls{city} can be moved by touching and dragging it to a desired direction.}\label{fig:left}
+\end{figure}
 \subsection{Android Build Requirements}
+[R1]
 \subsubsection{Preprocessor Tags}
 \subsubsection{Restructure}
 \subsubsection{File Loading}
