@@ -29,56 +29,57 @@
 \contentsline {section}{\numberline {4.5}{Android Build Requirements}}{21}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}{Conditional Compilation}}{21}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}{File Loading}}{22}{subsection.4.5.2}%
-\contentsline {chapter}{\numberline {5}{Evaluation}}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}{SEE Desktop}}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}{Aim and hypothesis}}{24}{section.5.2}%
-\contentsline {section}{\numberline {5.3}{Experiment set up}}{26}{section.5.3}%
-\contentsline {section}{\numberline {5.4}{Realization}}{29}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}{Survey tool}}{29}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}{Questionnaires}}{30}{subsection.5.4.2}%
-\contentsline {paragraph}{{Demographic questionnaire}}{31}{subsection.5.4.2}%
-\contentsline {paragraph}{{Post-task questionnaire}}{31}{subsection.5.4.2}%
-\contentsline {paragraph}{{Post-study questionnaire}}{31}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}{Pilot study}}{32}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}{Final experiment set-up}}{33}{subsection.5.4.4}%
-\contentsline {paragraph}{{Demographic questions:}}{33}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}{Execution}}{34}{subsection.5.4.5}%
-\contentsline {section}{\numberline {5.5}{Results}}{35}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}{Demographic data}}{36}{subsection.5.5.1}%
-\contentsline {paragraph}{{Gender}}{36}{subsection.5.5.1}%
-\contentsline {paragraph}{{Age}}{36}{subsection.5.5.1}%
-\contentsline {paragraph}{{Highest degree}}{36}{subsection.5.5.1}%
-\contentsline {paragraph}{{Experience}}{37}{figure.caption.27}%
-\contentsline {paragraph}{{Android device and version}}{37}{figure.caption.27}%
-\contentsline {subsection}{\numberline {5.5.2}{Performance}}{38}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}{Usability}}{42}{subsection.5.5.3}%
-\contentsline {paragraph}{{ASQ}}{42}{subsection.5.5.3}%
-\contentsline {paragraph}{{SUS}}{47}{table.caption.37}%
-\contentsline {subsection}{\numberline {5.5.4}{Impact of experience}}{48}{subsection.5.5.4}%
-\contentsline {paragraph}{{Experience with \gls {see}}}{49}{subsection.5.5.4}%
-\contentsline {paragraph}{{Experience with software development}}{49}{table.caption.41}%
-\contentsline {paragraph}{{Highest achieved degree}}{50}{table.caption.42}%
-\contentsline {paragraph}{{Android version and device}}{50}{table.caption.43}%
-\contentsline {subsection}{\numberline {5.5.5}{Comments of the subjects}}{51}{subsection.5.5.5}%
-\contentsline {paragraph}{{Desktop version}}{51}{subsection.5.5.5}%
-\contentsline {paragraph}{{Mobile version}}{52}{subsection.5.5.5}%
-\contentsline {section}{\numberline {5.6}{Threads to validity}}{53}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}{Internal Validity}}{53}{subsection.5.6.1}%
-\contentsline {paragraph}{{History}}{53}{subsection.5.6.1}%
-\contentsline {paragraph}{{Testing}}{54}{figure.caption.45}%
-\contentsline {paragraph}{{Instrumentation}}{54}{figure.caption.45}%
-\contentsline {paragraph}{{Biases}}{54}{figure.caption.45}%
-\contentsline {paragraph}{{Selection}}{54}{figure.caption.45}%
-\contentsline {paragraph}{{Other Threads}}{55}{figure.caption.45}%
-\contentsline {subsection}{\numberline {5.6.2}{External Validity}}{55}{subsection.5.6.2}%
-\contentsline {paragraph}{{Nonrepresentative Sample}}{55}{subsection.5.6.2}%
-\contentsline {paragraph}{{Reactive effects of experimental arrangement}}{55}{subsection.5.6.2}%
-\contentsline {chapter}{\numberline {6}{Conclusion}}{57}{chapter.6}%
-\contentsline {section}{\numberline {6.1}{Outlook}}{57}{section.6.1}%
-\contentsline {chapter}{\numberline {A}{Glossary}}{59}{appendix.A}%
-\contentsline {chapter}{\numberline {B}{Acronyms}}{61}{appendix.B}%
-\contentsline {chapter}{\numberline {C}{List of Figures}}{63}{appendix.C}%
-\contentsline {chapter}{\numberline {D}{List of Tables}}{65}{appendix.D}%
-\contentsline {chapter}{\numberline {E}{Related Files}}{67}{appendix.E}%
-\contentsline {section}{References}{71}{table.caption.48}%
+\contentsline {subsection}{\numberline {4.5.3}{Restructuring}}{23}{subsection.4.5.3}%
+\contentsline {chapter}{\numberline {5}{Evaluation}}{25}{chapter.5}%
+\contentsline {section}{\numberline {5.1}{SEE Desktop}}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}{Aim and hypothesis}}{26}{section.5.2}%
+\contentsline {section}{\numberline {5.3}{Experiment set up}}{28}{section.5.3}%
+\contentsline {section}{\numberline {5.4}{Realization}}{31}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}{Survey tool}}{31}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}{Questionnaires}}{32}{subsection.5.4.2}%
+\contentsline {paragraph}{{Demographic questionnaire}}{33}{subsection.5.4.2}%
+\contentsline {paragraph}{{Post-task questionnaire}}{33}{subsection.5.4.2}%
+\contentsline {paragraph}{{Post-study questionnaire}}{33}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}{Pilot study}}{34}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}{Final experiment set-up}}{35}{subsection.5.4.4}%
+\contentsline {paragraph}{{Demographic questions:}}{35}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}{Execution}}{36}{subsection.5.4.5}%
+\contentsline {section}{\numberline {5.5}{Results}}{37}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}{Demographic data}}{38}{subsection.5.5.1}%
+\contentsline {paragraph}{{Gender}}{38}{subsection.5.5.1}%
+\contentsline {paragraph}{{Age}}{38}{subsection.5.5.1}%
+\contentsline {paragraph}{{Highest degree}}{38}{subsection.5.5.1}%
+\contentsline {paragraph}{{Experience}}{39}{figure.caption.27}%
+\contentsline {paragraph}{{Android device and version}}{39}{figure.caption.27}%
+\contentsline {subsection}{\numberline {5.5.2}{Performance}}{40}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}{Usability}}{44}{subsection.5.5.3}%
+\contentsline {paragraph}{{ASQ}}{44}{subsection.5.5.3}%
+\contentsline {paragraph}{{SUS}}{49}{table.caption.37}%
+\contentsline {subsection}{\numberline {5.5.4}{Impact of experience}}{50}{subsection.5.5.4}%
+\contentsline {paragraph}{{Experience with \gls {see}}}{51}{subsection.5.5.4}%
+\contentsline {paragraph}{{Experience with software development}}{51}{table.caption.41}%
+\contentsline {paragraph}{{Highest achieved degree}}{52}{table.caption.42}%
+\contentsline {paragraph}{{Android version and device}}{52}{table.caption.43}%
+\contentsline {subsection}{\numberline {5.5.5}{Comments of the subjects}}{53}{subsection.5.5.5}%
+\contentsline {paragraph}{{Desktop version}}{53}{subsection.5.5.5}%
+\contentsline {paragraph}{{Mobile version}}{54}{subsection.5.5.5}%
+\contentsline {section}{\numberline {5.6}{Threads to validity}}{55}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}{Internal Validity}}{55}{subsection.5.6.1}%
+\contentsline {paragraph}{{History}}{55}{subsection.5.6.1}%
+\contentsline {paragraph}{{Testing}}{56}{figure.caption.45}%
+\contentsline {paragraph}{{Instrumentation}}{56}{figure.caption.45}%
+\contentsline {paragraph}{{Biases}}{56}{figure.caption.45}%
+\contentsline {paragraph}{{Selection}}{56}{figure.caption.45}%
+\contentsline {paragraph}{{Other Threads}}{57}{figure.caption.45}%
+\contentsline {subsection}{\numberline {5.6.2}{External Validity}}{57}{subsection.5.6.2}%
+\contentsline {paragraph}{{Nonrepresentative Sample}}{57}{subsection.5.6.2}%
+\contentsline {paragraph}{{Reactive effects of experimental arrangement}}{57}{subsection.5.6.2}%
+\contentsline {chapter}{\numberline {6}{Conclusion}}{59}{chapter.6}%
+\contentsline {section}{\numberline {6.1}{Outlook}}{59}{section.6.1}%
+\contentsline {chapter}{\numberline {A}{Glossary}}{61}{appendix.A}%
+\contentsline {chapter}{\numberline {B}{Acronyms}}{63}{appendix.B}%
+\contentsline {chapter}{\numberline {C}{List of Figures}}{65}{appendix.C}%
+\contentsline {chapter}{\numberline {D}{List of Tables}}{67}{appendix.D}%
+\contentsline {chapter}{\numberline {E}{Related Files}}{69}{appendix.E}%
+\contentsline {section}{References}{73}{table.caption.48}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

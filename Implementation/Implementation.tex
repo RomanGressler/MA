@@ -277,3 +277,19 @@ Only the first state is preloaded the other states are stored in the \textit{Str
 The problem however is that an \gls{android} application is packed into an \gls{jar}.
 Files inside a \gls{jar} cannot be obtained without further ado.
 To achieve access to files that are not initially loaded \textit{WebRequests}\footnote{https://docs.unity3d.com/ScriptReference/Networking.UnityWebRequest.html (last visited: 21.06.22, 3:13)} have to be used for an \gls{android} implementation. 
+Therefore, once again the code needs to be divided and handled with conditional compilation.
+This has to be done at every point in the code where files are obtained the common way with \textit{SystemIO} methods. 
+
+
+\subsubsection{Restructuring}
+The disadvantage of conditional compilation is that it makes code harder to maintain as discussed earlier.
+To minimize this disadvantage it was thought of restructuring the entire project to only have conditional compilation at a core component of \gls{see}.
+
+The concept idea was to restructure the project in a way that from a core component all the different versions get initialized and only in that core component conditional compilation gets used.
+All components would have abstract super classes that could be easily supplemented with assets that are not available for all platform.
+The platform specific classes would then only be compiled for a certain platform build, since they are divided in the core class.
+
+Unfortunately \gls{see} is already entangled and a restructuring in the described way above would take a high effort.
+\gls{see} already has many components that depend on other part of \gls{see}. 
+These parts however depend also on other parts of \gls{see}. 
+Restructuring and setting a new order for the parts of see that support the idea of a core part of \gls{see} would take too much effort for this thesis and was therefore not implemented.
