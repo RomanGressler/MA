@@ -45,7 +45,7 @@ The data of the right joystick shall move the player's perspective, which is imp
 The camera has a pitch angle and a yaw angle as illustrated in figure \ref{fig:camera}.
 The angles of the camera will be adjusted with the input from the right joystick. 
 For the angles of the player's perspective there is a range from 0° to 360° after reaching an end of this range the value will be transformed to the other end of the range.
-In other words if the angle grows higher than 306° it starts an 0° again and if it gets lower than 0° it can go further down from 360°.
+In other words if the angle grows higher than 360° it starts at 0° again and if it gets lower than 0° it can go further down from 360°.
 That way the player's perspective can move a full rotation.
 \begin{figure}[htb]
     \centering
@@ -70,6 +70,10 @@ The menu will be divided into to parts.
 The first part, that was named \textit{quickbar} in section \ref{sec:interface}, will be responsible for all interactions that need to be available at all times.
 The implemented \textit{quickbar} can be seen in figure \ref{fig:quickmenu}.
 By pressing the button on the right end of the \textit{quickbar} the menu can be expanded and minimized to safe screen space when not needed.
+The menu also contains buttons for redoing and undoing actions to fulfill requirement [R8].
+In addition, that there is a button for a \enquote{locked-mode}.
+Unfortunately the button is just a placeholder since the functionality to lock the players view to a city is not available in the desktop version at this time.
+Therefore, requirement [R9] can not be completed at the time of this thesis. 
 
 The other part of the menu can be seen in figure \ref{fig:interaction_menu}.
 The menu is placed on the right side of the screen, and it contains all the player interactions.
@@ -181,23 +185,95 @@ In addition to that the dots that can be selected and dragged are larger in the 
 The listed implementations of the node interactions fulfill the requirements of [R5].
 
 \subsubsection{Rotating}
-[R6]
+To fulfil the requirements of [R6] rotating has to be adapted to the mobile version of \gls{see}.
+The user can rotate the city either freely or in eight predefined steps.
+Figure \ref{fig:rotate} shows a rotation in those eight predefined steps.
+As it can be seen the \enquote{8} button is green which means that it is active.
+The user can drag from a certain point on the \gls{city} towards a direction the \gls{city} shall be rotated to.
 
 \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Implementation/img/rotate.png}
     \caption{The \gls{city} can be rotated by for example touching the screen on the orange dot and dragging from there like the arrow indicates.}\label{fig:rotate}
 \end{figure}
+
+The implementation for the interaction of rotating is done in the following steps:
+\begin{enumerate}
+    \item Check if there is exactly one touch input on an object of the type \enquote{\gls{node}}.
+    \item Check if the \enquote{8} button is active
+    \item Calculate the new position of the \gls{city} just like in the desktop version of \gls{see}
+\end{enumerate}
 \subsubsection{Moving}
-[R7]
+Last but not least the player action of moving a \gls{city} or object has to be implemented to fulfill the requirements of [R7].
+The user can touch a certain point on a \gls{city} and drag it to move it as visualized in figure \ref{fig:move}.
+The same can be done with any \gls{node} or \gls{plane} by activating the \enquote{1} button.
+Same as for the rotate-interaction the user can also activate the \enquote{8} to move an object or city in one of eight predefined directions.
+Also, by selecting the \enquote{1} or \enquote{8} button it will turn green to indicate that it is active.
 
 \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Implementation/img/move.png}
     \caption{The \gls{city} can be moved by touching and dragging it to a desired direction.}\label{fig:left}
 \end{figure}
+
+The implementation is done similar to the one for the rotate-interaction. 
+The only thing added here is the check whether the \enquote{1} button is active or not.
+
 \subsection{Android Build Requirements}
-[R1]
-\subsubsection{Preprocessor Tags}
-\subsubsection{Restructure}
+The last part of this chapter will discuss the requirements to build a version of \gls{see} on \gls{android} to fulfill the last requirement [R1].
+In the following there will be a deeper look at the challenges porting \gls{see} to android devices brings. 
+
+
+\subsubsection{Conditional Compilation}
+
+\gls{see} uses as it is usual for a medium to large \gls{unity} project many \glspl{asset}.
+Unfortunately not all \glspl{asset} support a \gls{android} implementation.
+Therefore, the unsupported assets have to exchanged or excluded from the implementation.
+Some unsupported \glspl{asset} are \textit{Valve} and \textit{UnityEngine.Windows.Speech}.
+The \textit{Valve} \gls{asset} is required for the \gls{vr} implementation of \gls{see} and \textit{UnityEngine.Windows.Speech} is fundamental for the speech assistant \enquote{See}.
+Since the \glspl{asset} are not supported but still needed in the project they need to be excluded. 
+
+Unity offers a way to compile only partial code. 
+Therefore, it uses the \textit{directives}\footnote{https://docs.unity3d.com/Manual/PlatformDependentCompilation.html (last visited: 21.06.2022, 1:27)} of the C\# language. 
+These the hash character (\#) followed by \textit{if} or \textit{endif} to mark code areas with a condition.
+\gls{unity} has platform scripting symbols like \textit{UNITY\_ANDROID} to set conditions for code areas to be compiled for a certain device or not.
+The following code example shows how the technique is used in this project. 
+
+\begin{minipage}{\linewidth}
+
+\begin{lstlisting}[language=C]
+using SupportedPackage
+#if not UNITY_ANDROID
+using NotSupportedForAndroidPackage
+#endif 
+
+    SomeClass
+    {
+    ...
+    SomeSupportedPackageMethod()
+    ...
+    #if not UNITY_ANDROID
+    SomeNotAvailableMethodForAndroid()
+    #endif
+    ...
+    }
+\end{lstlisting}
+
+\end{minipage}
+
+Examples like this can be found many times in the \gls{see} project. 
+In addition to that there are some cases where the main code is exchanged whether the device is an \gls{android} or not.
+For example the player actions discussed earlier in this chapter require touch input and can not use the hover effect of a mouse cursor on a mobile device.
+Therefore, on mobile devices the touch input code will be used and on desktop devices the mouse hover code, but both code parts use the same methods and variables.
+Having two separated classes would make up redundant code. 
+On the other hand side excessive use of conditional compilation makes it harder to maintain code because it might have to be adjusted at multiple points for a single change.
+This way part of the code could easily be forgotten and lead to bugs.
+
 \subsubsection{File Loading}
+One last challenge for the mobile implementation of \gls{see} was how files are handled in the project.
+\gls{see} uses specify file space for \gls{unity} called \textit{StreamingAssets}\footnote{https://docs.unity3d.com/Manual/StreamingAssets.html (last visited: 21.06.22, 2:47)} to store for example the various states of an Evolution-\gls{city}.
+An Evolution\gls{city} visualizes multiple states of development.
+Only the first state is preloaded the other states are stored in the \textit{StreamingAssets} and are loaded at runtime. 
+The problem however is that an \gls{android} application is packed into an \gls{jar}.
+Files inside a \gls{jar} cannot be obtained without further ado.
+To achieve access to files that are not initially loaded \textit{WebRequests}\footnote{https://docs.unity3d.com/ScriptReference/Networking.UnityWebRequest.html (last visited: 21.06.22, 3:13)} have to be used for an \gls{android} implementation. 
