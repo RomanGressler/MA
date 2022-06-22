@@ -7,7 +7,7 @@ Prototypes are a common way to express the needs of a system.
 It is a low-cost way of planning an implementation, that can highlight challenges regarding constraints of a system early on.
 
 Even though a prototype will never be able to show every aspect and need of a complex system, it should still help to answering questions like: 
-How should the system feel? How should it be implemented, and what are the key features? \cite{houde1997prototypes} 
+How should the system feel? How should it be implemented, and what are the key features? (\cite{houde1997prototypes}) 
 
 \gls{see} is meant to be used by multiple platforms such as desktop devices, mobile devices and virtual reality devices.
 Each device has different interaction constrains. 
@@ -27,7 +27,7 @@ TODO WEITER AUSFÜHREN
 SHORTCUTS WIE STRG Z NICHT MÖGLICH
  \cite{adipat2005interface} 
 
-Moving the player will be handled with virtual joysticks as seen in figure \ref{fig:joystick}.
+Moving the player will be handled with virtual joysticks as seen in figure \ref{fig:joystick_prototype}.
 The left joystick will move the player through the virtual room and the right will move the camera angle or in other word the direction the player looks at.
 The joysticks are placed in the left and right corner and should just take as much space as needed to be handled comfortably.
 This way the player is able to navigate through the virtual room with his/her thumps while still having enough space to work on the \gls{city}.
@@ -35,7 +35,7 @@ This way the player is able to navigate through the virtual room with his/her th
 \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Concept/img/joystick.png}
-    \caption{Joysticks for moving in \gls{see}}\label{fig:joystick}
+    \caption{Joysticks for moving in \gls{see}}\label{fig:joystick_prototype}
 \end{figure}
 
 The menu on the top left side seen in figure \ref{fig:quickbar} will be called "quickbar" further on. 
@@ -44,7 +44,7 @@ The quickbar is designed to offer more general functions that are needed in vari
 Because there are no shortcuts on mobile devices each function has to have a button to be activated.
 
 The functions are redo and undo which will do an action undone again or revert an action.
-Then there is a camera lock that will lock the players perspective to a certain \gls{city} so that the player can only move around the selected city and move closer or further away from it.
+Then there is a camera lock that will lock the player's perspective to a certain \gls{city} so that the player can only move around the selected city and move closer or further away from it.
 The next function is to rerotate a \gls{city}.
 That means the \gls{city} that was last rotated will be set back to its initial state of rotation.
 Last but not least there will be a button for recentering the city, which will work quite similar to the rerotate button and center the last moved \gls{city}.
@@ -58,7 +58,7 @@ The button on the right can be used to collapse or expand the quickbar.
 On the top right side another menu will be placed that contains different interaction modes.
 By clicking a button an interaction mode will be selected and moved to the top right corner.
 Also, the menu will be collapsed and only the buttons regarding the selected interaction mode shall be shown.
-By clicking the button on the top right again the menu shall expand and the other interaction modes shall be selectable.
+By clicking the button on the top right again the menu shall expand, and the other interaction modes shall be selectable.
 The other buttons shall be kept in the same order to reduce confusion of the user.
 
 The first interaction mode, seen in figure \ref{fig:select}, is for selecting nodes.
@@ -102,7 +102,7 @@ Each button of the node interactions will be marked green after being pressed to
     \caption{Node interactions in \gls{see}}\label{fig:nodes}
 \end{figure}
 
-Then there will be a button for rotation interactions that can be seen in figure \ref{fig:rotate}.
+Then there will be a button for rotation interactions that can be seen in figure \ref{fig:rotate_proto}.
 Starting with the first activatable button that lets the user rotate the hole \gls{city} by touching any point on it and then sliding away from that point.
 Similar to that there will be a button that lets the user rotate just a single node on the \gls{city}.
 In addition to that there will be a button that activates the so-called "locked-rotation" mode.
@@ -115,7 +115,7 @@ The second option can be activated by pressing the last button.
 \begin{figure}[htb]
     \centering
     \includegraphics[width=1\textwidth]{Concept/img/menu4.png}
-    \caption{Rotation mode in \gls{see}}\label{fig:rotate}
+    \caption{Rotation mode in \gls{see}}\label{fig:rotate_proto}
 \end{figure}
 
 The last interaction group, seen in figure \ref{fig:move}, is for moving the \gls{city} or a single node.

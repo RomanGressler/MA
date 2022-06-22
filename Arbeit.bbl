@@ -1,9 +1,40 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Koschke(2020)]{koschke}
+Rainer Koschke.
+\newblock Auge in auge mit ihrer softwarearchitektur.
+\newblock Universität Bremen, 2020.
+
+\bibitem[Koschke and Steinbeck(2021)]{DBLP:conf/iwsc/KoschkeS21}
+Rainer Koschke and Marcel Steinbeck.
+\newblock {SEE} your clones with your teammates.
+\newblock In \emph{15th {IEEE} International Workshop on Software Clones,
+  {IWSC} 2021, Luxembourg, October 2, 2021}, pages 15--21. {IEEE}, 2021.
+\newblock \doi{10.1109/IWSC53727.2021.00009}.
+\newblock URL \url{https://doi.org/10.1109/IWSC53727.2021.00009}.
+
+\bibitem[Wettel and Lanza(2007)]{wettel2007visualizing}
+Richard Wettel and Michele Lanza.
+\newblock Visualizing software systems as cities.
+\newblock In \emph{2007 4th IEEE International Workshop on Visualizing Software
+  for Understanding and Analysis}, pages 92--99. IEEE, 2007.
+
+\bibitem[Wettel and Lanza(2008{\natexlab{a}})]{wettel2008visual}
+Richard Wettel and Michele Lanza.
+\newblock Visual exploration of large-scale system evolution.
+\newblock In \emph{2008 15th Working Conference on Reverse Engineering}, pages
+  219--228. IEEE, 2008{\natexlab{a}}.
+
+\bibitem[Wettel and Lanza(2008{\natexlab{b}})]{Wettel2008}
+Richard Wettel and Michele Lanza.
+\newblock Codecity: 3d visualization of large-scale software.
+\newblock pages 921--922, 01 2008{\natexlab{b}}.
+\newblock \doi{10.1145/1370175.1370188}.
 
 \bibitem[Houde and Hill(1997)]{houde1997prototypes}
 Stephanie Houde and Charles Hill.
