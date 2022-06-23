@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -35,6 +35,18 @@ Richard Wettel and Michele Lanza.
 \newblock Codecity: 3d visualization of large-scale software.
 \newblock pages 921--922, 01 2008{\natexlab{b}}.
 \newblock \doi{10.1145/1370175.1370188}.
+
+\bibitem[Nicoll and Keogh(2019)]{nicoll2019unity}
+Benjamin Nicoll and Brendan Keogh.
+\newblock The unity game engine and the circuits of cultural software.
+\newblock In \emph{The Unity game engine and the circuits of cultural
+  software}, pages 1--21. Springer, 2019.
+
+\bibitem[Roth(1982)]{roth1982ray}
+Scott~D Roth.
+\newblock Ray casting for modeling solids.
+\newblock \emph{Computer graphics and image processing}, 18\penalty0
+  (2):\penalty0 109--144, 1982.
 
 \bibitem[Houde and Hill(1997)]{houde1997prototypes}
 Stephanie Houde and Charles Hill.

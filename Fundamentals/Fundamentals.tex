@@ -34,11 +34,29 @@ Therefore, using metaphors as the \gls{city} aims to avoid overwhelming the user
 \end{figure}
 
 \subsection{Unity}
-\gls{unity}\footnote{https://unity.com/ (last visited: 22.06.22, 2:39)} is a cross-platform game engine that has been released in June 2005.
-The engine is not only popular for games but also for other industries regarding architecture, automotive or film.
-Unity uses C\# as a programming language and is used 1.5 million active developers every month. 
+\gls{unity} is a cross-platform game engine that has been released in June 2005 as \textit{Unity 1.0}.
+The engine is not only popular for games but also for other industries regarding architecture, automotive or film\footnote{https://unity.com/ (last visited: 22.06.22, 2:39)}.
+\gls{unity} started to become successful with its launch in the Apple App Store. 
+This is due to the growing popularity of mobile video games and \gls{unity} being on of only few game engines that are optimized for Apple.
+The game engine grew ever since and has grown its support for multiplatform development (\cite{nicoll2019unity}).
+
 \subsubsection{Ray Casting}
 \label{sec:ray}
+Ray casting is basic computer graphics rendering algorithm. 
+Rays are cast to determine on their path what can be seen be the camera perspective. 
+In the example of figure \ref{fig:ray_example} a local camera coordinate system can be seen.
+The lines from the origin on the right are rays that determine the view plane of $z=0$.
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=1\textwidth]{Fundamentals/img/ray_casting.jpg}
+    \caption{Camera's local coordinate system by \cite{roth1982ray}}
+    \label{fig:ray_example}
+\end{figure}
+
+Ray casting will also be used to detect the closest object from a certain point on the camera's perspective.
+For example objects will often be selected by touch and to determine with object is touched ray casting is needed.
+Therefore, a ray will be cast from the center of the touch input and call be the closest object. 
+This could also be used to determine if a touch input is on a \gls{city} to allow rotating or moving interactions. 
 \subsubsection{Multi-Platform}
 \subsubsection{Debugging and Testing}
 Unity remote

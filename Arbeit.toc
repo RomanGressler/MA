@@ -9,8 +9,8 @@
 \contentsline {section}{\numberline {2.2}{Code Cities}}{3}{section.2.2}%
 \contentsline {section}{\numberline {2.3}{Unity}}{4}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}{Ray Casting}}{4}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}{Multi-Platform}}{4}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}{Debugging and Testing}}{4}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.2}{Multi-Platform}}{5}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}{Debugging and Testing}}{5}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}{Android Interface Design}}{5}{section.2.4}%
 \contentsline {chapter}{\numberline {3}{Concept}}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}{Interface}}{7}{section.3.1}%
@@ -49,28 +49,28 @@
 \contentsline {paragraph}{{Gender}}{40}{subsection.5.5.1}%
 \contentsline {paragraph}{{Age}}{40}{subsection.5.5.1}%
 \contentsline {paragraph}{{Highest degree}}{40}{subsection.5.5.1}%
-\contentsline {paragraph}{{Experience}}{41}{figure.caption.29}%
-\contentsline {paragraph}{{Android device and version}}{41}{figure.caption.29}%
+\contentsline {paragraph}{{Experience}}{41}{figure.caption.30}%
+\contentsline {paragraph}{{Android device and version}}{41}{figure.caption.30}%
 \contentsline {subsection}{\numberline {5.5.2}{Performance}}{42}{subsection.5.5.2}%
 \contentsline {subsection}{\numberline {5.5.3}{Usability}}{46}{subsection.5.5.3}%
 \contentsline {paragraph}{{ASQ}}{46}{subsection.5.5.3}%
-\contentsline {paragraph}{{SUS}}{51}{table.caption.39}%
+\contentsline {paragraph}{{SUS}}{51}{table.caption.40}%
 \contentsline {subsection}{\numberline {5.5.4}{Impact of experience}}{52}{subsection.5.5.4}%
 \contentsline {paragraph}{{Experience with \gls {see}}}{53}{subsection.5.5.4}%
-\contentsline {paragraph}{{Experience with software development}}{53}{table.caption.43}%
-\contentsline {paragraph}{{Highest achieved degree}}{54}{table.caption.44}%
-\contentsline {paragraph}{{Android version and device}}{54}{table.caption.45}%
+\contentsline {paragraph}{{Experience with software development}}{53}{table.caption.44}%
+\contentsline {paragraph}{{Highest achieved degree}}{54}{table.caption.45}%
+\contentsline {paragraph}{{Android version and device}}{54}{table.caption.46}%
 \contentsline {subsection}{\numberline {5.5.5}{Comments of the subjects}}{55}{subsection.5.5.5}%
 \contentsline {paragraph}{{Desktop version}}{55}{subsection.5.5.5}%
 \contentsline {paragraph}{{Mobile version}}{56}{subsection.5.5.5}%
 \contentsline {section}{\numberline {5.6}{Threads to validity}}{57}{section.5.6}%
 \contentsline {subsection}{\numberline {5.6.1}{Internal Validity}}{57}{subsection.5.6.1}%
 \contentsline {paragraph}{{History}}{57}{subsection.5.6.1}%
-\contentsline {paragraph}{{Testing}}{58}{figure.caption.47}%
-\contentsline {paragraph}{{Instrumentation}}{58}{figure.caption.47}%
-\contentsline {paragraph}{{Biases}}{58}{figure.caption.47}%
-\contentsline {paragraph}{{Selection}}{58}{figure.caption.47}%
-\contentsline {paragraph}{{Other Threads}}{59}{figure.caption.47}%
+\contentsline {paragraph}{{Testing}}{58}{figure.caption.48}%
+\contentsline {paragraph}{{Instrumentation}}{58}{figure.caption.48}%
+\contentsline {paragraph}{{Biases}}{58}{figure.caption.48}%
+\contentsline {paragraph}{{Selection}}{58}{figure.caption.48}%
+\contentsline {paragraph}{{Other Threads}}{59}{figure.caption.48}%
 \contentsline {subsection}{\numberline {5.6.2}{External Validity}}{59}{subsection.5.6.2}%
 \contentsline {paragraph}{{Nonrepresentative Sample}}{59}{subsection.5.6.2}%
 \contentsline {paragraph}{{Reactive effects of experimental arrangement}}{59}{subsection.5.6.2}%
@@ -81,5 +81,5 @@
 \contentsline {chapter}{\numberline {C}{List of Figures}}{67}{appendix.C}%
 \contentsline {chapter}{\numberline {D}{List of Tables}}{69}{appendix.D}%
 \contentsline {chapter}{\numberline {E}{Related Files}}{71}{appendix.E}%
-\contentsline {section}{References}{75}{table.caption.50}%
+\contentsline {section}{References}{75}{table.caption.51}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
