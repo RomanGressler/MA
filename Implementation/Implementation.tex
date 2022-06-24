@@ -1,6 +1,13 @@
 \section{Implementation}
 \label{section:implementation}
+
+This chapter will discuss the implementation of the mobile version of \gls{see}.
+Starting with the mobile player implementation in section \ref{sec:player}.
+Section \ref{sec:player_movement} will give insight on the player movement before section \ref{sec:menu} will discuss the mobile menu.
+Next the implemented player action will be introduced in section \ref{sec:player_actions}.
+This chapter will close with pointing out the requirements for an \gls{android} build and how they have been handled.
 \subsection{Mobile Player}
+\label{sec:player}
 In this section the mobile player \gls{prefab} will be discussed. 
 \gls{see} is supported on multiple platforms and with each platform having different requirements each platform needs to be divided.
 Therefore, each platform gets its own player \gls{prefab}.
@@ -18,6 +25,7 @@ There is the \textit{SelectAction} and the \textit{ZoomActionMobile} script, whi
 In this case the player type will be \enquote{mobile player} and the menu created (here \textit{SimpleMenu}) will be discussed in section \ref{sec:menu}.
 
 \subsection{Player Movement}
+\label{sec:player_movement}
 After having creating a player, the player also has to be able to move.
 Therefore, the \textit{MobilePlayerMovement} script got added.
 The script handles the input by the joysticks seen in figure \ref{fig:joystick}.

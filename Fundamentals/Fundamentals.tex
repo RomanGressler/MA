@@ -1,7 +1,11 @@
 \section{Fundamentals}
 \label{sec:fundamentals}
+This chapter will cover the basics of this thesis beginning with a short introduction in \gls{see} in section \ref{sec:see}.
+Section \ref{sec:code_cities} will continue with giving insight on \glspl{city}. 
+In the end of this chapter, section \gls{unity} will be about \gls{unity} and the core functions that will be used in this thesis.
 
 \subsection{SEE}
+\label{sec:see}
 The \gls{see} project aims to connect people regardless of space in a virtual room to analyze code structure. 
 The Unity based project uses various types of code visualization (\cite{koschke}, \cite{DBLP:conf/iwsc/KoschkeS21}). 
 One scenario uses the metaphor of cities to illustrate the code structure of an application.
@@ -18,7 +22,9 @@ This shall help developers to collaborate on software projects as freely as poss
     \caption{An example of \gls{see} used for the user study in chapter \ref{section:evaluation}}
     \label{fig:see_example}
 \end{figure}
+
 \subsection{Code Cities}
+\label{sec:code_cities}
 A \gls{city} is an approach of visualizing software projects.
 An example of a \gls{city} by \cite{wettel2007visualizing} can be seen in figure \ref{fig:city_example}.
 Since the representation is three-dimensional many metrics can be visualized in a single \gls{city}.
@@ -57,7 +63,35 @@ Ray casting will also be used to detect the closest object from a certain point 
 For example objects will often be selected by touch and to determine with object is touched ray casting is needed.
 Therefore, a ray will be cast from the center of the touch input and call be the closest object. 
 This could also be used to determine if a touch input is on a \gls{city} to allow rotating or moving interactions. 
-\subsubsection{Multi-Platform}
+
 \subsubsection{Debugging and Testing}
-Unity remote
-\subsection{Android Interface Design}
+Building another version of a consisting application can take a lot of testing.
+Testing in \gls{unity} for \gls{android} applications can be escalated in three steps. 
+Debugging always works in combination with the \textit{Microsoft Visual Studio}\footnote{visualstudio.microsoft.com/ (last visited: 24.06.22, 0:12)} debugger, an \gls{ide} for multiple coding languages including \textit{C\#}.
+
+The first and easiest method can be done directly in the \gls{unity} Editor by using the core feature \textit{Play Mode}.
+In \textit{Play Mode} the project starts and builds as it would in a final build.
+Any changes made in will not be saved and will be reset after leaving \textit{Play Mode}.
+However, the building time in the \textit{Play Mode} is much faster than the actual \gls{android} build.
+Unfortunately touch input can not be tested on a desktop computer, but the \textit{Play Mode} suffices for testing UIs or other basic changes. 
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=1\textwidth]{Fundamentals/img/play_mode.png}
+    \caption{The \textit{Play Mode} can be entered by pressing play at the marked spot}
+    \label{fig:play_mode}
+\end{figure}
+
+However, if actions with touch input need to be tested, the second method is suitable.
+Therefore, \gls{unity} provides the app \textit{Unity Remote}\footnote{https://docs.unity3d.com/Manual/UnityRemote5.html (last visited: 24.06.22, 0:14)}.
+The app can be connected via USB with the \gls{unity} Editor.
+After hitting the play button the \gls{scene} will also be displayed on the connected device and also take input.
+Besides touch input other factors for a mobile application like the accelerometer, gyroscope or the camera can be tested. 
+The application however will be build on the desktop computer and not on the \gls{android} device. 
+
+To test the application for example for bugs that cause a crash on some \gls{android} devices the application has to be build and installed on the device.
+The device can then be connected with the \gls{ide} via Wi-Fi or USB. 
+\gls{unity} also provide an option to let the built application wait for a connection with the \gls{ide}, since the connection can take some time.
+This however is more time-consuming than the other to methods. 
+An \gls{unity} \gls{android} build can take depending on the project size more than five minutes. 
+It should therefore only be a last option and only be used to debug concerns regarding the devices hardware constrains. 

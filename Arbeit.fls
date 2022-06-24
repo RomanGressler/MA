@@ -2275,10 +2275,6 @@ INPUT ./Fundamentals/img/ray_casting.jpg
 INPUT Fundamentals/img/ray_casting.jpg
 INPUT ./Fundamentals/img/ray_casting.jpg
 INPUT ./Fundamentals/img/ray_casting.jpg
-INPUT ./Concept/Concept.tex
-INPUT Concept/Concept.tex
-INPUT ./Concept/Concept.tex
-INPUT Concept/Concept.tex
 INPUT c:/texlive/2021/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -2288,6 +2284,16 @@ INPUT c:/texlive/2021/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/palatino/pplr9t.vf
+INPUT ./Fundamentals/img/play_mode.png
+INPUT ./Fundamentals/img/play_mode.png
+INPUT Fundamentals/img/play_mode.png
+INPUT ./Fundamentals/img/play_mode.png
+INPUT ./Fundamentals/img/play_mode.png
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tlf-t1.tfm
+INPUT ./Concept/Concept.tex
+INPUT Concept/Concept.tex
+INPUT ./Concept/Concept.tex
+INPUT Concept/Concept.tex
 INPUT ./Concept/img/joystick.png
 INPUT ./Concept/img/joystick.png
 INPUT Concept/img/joystick.png
@@ -2352,7 +2358,6 @@ INPUT ./Implementation/img/quickmenu.png
 INPUT Implementation/img/quickmenu.png
 INPUT ./Implementation/img/quickmenu.png
 INPUT ./Implementation/img/quickmenu.png
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/newpx/zpl-Italic-tlf-t1.tfm
 INPUT ./Implementation/img/menu.png
 INPUT ./Implementation/img/menu.png
 INPUT Implementation/img/menu.png

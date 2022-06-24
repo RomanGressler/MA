@@ -17,6 +17,9 @@
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossentry{glx}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
+\glsgroupheading{I}\relax \glsresetentrylist %
+\glossentry{ide}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
 \glsgroupheading{J}\relax \glsresetentrylist %
 \glossentry{jar}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{24}}}\glsgroupskip

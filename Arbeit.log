@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  23 JUN 2022 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.5)  24 JUN 2022 01:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1600,69 +1600,77 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `T1/zplTLF/m/scit' will be
-(Font)              scaled to size 9.0pt on input line 9.
-<Fundamentals/img/SEE.png, id=214, 1495.83844pt x 883.80188pt>
+(Font)              scaled to size 9.0pt on input line 5.
+<Fundamentals/img/SEE.png, id=216, 1495.83844pt x 883.80188pt>
 File: Fundamentals/img/SEE.png Graphic file (type png)
 <use Fundamentals/img/SEE.png>
-Package pdftex.def Info: Fundamentals/img/SEE.png  used on input line 17.
+Package pdftex.def Info: Fundamentals/img/SEE.png  used on input line 21.
 (pdftex.def)             Requested size: 336.0pt x 198.52318pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zplTLF/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
-<Fundamentals/img/code_city.png, id=233, 507.39563pt x 312.41719pt>
+<Fundamentals/img/code_city.png, id=235, 507.39563pt x 312.41719pt>
 File: Fundamentals/img/code_city.png Graphic file (type png)
 <use Fundamentals/img/code_city.png>
-Package pdftex.def Info: Fundamentals/img/code_city.png  used on input line 31.
+Package pdftex.def Info: Fundamentals/img/code_city.png  used on input line 37.
 (pdftex.def)             Requested size: 336.0pt x 206.89197pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [3 <./Fundamentals/img/SEE.png>]
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 38.
+(Font)              scaled to size 8.0pt on input line 44.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 43.
+(Font)              scaled to size 12.0pt on input line 49.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/sc' will be
-(Font)              scaled to size 12.0pt on input line 43.
+(Font)              scaled to size 12.0pt on input line 49.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zplTLF/b/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/it' will be
-(Font)              scaled to size 10.95pt on input line 43.
-<Fundamentals/img/ray_casting.jpg, id=265, 206.9331pt x 198.2607pt>
+(Font)              scaled to size 10.95pt on input line 49.
+<Fundamentals/img/ray_casting.jpg, id=266, 206.9331pt x 198.2607pt>
 File: Fundamentals/img/ray_casting.jpg Graphic file (type jpg)
 <use Fundamentals/img/ray_casting.jpg>
-Package pdftex.def Info: Fundamentals/img/ray_casting.jpg  used on input line 51.
+Package pdftex.def Info: Fundamentals/img/ray_casting.jpg  used on input line 57.
 (pdftex.def)             Requested size: 336.0pt x 321.95804pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [4 <./Fundamentals/img/code_city.png>]) (./Concept/Concept.tex
+ [4 <./Fundamentals/img/code_city.png>]
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [5 <./Fundamentals/img/ray_casting.jpg>]
+<Fundamentals/img/play_mode.png, id=299, 843.15pt x 392.96812pt>
+File: Fundamentals/img/play_mode.png Graphic file (type png)
+<use Fundamentals/img/play_mode.png>
+Package pdftex.def Info: Fundamentals/img/play_mode.png  used on input line 80.
+(pdftex.def)             Requested size: 336.0pt x 156.60281pt.
+LaTeX Font Info:    Font shape `T1/zplTLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 81.
+) (./Concept/Concept.tex
 Chapter 3.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [5 <./Fundamentals/img/ray_casting.jpg>]
+ [6 <./Fundamentals/img/play_mode.png>]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [6
+ [7
 
 
 ]
-Overfull \vbox (6.579pt too high) has occurred while \output is active []
-
- [7]
-<Concept/img/joystick.png, id=325, 335.00156pt x 164.86594pt>
+<Concept/img/joystick.png, id=350, 335.00156pt x 164.86594pt>
 File: Concept/img/joystick.png Graphic file (type png)
 <use Concept/img/joystick.png>
 Package pdftex.def Info: Concept/img/joystick.png  used on input line 37.
 (pdftex.def)             Requested size: 336.0pt x 165.35605pt.
-<Concept/img/quickbar.png, id=333, 564.60938pt x 312.41719pt>
+<Concept/img/quickbar.png, id=358, 564.60938pt x 312.41719pt>
 File: Concept/img/quickbar.png Graphic file (type png)
 <use Concept/img/quickbar.png>
 Package pdftex.def Info: Concept/img/quickbar.png  used on input line 54.
 (pdftex.def)             Requested size: 336.0pt x 185.92151pt.
-<Concept/img/menu1.png, id=337, 557.08125pt x 304.13625pt>
+<Concept/img/menu1.png, id=362, 557.08125pt x 304.13625pt>
 File: Concept/img/menu1.png Graphic file (type png)
 <use Concept/img/menu1.png>
 Package pdftex.def Info: Concept/img/menu1.png  used on input line 72.
@@ -1671,7 +1679,7 @@ Package pdftex.def Info: Concept/img/menu1.png  used on input line 72.
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [8 <./Concept/img/joystick.png>]
-<Concept/img/menu2.png, id=348, 557.83406pt x 303.38344pt>
+<Concept/img/menu2.png, id=373, 557.83406pt x 303.38344pt>
 File: Concept/img/menu2.png Graphic file (type png)
 <use Concept/img/menu2.png>
 Package pdftex.def Info: Concept/img/menu2.png  used on input line 84.
@@ -1680,7 +1688,7 @@ Package pdftex.def Info: Concept/img/menu2.png  used on input line 84.
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [9 <./Concept/img/quickbar.png> <./Concept/img/menu1.png>]
-<Concept/img/menu3.png, id=363, 633.11531pt x 347.79938pt>
+<Concept/img/menu3.png, id=388, 633.11531pt x 347.79938pt>
 File: Concept/img/menu3.png Graphic file (type png)
 <use Concept/img/menu3.png>
 Package pdftex.def Info: Concept/img/menu3.png  used on input line 101.
@@ -1699,12 +1707,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [10 <./Concept/img/menu2.png> <./Concept/img/menu3.png>]
-<Concept/img/menu4.png, id=379, 820.56563pt x 462.22687pt>
+<Concept/img/menu4.png, id=404, 820.56563pt x 462.22687pt>
 File: Concept/img/menu4.png Graphic file (type png)
 <use Concept/img/menu4.png>
 Package pdftex.def Info: Concept/img/menu4.png  used on input line 117.
 (pdftex.def)             Requested size: 336.0pt x 189.26738pt.
-<Concept/img/menu5.png, id=387, 824.32968pt x 465.23813pt>
+<Concept/img/menu5.png, id=412, 824.32968pt x 465.23813pt>
 File: Concept/img/menu5.png Graphic file (type png)
 <use Concept/img/menu5.png>
 Package pdftex.def Info: Concept/img/menu5.png  used on input line 129.
@@ -1727,112 +1735,111 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
 
 ]
-<Implementation/img/mobile_player.png, id=437, 353.82187pt x 377.15906pt>
+<Implementation/img/mobile_player.png, id=469, 353.82187pt x 377.15906pt>
 File: Implementation/img/mobile_player.png Graphic file (type png)
 <use Implementation/img/mobile_player.png>
-Package pdftex.def Info: Implementation/img/mobile_player.png  used on input line 11.
+Package pdftex.def Info: Implementation/img/mobile_player.png  used on input line 18.
 (pdftex.def)             Requested size: 268.80103pt x 286.53452pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [15 <./Implementation/img/mobile_player.png>]
-<Implementation/img/joysticks.png, id=453, 643.6547pt x 307.1475pt>
+<Implementation/img/joysticks.png, id=485, 643.6547pt x 307.1475pt>
 File: Implementation/img/joysticks.png Graphic file (type png)
 <use Implementation/img/joysticks.png>
-Package pdftex.def Info: Implementation/img/joysticks.png  used on input line 28.
+Package pdftex.def Info: Implementation/img/joysticks.png  used on input line 36.
 (pdftex.def)             Requested size: 336.0pt x 160.34094pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 [][][]\T1/zplTLF/m/n/9 (+20) https://assetstore.unity.com/packages/tools/input-management/joystick-pack-
  []
 
-<Implementation/img/pitch_yaw.jpg, id=459, 144.54pt x 118.5228pt>
-File: Implementation/img/pitch_yaw.jpg Graphic file (type jpg)
-<use Implementation/img/pitch_yaw.jpg>
-Package pdftex.def Info: Implementation/img/pitch_yaw.jpg  used on input line 52.
-(pdftex.def)             Requested size: 336.0pt x 275.53549pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [16 <./Implementation/img/joysticks.png>]
-<Implementation/img/quickmenu.png, id=480, 858.20625pt x 362.85562pt>
+<Implementation/img/pitch_yaw.jpg, id=502, 144.54pt x 118.5228pt>
+File: Implementation/img/pitch_yaw.jpg Graphic file (type jpg)
+<use Implementation/img/pitch_yaw.jpg>
+Package pdftex.def Info: Implementation/img/pitch_yaw.jpg  used on input line 60.
+(pdftex.def)             Requested size: 336.0pt x 275.53549pt.
+<Implementation/img/quickmenu.png, id=509, 858.20625pt x 362.85562pt>
 File: Implementation/img/quickmenu.png Graphic file (type png)
 <use Implementation/img/quickmenu.png>
-Package pdftex.def Info: Implementation/img/quickmenu.png  used on input line 65.
+Package pdftex.def Info: Implementation/img/quickmenu.png  used on input line 73.
 (pdftex.def)             Requested size: 336.0pt x 142.06125pt.
-LaTeX Font Info:    Font shape `T1/zplTLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 66.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [17 <./Implementation/img/pitch_yaw.jpg> <./Implementation/img/quickmenu.png>]
-<Implementation/img/menu.png, id=491, 538.26094pt x 310.15875pt>
+ [17 <./Implementation/img/pitch_yaw.jpg>]
+<Implementation/img/menu.png, id=522, 538.26094pt x 310.15875pt>
 File: Implementation/img/menu.png Graphic file (type png)
 <use Implementation/img/menu.png>
-Package pdftex.def Info: Implementation/img/menu.png  used on input line 84.
+Package pdftex.def Info: Implementation/img/menu.png  used on input line 92.
 (pdftex.def)             Requested size: 336.0pt x 193.6121pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [18 <./Implementation/img/menu.png>]
-<Implementation/img/zoom.png, id=510, 645.91313pt x 312.41719pt>
+ [18 <./Implementation/img/quickmenu.png> <./Implementation/img/menu.png>]
+<Implementation/img/zoom.png, id=536, 645.91313pt x 312.41719pt>
 File: Implementation/img/zoom.png Graphic file (type png)
 <use Implementation/img/zoom.png>
-Package pdftex.def Info: Implementation/img/zoom.png  used on input line 117.
+Package pdftex.def Info: Implementation/img/zoom.png  used on input line 125.
 (pdftex.def)             Requested size: 336.0pt x 162.51506pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [19 <./Implementation/img/zoom.png>]
-<Implementation/img/node.png, id=524, 645.16031pt x 309.40594pt>
+ [19]
+<Implementation/img/node.png, id=556, 645.16031pt x 309.40594pt>
 File: Implementation/img/node.png Graphic file (type png)
 <use Implementation/img/node.png>
-Package pdftex.def Info: Implementation/img/node.png  used on input line 151.
+Package pdftex.def Info: Implementation/img/node.png  used on input line 159.
 (pdftex.def)             Requested size: 336.0pt x 161.13751pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [20]
-<Implementation/img/scale.jpeg, id=553, 469.00218pt x 382.42876pt>
+ [20 <./Implementation/img/zoom.png>]
+<Implementation/img/scale.jpeg, id=579, 469.00218pt x 382.42876pt>
 File: Implementation/img/scale.jpeg Graphic file (type jpg)
 <use Implementation/img/scale.jpeg>
-Package pdftex.def Info: Implementation/img/scale.jpeg  used on input line 181.
+Package pdftex.def Info: Implementation/img/scale.jpeg  used on input line 189.
 (pdftex.def)             Requested size: 235.19897pt x 191.77992pt.
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [21 <./Implementation/img/node.png> <./Implementation/img/scale.jpeg>]
-<Implementation/img/rotate.png, id=566, 645.16031pt x 308.65312pt>
+ [21 <./Implementation/img/node.png>]
+<Implementation/img/rotate.png, id=598, 645.16031pt x 308.65312pt>
 File: Implementation/img/rotate.png Graphic file (type png)
 <use Implementation/img/rotate.png>
-Package pdftex.def Info: Implementation/img/rotate.png  used on input line 196.
-(pdftex.def)             Requested size: 336.0pt x 160.74544pt.
-<Implementation/img/move.png, id=577, 645.16031pt x 308.65312pt>
-File: Implementation/img/move.png Graphic file (type png)
-<use Implementation/img/move.png>
-Package pdftex.def Info: Implementation/img/move.png  used on input line 215.
+Package pdftex.def Info: Implementation/img/rotate.png  used on input line 204.
 (pdftex.def)             Requested size: 336.0pt x 160.74544pt.
 
-Overfull \hbox (2.1596pt too wide) in paragraph at lines 219--221
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [22 <./Implementation/img/scale.jpeg> <./Implementation/img/rotate.png>]
+<Implementation/img/move.png, id=617, 645.16031pt x 308.65312pt>
+File: Implementation/img/move.png Graphic file (type png)
+<use Implementation/img/move.png>
+Package pdftex.def Info: Implementation/img/move.png  used on input line 223.
+(pdftex.def)             Requested size: 336.0pt x 160.74544pt.
+
+Overfull \hbox (2.1596pt too wide) in paragraph at lines 227--229
 []\T1/zplTLF/m/n/10.95 (-20) The im-ple-men-ta-tion is done sim-i-lar to the one for the rotate-interaction.
  []
 
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [22 <./Implementation/img/rotate.png>] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+ [23 <./Implementation/img/move.png>] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (c:/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-Overfull \hbox (10.95pt too wide) in paragraph at lines 242--263
+Overfull \hbox (10.95pt too wide) in paragraph at lines 250--271
 []$[]$ 
  []
 
 
-Overfull \vbox (6.579pt too high) has occurred while \output is active []
-
- [23 <./Implementation/img/move.png>]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [24]) (./Evaluation/Evaluation.tex
@@ -1847,7 +1854,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
 
 ]
-<Evaluation/img/menu.png, id=673, 664.73344pt x 645.91313pt>
+<Evaluation/img/menu.png, id=705, 664.73344pt x 645.91313pt>
 File: Evaluation/img/menu.png Graphic file (type png)
 <use Evaluation/img/menu.png>
 Package pdftex.def Info: Evaluation/img/menu.png  used on input line 23.
@@ -1867,7 +1874,7 @@ LaTeX Font Info:    Font shape `T1/zplTLF/b/sc' will be
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/zplTLF/b/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-<Evaluation/img/city_1.png, id=776, 1093.08376pt x 595.47469pt>
+<Evaluation/img/city_1.png, id=807, 1093.08376pt x 595.47469pt>
 File: Evaluation/img/city_1.png Graphic file (type png)
 <use Evaluation/img/city_1.png>
 Package pdftex.def Info: Evaluation/img/city_1.png  used on input line 108.
@@ -1876,12 +1883,12 @@ Package pdftex.def Info: Evaluation/img/city_1.png  used on input line 108.
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [30]
-<Evaluation/img/city_2.png, id=785, 1011.02719pt x 759.58781pt>
+<Evaluation/img/city_2.png, id=817, 1011.02719pt x 759.58781pt>
 File: Evaluation/img/city_2.png Graphic file (type png)
 <use Evaluation/img/city_2.png>
 Package pdftex.def Info: Evaluation/img/city_2.png  used on input line 114.
 (pdftex.def)             Requested size: 336.0pt x 252.43808pt.
-<Evaluation/img/city_3.png, id=788, 913.91437pt x 847.66687pt>
+<Evaluation/img/city_3.png, id=820, 913.91437pt x 847.66687pt>
 File: Evaluation/img/city_3.png Graphic file (type png)
 <use Evaluation/img/city_3.png>
 Package pdftex.def Info: Evaluation/img/city_3.png  used on input line 120.
@@ -1893,7 +1900,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [32 <./Evaluation/img/city_3.png>]
-<Evaluation/img/form_intro.png, id=835, 498.36188pt x 356.83313pt>
+<Evaluation/img/form_intro.png, id=866, 498.36188pt x 356.83313pt>
 File: Evaluation/img/form_intro.png Graphic file (type png)
 <use Evaluation/img/form_intro.png>
 Package pdftex.def Info: Evaluation/img/form_intro.png  used on input line 171.
@@ -1902,7 +1909,7 @@ Package pdftex.def Info: Evaluation/img/form_intro.png  used on input line 171.
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [33]
-<Evaluation/img/form_video.png, id=846, 493.845pt x 395.22656pt>
+<Evaluation/img/form_video.png, id=877, 493.845pt x 395.22656pt>
 File: Evaluation/img/form_video.png Graphic file (type png)
 <use Evaluation/img/form_video.png>
 Package pdftex.def Info: Evaluation/img/form_video.png  used on input line 177.
@@ -1914,7 +1921,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [35]
-<Evaluation/img/task1.png, id=914, 1805.24437pt x 791.95876pt>
+<Evaluation/img/task1.png, id=946, 1805.24437pt x 791.95876pt>
 File: Evaluation/img/task1.png Graphic file (type png)
 <use Evaluation/img/task1.png>
 Package pdftex.def Info: Evaluation/img/task1.png  used on input line 236.
@@ -1932,7 +1939,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [39]
-<Evaluation/img/degree.png, id=977, 433.62pt x 289.08pt>
+<Evaluation/img/degree.png, id=1008, 433.62pt x 289.08pt>
 File: Evaluation/img/degree.png Graphic file (type png)
 <use Evaluation/img/degree.png>
 Package pdftex.def Info: Evaluation/img/degree.png  used on input line 410.
@@ -1972,12 +1979,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 441--441
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [41 <./Evaluation/img/degree.png>]
-<Evaluation/img/droid_version.png, id=1018, 433.62pt x 289.08pt>
+<Evaluation/img/droid_version.png, id=1050, 433.62pt x 289.08pt>
 File: Evaluation/img/droid_version.png Graphic file (type png)
 <use Evaluation/img/droid_version.png>
 Package pdftex.def Info: Evaluation/img/droid_version.png  used on input line 447.
 (pdftex.def)             Requested size: 235.19897pt x 156.80222pt.
-<Evaluation/img/group_time_violin.png, id=1022, 433.62pt x 289.08pt>
+<Evaluation/img/group_time_violin.png, id=1054, 433.62pt x 289.08pt>
 File: Evaluation/img/group_time_violin.png Graphic file (type png)
 <use Evaluation/img/group_time_violin.png>
 Package pdftex.def Info: Evaluation/img/group_time_violin.png  used on input line 471.
@@ -1986,7 +1993,7 @@ Package pdftex.def Info: Evaluation/img/group_time_violin.png  used on input lin
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [42 <./Evaluation/img/droid_version.png>]
-<Evaluation/img/speed1_violin.png, id=1042, 1806.75pt x 758.835pt>
+<Evaluation/img/speed1_violin.png, id=1073, 1806.75pt x 758.835pt>
 File: Evaluation/img/speed1_violin.png Graphic file (type png)
 <use Evaluation/img/speed1_violin.png>
 Package pdftex.def Info: Evaluation/img/speed1_violin.png  used on input line 500.
@@ -2003,7 +2010,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [44 <./Evaluation/img/speed1_violin.png>]
-<Evaluation/img/device_time_violin.png, id=1069, 433.62pt x 289.08pt>
+<Evaluation/img/device_time_violin.png, id=1099, 433.62pt x 289.08pt>
 File: Evaluation/img/device_time_violin.png Graphic file (type png)
 <use Evaluation/img/device_time_violin.png>
 Package pdftex.def Info: Evaluation/img/device_time_violin.png  used on input line 536.
@@ -2012,7 +2019,7 @@ Package pdftex.def Info: Evaluation/img/device_time_violin.png  used on input li
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [45]
-<Evaluation/img/group_asq_violin.png, id=1091, 1806.75pt x 758.835pt>
+<Evaluation/img/group_asq_violin.png, id=1122, 1806.75pt x 758.835pt>
 File: Evaluation/img/group_asq_violin.png Graphic file (type png)
 <use Evaluation/img/group_asq_violin.png>
 Package pdftex.def Info: Evaluation/img/group_asq_violin.png  used on input line 563.
@@ -2021,10 +2028,7 @@ Package pdftex.def Info: Evaluation/img/group_asq_violin.png  used on input line
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [46 <./Evaluation/img/device_time_violin.png>]
-Overfull \vbox (6.579pt too high) has occurred while \output is active []
-
- [47 <./Evaluation/img/group_asq_violin.png>]
-<Evaluation/img/effort_violin.png, id=1118, 867.24pt x 433.62pt>
+<Evaluation/img/effort_violin.png, id=1144, 867.24pt x 433.62pt>
 File: Evaluation/img/effort_violin.png Graphic file (type png)
 <use Evaluation/img/effort_violin.png>
 Package pdftex.def Info: Evaluation/img/effort_violin.png  used on input line 601.
@@ -2034,7 +2038,7 @@ Overfull \hbox (34.86282pt too wide) in paragraph at lines 599--602
  []|  [] 
  []
 
-<Evaluation/img/complexity_violin.png, id=1120, 867.24pt x 433.62pt>
+<Evaluation/img/complexity_violin.png, id=1146, 867.24pt x 433.62pt>
 File: Evaluation/img/complexity_violin.png Graphic file (type png)
 <use Evaluation/img/complexity_violin.png>
 Package pdftex.def Info: Evaluation/img/complexity_violin.png  used on input line 609.
@@ -2044,7 +2048,7 @@ Overfull \hbox (34.86282pt too wide) in paragraph at lines 607--610
  []|  [] 
  []
 
-<Evaluation/img/information_violin.png, id=1122, 1806.75pt x 758.835pt>
+<Evaluation/img/information_violin.png, id=1148, 1806.75pt x 758.835pt>
 File: Evaluation/img/information_violin.png Graphic file (type png)
 <use Evaluation/img/information_violin.png>
 Package pdftex.def Info: Evaluation/img/information_violin.png  used on input line 617.
@@ -2052,22 +2056,25 @@ Package pdftex.def Info: Evaluation/img/information_violin.png  used on input li
 
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [48 <./Evaluation/img/effort_violin.png>]
+ [47]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [49 <./Evaluation/img/complexity_violin.png>]
+ [48 <./Evaluation/img/group_asq_violin.png>]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [50 <./Evaluation/img/information_violin.png>]
+ [49 <./Evaluation/img/effort_violin.png>]
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
- [51]
-<Evaluation/img/SUS-Score_group_violin.png, id=1196, 433.62pt x 289.08pt>
+ [50 <./Evaluation/img/complexity_violin.png>]
+Overfull \vbox (6.579pt too high) has occurred while \output is active []
+
+ [51 <./Evaluation/img/information_violin.png>]
+<Evaluation/img/SUS-Score_group_violin.png, id=1231, 433.62pt x 289.08pt>
 File: Evaluation/img/SUS-Score_group_violin.png Graphic file (type png)
 <use Evaluation/img/SUS-Score_group_violin.png>
 Package pdftex.def Info: Evaluation/img/SUS-Score_group_violin.png  used on input line 699.
 (pdftex.def)             Requested size: 336.0pt x 224.01262pt.
-<Evaluation/img/SUS-Score_violin.png, id=1206, 433.62pt x 289.08pt>
+<Evaluation/img/SUS-Score_violin.png, id=1241, 433.62pt x 289.08pt>
 File: Evaluation/img/SUS-Score_violin.png Graphic file (type png)
 <use Evaluation/img/SUS-Score_violin.png>
 Package pdftex.def Info: Evaluation/img/SUS-Score_violin.png  used on input line 708.
@@ -2093,7 +2100,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
  [56]
-<Evaluation/img/_violin_time.png, id=1302, 433.62pt x 289.08pt>
+<Evaluation/img/_violin_time.png, id=1337, 433.62pt x 289.08pt>
 File: Evaluation/img/_violin_time.png Graphic file (type png)
 <use Evaluation/img/_violin_time.png>
 Package pdftex.def Info: Evaluation/img/_violin_time.png  used on input line 920.
@@ -2127,7 +2134,7 @@ Overfull \vbox (6.579pt too high) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (11.48705pt too wide) in paragraph at lines 73--77
+Overfull \hbox (11.48705pt too wide) in paragraph at lines 75--79
 \T1/zplTLF/m/n/10.95 (-20) could con-tain for ex-am-ple en-vi-ron-men-tal or UI com-po-nents.plural
  []
 
@@ -2228,18 +2235,18 @@ Package rerunfilecheck Info: File `Arbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47774 strings out of 478353
- 932277 string characters out of 5852102
- 1625658 words of memory out of 5000000
- 64249 multiletter control sequences out of 15000+600000
- 575213 words of font info for 409 fonts, out of 8000000 for 9000
+ 47828 strings out of 478353
+ 933228 string characters out of 5852102
+ 1623842 words of memory out of 5000000
+ 64292 multiletter control sequences out of 15000+600000
+ 575629 words of font info for 413 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,23n,109p,10663b,1298s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/zpl_TOsF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplbi.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on Arbeit.pdf (85 pages, 10139646 bytes).
+Output written on Arbeit.pdf (85 pages, 10432523 bytes).
 PDF statistics:
- 1970 PDF objects out of 2073 (max. 8388607)
- 1714 compressed objects within 18 object streams
- 307 named destinations out of 1000 (max. 500000)
- 101093 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 2004 PDF objects out of 2073 (max. 8388607)
+ 1747 compressed objects within 18 object streams
+ 309 named destinations out of 1000 (max. 500000)
+ 101082 words of extra memory for PDF output out of 106986 (max. 10000000)
 

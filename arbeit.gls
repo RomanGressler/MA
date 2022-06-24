@@ -3,6 +3,7 @@
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossentry{android}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
@@ -69,6 +70,7 @@
 		\setentrycounter[]{page}\glsnumberformat{15\delimN 16}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossentry{scene}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{20}}}%
 \glossentry{shortcut}{\glossaryentrynumbers{\relax 
@@ -77,7 +79,7 @@
 		\setentrycounter[]{page}\glsnumberformat{55}}}\glsgroupskip
 \glsgroupheading{U}\relax \glsresetentrylist %
 \glossentry{unity}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{4\delimR 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{15\delimN 16}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{23\delimN 24}}}%
