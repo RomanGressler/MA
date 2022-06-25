@@ -2,8 +2,8 @@
 \vspace {-\cftbeforepartskip }
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}{Introduction}}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}{Motivation}}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}{Research Question}}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.1}{Research Question}}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}{Thesis Structure}}{1}{section.1.2}%
 \contentsline {chapter}{\numberline {2}{Fundamentals}}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}{SEE}}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}{Code Cities}}{4}{section.2.2}%
@@ -79,5 +79,5 @@
 \contentsline {chapter}{\numberline {C}{List of Figures}}{67}{appendix.C}%
 \contentsline {chapter}{\numberline {D}{List of Tables}}{69}{appendix.D}%
 \contentsline {chapter}{\numberline {E}{Related Files}}{71}{appendix.E}%
-\contentsline {section}{References}{75}{table.caption.52}%
+\contentsline {section}{References}{75}{appendix.E}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
