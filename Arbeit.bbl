@@ -1,9 +1,19 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{35}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Schadler and McCarthy(2012)]{schadler2012mobile}
+Ted Schadler and John~C McCarthy.
+\newblock Mobile is the new face of engagement.
+\newblock \emph{Forrester Research}, 13:\penalty0 1--30, 2012.
+
+\bibitem[Wroblewski(2012)]{wroblewski2012mobile}
+Luke Wroblewski.
+\newblock \emph{Mobile first}.
+\newblock Number~6. Editions Eyrolles, 2012.
 
 \bibitem[Koschke(2020)]{koschke}
 Rainer Koschke.

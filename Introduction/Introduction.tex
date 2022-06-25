@@ -1,12 +1,41 @@
 \section{Introduction}
+For the last two decades smartphones are on the rise and caused many things to change in software development.
+Forster research predicted one billion smartphone consumers in 2016 (\cite{schadler2012mobile}).
+It actually were 3.668 billion and in 2021 it were already 6.259 billion\footnote{https://www.statista.com/statistics/330695/number-of-smartphone-users-worldwide/ (last visited: 25.06.22, 22:26)}.
+With the rapid increase in smartphone usage approaches like mobile-first came up, where applications get developed for mobile devices first and other devices like desktop computers second (\cite{wroblewski2012mobile}).
+
+This thesis however will implement a mobile version of \gls{see}, which already has an adaption for desktop devices.
+The \gls{see} project aims to connect people regardless of space in a virtual room to analyze code structure.  
+In the current state of the SEE project the virtual room can be accessed with \gls{vr} glasses or a desktop device.
+
+The motivation of this master thesis shall be to integrate mobile devices into the SEE project. 
+Therefore, solutions need to be found to transfer the given operations to mobile devices considering the constraints and benefits of rather small devices.
+A concept shall be found that integrates the given operations in an innovative way. 
+The main challenges will be the constraints in smaller display, especially with smartphones and the control operations, that differ from the other systems. 
+After implementing the concept as a prototype, the new ways of operating in the virtual room shall be evaluated in comparison with the desktop version. 
+In conclusion this work shall give insight whether the mobile support is a valuable extension to the system or not. 
+In addition to that it shall show an approach of how to convert a rather complex system to mobile devices.
 
 \subsection{Research Question}
 \label{research}
-The central research question of this thesis is: Are Android smartphones suitable of working with \gls{see}?
+The central research question of this thesis is: \\
+\textit{Are Android smartphones suitable of working with \gls{see}?}
 
-To answer this question this thesis will discuss a general concept to implement \gls{see} on mobile devices in chapter \ref{section:concept}.
-Afterwards the specific details of implementation will be introduced in chapter \ref{section:implementation}. 
-The research question will then be answered in chapter \ref{section:evaluation} with an evaluation where the implemented mobile version of \gls{see} will be compared with the desktop version.
-Last but not least this thesis will discuss further research and give a conclusion in chapter \ref{section:conclusion}.
+To answer this question part of this thesis will be to implement an \gls{android} version of \gls{see} and evaluate it in a user study.
+The user study will compare the desktop version with the mobile version of \gls{see}.
+
 
 \subsection{Thesis Structure}
+This thesis will begin with discussing the fundamentals of this work in chapter \ref{sec:fundamentals}.
+This will include the \gls{see} project itself with its use of \glspl{city} as well as a short introduction to \gls{unity} and its key concepts needed for the implementation.
+
+Afterwards the concept for the mobile version will be explained in chapter \ref{section:concept}.
+Part of this chapter will be the planned interface and interactions for the implementation as well as a list of requirements that need to be fulfilled for a working prototype.
+
+The concept will be followed by an implementation, which will be unfolded in chapter \ref{section:implementation}.
+Here the question of how and why will be answered. 
+
+With the given implementation from chapter \ref{section:implementation} the earlier announced evaluation will be executed in chapter \ref{section:evaluation}.
+Therefore, 20 participants took part in a user study and their feedback will be the foundation for the answer of the research question.
+
+Finally, a conclusion of this thesis as well as further ideas for future projects will be given in chapter \ref{section:conclusion}.

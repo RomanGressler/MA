@@ -224,13 +224,6 @@
 \end{titlepage}
 \cleardoublepage{}
 
-\ifdef{\abstractFile}{%
-\pdfbookmark[1]{Zusammenfassung}{abstract}
-\chapter*{Abstract}
-\input{\abstractFile}
-\cleardoublepage{}
-}{}
-
 \pdfbookmark[1]{Erklärung}{erklaerung}
 \chapter*{Erklärung}\label{erklaerung}
 Ich versichere, diese Arbeit --- sofern dies nicht explizit anders gekennzeichnet wurde --- ohne fremde Hilfe angefertigt zu haben.
@@ -258,7 +251,9 @@ Alle Stellen, die wörtlich oder sinngemäß aus Veröffentlichungen entnommen s
 \let\cleardoublepage\relax
 \let\cleardoublepage\relax
 \chapter*{Acknowledgement}
-I want to thank me and only me for putting all this hard work in.
+First of all, I want to thank Rainer Koschke and his chair for providing quick help whenever it was needed.
+I would also like to thank all 20 participants of the user study for taking the time to help me. 
+Most of all, I want to thank my family for always supporting me.
 
 
 \ifdef{\disableGender}{%
