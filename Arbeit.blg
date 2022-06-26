@@ -6,45 +6,45 @@ Database file #1: sources.bib
 Warning--there's a number but no series in wroblewski2012mobile
 Warning--empty booktitle in Wettel2008
 Warning--can't use both volume and number fields in grier2013system
-You've used 35 entries,
+You've used 34 entries,
             2481 wiz_defined-function locations,
-            780 strings with 10838 characters,
-and the built_in function-call counts, 13838 in all, are:
-= -- 1250
-> -- 577
-< -- 37
-+ -- 235
-- -- 164
-* -- 976
-:= -- 2117
-add.period$ -- 123
-call.type$ -- 35
-change.case$ -- 65
-chr.to.int$ -- 34
-cite$ -- 38
-duplicate$ -- 760
-empty$ -- 1310
-format.name$ -- 229
-if$ -- 3044
+            775 strings with 10719 characters,
+and the built_in function-call counts, 13454 in all, are:
+= -- 1215
+> -- 562
+< -- 35
++ -- 229
+- -- 160
+* -- 956
+:= -- 2062
+add.period$ -- 120
+call.type$ -- 34
+change.case$ -- 63
+chr.to.int$ -- 33
+cite$ -- 37
+duplicate$ -- 734
+empty$ -- 1276
+format.name$ -- 222
+if$ -- 2954
 int.to.chr$ -- 2
-int.to.str$ -- 36
-missing$ -- 39
-newline$ -- 193
-num.names$ -- 105
-pop$ -- 303
+int.to.str$ -- 35
+missing$ -- 38
+newline$ -- 188
+num.names$ -- 102
+pop$ -- 293
 preamble$ -- 1
-purify$ -- 35
+purify$ -- 34
 quote$ -- 0
-skip$ -- 477
+skip$ -- 457
 stack$ -- 0
-substring$ -- 640
-swap$ -- 162
-text.length$ -- 12
+substring$ -- 632
+swap$ -- 153
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 230
+type$ -- 223
 warning$ -- 3
-while$ -- 123
+while$ -- 120
 width$ -- 0
-write$ -- 483
+write$ -- 470
 (There were 3 warnings)

@@ -227,6 +227,12 @@ Also, by selecting the \enquote{1} or \enquote{8} button it will turn green to i
 The implementation is done similar to the one for the rotate-interaction. 
 The only thing added here is the check whether the \enquote{1} button is active or not.
 
+Not that for the rotate and move interactions the \enquote{n} buttons have been removed (see figure \ref{fig:rotate_proto} and figure \ref{fig:move}).
+This is because these buttons are not needed since the initial mode when entering the interaction is already for the hole \gls{city}.
+Also, the rotate object button and the rotate around selection center button have been removed. 
+Rotating around a selection center will always be activated and can be deactivated by removing the selection of objects.
+Rotating single objects is not intended as an interaction in \gls{see}.
+
 \subsection{Android Build Requirements}
 The last part of this chapter will discuss the requirements to build a version of \gls{see} on \gls{android} to fulfill the last requirement [R1].
 In the following there will be a deeper look at the challenges porting \gls{see} to android devices brings. 
@@ -290,6 +296,7 @@ This has to be done at every point in the code where files are obtained the comm
 
 
 \subsubsection{Restructuring}
+\label{sec:restructure}
 The disadvantage of conditional compilation is that it makes code harder to maintain as discussed earlier.
 To minimize this disadvantage it was thought of restructuring the entire project to only have conditional compilation at a core component of \gls{see}.
 

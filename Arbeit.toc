@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {2.3.2}{Debugging and Testing}}{5}{subsection.2.3.2}%
 \contentsline {chapter}{\numberline {3}{Concept}}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}{Interface}}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}{Interaction}}{11}{section.3.2}%
+\contentsline {section}{\numberline {3.2}{Interaction}}{12}{section.3.2}%
 \contentsline {section}{\numberline {3.3}{Requirements}}{12}{section.3.3}%
 \contentsline {chapter}{\numberline {4}{Implementation}}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{Mobile Player}}{15}{section.4.1}%
@@ -25,8 +25,8 @@
 \contentsline {subsection}{\numberline {4.4.4}{Rotating}}{22}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}{Moving}}{23}{subsection.4.4.5}%
 \contentsline {section}{\numberline {4.5}{Android Build Requirements}}{23}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}{Conditional Compilation}}{23}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}{File Loading}}{24}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.1}{Conditional Compilation}}{24}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}{File Loading}}{25}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}{Restructuring}}{25}{subsection.4.5.3}%
 \contentsline {chapter}{\numberline {5}{Evaluation}}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{SEE Desktop}}{27}{section.5.1}%
@@ -74,11 +74,11 @@
 \contentsline {paragraph}{{Reactive effects of experimental arrangement}}{59}{subsection.5.6.2}%
 \contentsline {chapter}{\numberline {6}{Conclusion}}{61}{chapter.6}%
 \contentsline {section}{\numberline {6.1}{Further Study and Ideas}}{62}{section.6.1}%
-\contentsline {section}{\numberline {6.2}{Closing Words}}{62}{section.6.2}%
-\contentsline {chapter}{\numberline {A}{Glossary}}{63}{appendix.A}%
-\contentsline {chapter}{\numberline {B}{Acronyms}}{65}{appendix.B}%
-\contentsline {chapter}{\numberline {C}{List of Figures}}{67}{appendix.C}%
-\contentsline {chapter}{\numberline {D}{List of Tables}}{69}{appendix.D}%
-\contentsline {chapter}{\numberline {E}{Related Files}}{71}{appendix.E}%
-\contentsline {section}{References}{75}{appendix.E}%
+\contentsline {section}{\numberline {6.2}{Closing Words}}{63}{section.6.2}%
+\contentsline {chapter}{\numberline {A}{Glossary}}{65}{appendix.A}%
+\contentsline {chapter}{\numberline {B}{Acronyms}}{67}{appendix.B}%
+\contentsline {chapter}{\numberline {C}{List of Figures}}{69}{appendix.C}%
+\contentsline {chapter}{\numberline {D}{List of Tables}}{71}{appendix.D}%
+\contentsline {chapter}{\numberline {E}{Related Files}}{73}{appendix.E}%
+\contentsline {section}{References}{77}{appendix.E}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
