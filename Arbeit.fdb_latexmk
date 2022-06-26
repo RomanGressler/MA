@@ -1,23 +1,23 @@
 # Fdb version 3
-["bibtex Arbeit"] 1656194890 "Arbeit.aux" "Arbeit.bbl" "Arbeit" 1656195061
-  "Arbeit.aux" 1656195060 51875 acb20191700d7f29db97b89842d62f77 "pdflatex"
+["bibtex Arbeit"] 1656255362 "Arbeit.aux" "Arbeit.bbl" "Arbeit" 1656255373
+  "Arbeit.aux" 1656255372 53185 5811e551f232fcfa0b53bc41f331938b "pdflatex"
   "c:/texlive/2021/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1641395485 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "sources.bib" 1656189938 13049 18ed6515c4e347a81bee44876e0c37f1 ""
+  "sources.bib" 1656252106 13047 b56f3477aafa079cf57a405737d67775 ""
   (generated)
   "Arbeit.bbl"
   "Arbeit.blg"
-["cusdep glo gls arbeit"] 1656192728 "arbeit.glo" "arbeit.gls" "arbeit" 1656195061
-  "arbeit.glo" 1656195060 23756 f8c4ecb4fb5b9335b6382ef6ba16e20b ""
+["cusdep glo gls arbeit"] 1656253581 "arbeit.glo" "arbeit.gls" "arbeit" 1656255373
+  "arbeit.glo" 1656255372 24304 5707d2454390508897c7b4f8648f3f76 ""
   (generated)
   "arbeit.gls"
-["pdflatex"] 1656195051 "c:/Users/roman/OneDrive/Desktop/MA/Arbeit.tex" "Arbeit.pdf" "Arbeit" 1656195061
-  "Arbeit.aux" 1656195060 51875 acb20191700d7f29db97b89842d62f77 "pdflatex"
-  "Arbeit.bbl" 1656194890 10033 226b61910dc1585e05002924b3d55137 "bibtex Arbeit"
-  "Arbeit.lof" 1656195060 6331 b89139d97c53bbd5dcce4661d6c398fb "pdflatex"
-  "Arbeit.lot" 1656195060 2250 9fd84c4add2077c2221ab3a8016cb008 "pdflatex"
-  "Arbeit.out" 1656195053 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["pdflatex"] 1656255363 "c:/Users/roman/OneDrive/Desktop/MA/Arbeit.tex" "Arbeit.pdf" "Arbeit" 1656255373
+  "Arbeit.aux" 1656255372 53185 5811e551f232fcfa0b53bc41f331938b "pdflatex"
+  "Arbeit.bbl" 1656255363 10033 226b61910dc1585e05002924b3d55137 "bibtex Arbeit"
+  "Arbeit.lof" 1656255372 6596 8515cc86062fee6831d60787fd7839b1 "pdflatex"
+  "Arbeit.lot" 1656255372 2250 9fd84c4add2077c2221ab3a8016cb008 "pdflatex"
+  "Arbeit.out" 1656255365 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Arbeit.tex" 1656195050 9965 91c9da3572bd353d647a0d186ed8b128 ""
-  "Arbeit.toc" 1656195060 6172 31a870920a96216adf885174d6efab45 "pdflatex"
+  "Arbeit.toc" 1656255372 6264 a9700c62493f5d0c5344f2b0648284b5 "pdflatex"
   "Concept/Concept.tex" 1655858488 12946 417b16593e949aaa52c77097dd5dc682 ""
   "Concept/img/joystick.png" 1651594509 132748 78d944556c71c466958dd8a494b9d5c1 ""
   "Concept/img/menu1.png" 1651605981 316938 8929b55d8e77326051d96aed017a62cc ""
@@ -26,8 +26,9 @@
   "Concept/img/menu4.png" 1651606327 591405 8e8592779ac08a9e1e1957363a514b52 ""
   "Concept/img/menu5.png" 1651606386 592986 60648476a7af62738bd910ba2c22c71e ""
   "Concept/img/quickbar.png" 1651596312 319708 50d46144523a307790612a751e20c3f1 ""
-  "Conclusion/Conclusion.tex" 1654267960 109 9c3a4d6006d5ee6ce58b93aedf4ae7a0 ""
-  "Evaluation/Evaluation.tex" 1656028641 71897 c4dc519c6d7069cac425f6d0bf85ad77 ""
+  "Conclusion/Conclusion.tex" 1656255350 3612 f1ad78ed9a545108c208702d4b97d714 ""
+  "Conclusion/img/sus.png" 1656252183 59975 b73a7c83cdc85f38dc817cafd3e2d742 ""
+  "Evaluation/Evaluation.tex" 1656254409 71892 3e5d861789e9e9d014641829cb152f69 ""
   "Evaluation/img/SUS-Score_group_violin.png" 1655332007 56962 31f868937cb8e76d978028f2b00179e2 ""
   "Evaluation/img/SUS-Score_violin.png" 1655332007 61019 1cc074273d0e686a02b449b91c15f4c2 ""
   "Evaluation/img/_violin_time.png" 1655332155 43749 6354ef9d681f0abaab5624b0ff3411f7 ""

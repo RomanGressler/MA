@@ -73,7 +73,8 @@
 \contentsline {paragraph}{{Nonrepresentative Sample}}{59}{subsection.5.6.2}%
 \contentsline {paragraph}{{Reactive effects of experimental arrangement}}{59}{subsection.5.6.2}%
 \contentsline {chapter}{\numberline {6}{Conclusion}}{61}{chapter.6}%
-\contentsline {section}{\numberline {6.1}{Outlook}}{61}{section.6.1}%
+\contentsline {section}{\numberline {6.1}{Further Study and Ideas}}{62}{section.6.1}%
+\contentsline {section}{\numberline {6.2}{Closing Words}}{62}{section.6.2}%
 \contentsline {chapter}{\numberline {A}{Glossary}}{63}{appendix.A}%
 \contentsline {chapter}{\numberline {B}{Acronyms}}{65}{appendix.B}%
 \contentsline {chapter}{\numberline {C}{List of Figures}}{67}{appendix.C}%
