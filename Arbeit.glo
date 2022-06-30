@@ -188,6 +188,8 @@
 \glossaryentry{Shortcut?\glossentry{shortcut}|setentrycounter[]{page}"\glsnumberformat}{28}
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{28}
 \glossaryentry{Android?\glossentry{android}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{Usability?\glossentry{usability}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{Usability?\glossentry{usability}|setentrycounter[]{page}"\glsnumberformat}{28}
 \glossaryentry{Post-Task?\glossentry{post-task}|setentrycounter[]{page}"\glsnumberformat}{29}
 \glossaryentry{Usability?\glossentry{usability}|setentrycounter[]{page}"\glsnumberformat}{29}
 \glossaryentry{Usability?\glossentry{usability}|setentrycounter[]{page}"\glsnumberformat}{29}
@@ -196,6 +198,7 @@
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{30}
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{30}
 \glossaryentry{Node?\glossentry{node}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{Usability?\glossentry{usability}|setentrycounter[]{page}"\glsnumberformat}{30}
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{31}
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{31}
 \glossaryentry{Android?\glossentry{android}|setentrycounter[]{page}"\glsnumberformat}{31}
@@ -224,10 +227,14 @@
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{36}
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{36}
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{Node?\glossentry{node}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{Plane?\glossentry{plane}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{Plane?\glossentry{plane}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{Plane?\glossentry{plane}|setentrycounter[]{page}"\glsnumberformat}{37}
 \glossaryentry{Android?\glossentry{android}|setentrycounter[]{page}"\glsnumberformat}{38}
 \glossaryentry{Android?\glossentry{android}|setentrycounter[]{page}"\glsnumberformat}{38}
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{39}
-\glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{40}
 \glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{40}
 \glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{40}
 \glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{40}
@@ -253,6 +260,7 @@
 \glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{45}
 \glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{45}
 \glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{45}
+\glossaryentry{Usability?\glossentry{usability}|setentrycounter[]{page}"\glsnumberformat}{46}
 \glossaryentry{Post-Task?\glossentry{post-task}|setentrycounter[]{page}"\glsnumberformat}{46}
 \glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{46}
 \glossaryentry{Mann-Whitney-U-Test?\glossentry{utest}|setentrycounter[]{page}"\glsnumberformat}{46}
@@ -282,7 +290,9 @@
 \glossaryentry{Kendall rank correlation coefficient?\glossentry{tau}|setentrycounter[]{page}"\glsnumberformat}{55}
 \glossaryentry{Shortcut?\glossentry{shortcut}|setentrycounter[]{page}"\glsnumberformat}{55}
 \glossaryentry{Shortcut?\glossentry{shortcut}|setentrycounter[]{page}"\glsnumberformat}{55}
+\glossaryentry{Plane?\glossentry{plane}|setentrycounter[]{page}"\glsnumberformat}{55}
 \glossaryentry{Shortcut?\glossentry{shortcut}|setentrycounter[]{page}"\glsnumberformat}{56}
+\glossaryentry{Plane?\glossentry{plane}|setentrycounter[]{page}"\glsnumberformat}{57}
 \glossaryentry{Android?\glossentry{android}|setentrycounter[]{page}"\glsnumberformat}{58}
 \glossaryentry{Android?\glossentry{android}|setentrycounter[]{page}"\glsnumberformat}{58}
 \glossaryentry{Code-City?\glossentry{city}|setentrycounter[]{page}"\glsnumberformat}{59}
