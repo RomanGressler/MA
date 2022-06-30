@@ -6,13 +6,13 @@
 \contentsline {section}{\numberline {1.2}{Thesis Structure}}{2}{section.1.2}%
 \contentsline {chapter}{\numberline {2}{Fundamentals}}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}{SEE}}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}{Code Cities}}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.2}{Code-Cities}}{4}{section.2.2}%
 \contentsline {section}{\numberline {2.3}{Unity}}{4}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}{Ray Casting}}{5}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}{Debugging and Testing}}{5}{subsection.2.3.2}%
 \contentsline {chapter}{\numberline {3}{Concept}}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}{Interface}}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}{Interaction}}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.2}{Interaction}}{11}{section.3.2}%
 \contentsline {section}{\numberline {3.3}{Requirements}}{12}{section.3.3}%
 \contentsline {chapter}{\numberline {4}{Implementation}}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}{Mobile Player}}{15}{section.4.1}%
@@ -30,20 +30,20 @@
 \contentsline {subsection}{\numberline {4.5.3}{Restructuring}}{25}{subsection.4.5.3}%
 \contentsline {chapter}{\numberline {5}{Evaluation}}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{SEE Desktop}}{27}{section.5.1}%
-\contentsline {section}{\numberline {5.2}{Aim and hypothesis}}{28}{section.5.2}%
-\contentsline {section}{\numberline {5.3}{Experiment set up}}{30}{section.5.3}%
+\contentsline {section}{\numberline {5.2}{Aim and Hypothesis}}{28}{section.5.2}%
+\contentsline {section}{\numberline {5.3}{Experiment Set Up}}{30}{section.5.3}%
 \contentsline {section}{\numberline {5.4}{Realization}}{33}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}{Survey tool}}{33}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.1}{Survey Tool}}{33}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}{Questionnaires}}{34}{subsection.5.4.2}%
 \contentsline {paragraph}{{Demographic questionnaire}}{35}{subsection.5.4.2}%
 \contentsline {paragraph}{{Post-task questionnaire}}{35}{subsection.5.4.2}%
 \contentsline {paragraph}{{Post-study questionnaire}}{35}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}{Pilot study}}{36}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}{Final experiment set-up}}{37}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.3}{Pilot Study}}{36}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}{Final Experiment Set Up}}{37}{subsection.5.4.4}%
 \contentsline {paragraph}{{Demographic questions:}}{37}{subsection.5.4.4}%
 \contentsline {subsection}{\numberline {5.4.5}{Execution}}{38}{subsection.5.4.5}%
 \contentsline {section}{\numberline {5.5}{Results}}{39}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}{Demographic data}}{40}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.1}{Demographic Data}}{40}{subsection.5.5.1}%
 \contentsline {paragraph}{{Gender}}{40}{subsection.5.5.1}%
 \contentsline {paragraph}{{Age}}{40}{subsection.5.5.1}%
 \contentsline {paragraph}{{Highest degree}}{40}{subsection.5.5.1}%
@@ -53,22 +53,22 @@
 \contentsline {subsection}{\numberline {5.5.3}{Usability}}{46}{subsection.5.5.3}%
 \contentsline {paragraph}{{ASQ}}{46}{subsection.5.5.3}%
 \contentsline {paragraph}{{SUS}}{50}{table.caption.41}%
-\contentsline {subsection}{\numberline {5.5.4}{Impact of experience}}{52}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.4}{Impact of Experience}}{52}{subsection.5.5.4}%
 \contentsline {paragraph}{{Experience with \gls {see}}}{53}{subsection.5.5.4}%
 \contentsline {paragraph}{{Experience with software development}}{53}{table.caption.45}%
 \contentsline {paragraph}{{Highest achieved degree}}{54}{table.caption.46}%
 \contentsline {paragraph}{{Android version and device}}{54}{table.caption.47}%
-\contentsline {subsection}{\numberline {5.5.5}{Comments of the subjects}}{55}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.5}{Comments of the Subjects}}{55}{subsection.5.5.5}%
 \contentsline {paragraph}{{Desktop version}}{55}{subsection.5.5.5}%
 \contentsline {paragraph}{{Mobile version}}{56}{subsection.5.5.5}%
-\contentsline {section}{\numberline {5.6}{Threads to validity}}{57}{section.5.6}%
+\contentsline {section}{\numberline {5.6}{Threats to Validity}}{57}{section.5.6}%
 \contentsline {subsection}{\numberline {5.6.1}{Internal Validity}}{57}{subsection.5.6.1}%
 \contentsline {paragraph}{{History}}{57}{subsection.5.6.1}%
 \contentsline {paragraph}{{Testing}}{58}{figure.caption.49}%
 \contentsline {paragraph}{{Instrumentation}}{58}{figure.caption.49}%
 \contentsline {paragraph}{{Biases}}{58}{figure.caption.49}%
 \contentsline {paragraph}{{Selection}}{59}{figure.caption.49}%
-\contentsline {paragraph}{{Other Threads}}{59}{figure.caption.49}%
+\contentsline {paragraph}{{Other Threats}}{59}{figure.caption.49}%
 \contentsline {subsection}{\numberline {5.6.2}{External Validity}}{59}{subsection.5.6.2}%
 \contentsline {paragraph}{{Nonrepresentative Sample}}{59}{subsection.5.6.2}%
 \contentsline {paragraph}{{Reactive effects of experimental arrangement}}{59}{subsection.5.6.2}%

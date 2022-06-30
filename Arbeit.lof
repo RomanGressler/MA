@@ -8,16 +8,16 @@
 \ttl@tocsep 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces An example of \gls {see} used for the user study in chapter \ref {section:evaluation}\relax }}{3}{figure.caption.1}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces An example for a \gls {city} by \cite {wettel2007visualizing}\relax }}{4}{figure.caption.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Camera's local coordinate system by \cite {roth1982ray}\relax }}{5}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces A local camera coordinate system by \cite {roth1982ray}\relax }}{5}{figure.caption.3}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The \textit {Play Mode} can be entered by pressing play at the marked spot\relax }}{6}{figure.caption.4}%
 \ttl@tocsep 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Joysticks for moving in \gls {see}\relax }}{8}{figure.caption.5}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Quickbar for various interactions in \gls {see}\relax }}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The \textit {quickbar} for various interactions in \gls {see}\relax }}{8}{figure.caption.6}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Selection mode in \gls {see}\relax }}{9}{figure.caption.7}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Delete mode in \gls {see}\relax }}{10}{figure.caption.8}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Node interactions in \gls {see}\relax }}{10}{figure.caption.9}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Rotation mode in \gls {see}\relax }}{11}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Movement mode in \gls {see}\relax }}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Movement mode in \gls {see}\relax }}{12}{figure.caption.11}%
 \ttl@tocsep 
 \contentsline {figure}{\numberline {4.1}{\ignorespaces The mobile player \gls {prefab}\relax }}{15}{figure.caption.12}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The joysticks are for moving in the virtual room. The left joystick is for moving the player and the right one is for moving the player's perspective.\relax }}{16}{figure.caption.13}%
